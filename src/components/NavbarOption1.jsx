@@ -12,49 +12,12 @@ function NavbarOption1() {
   const [showResults, setShowResults] = useState(false)
   const searchInputRef = useRef(null)
   const [pageContent, setPageContent] = useState([])
-  const [currentLanguage, setCurrentLanguage] = useState("en")
+ 
 
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
 
-  // Function to translate the page
-  const translatePage = (targetLang) => {
-    if (targetLang === currentLanguage) return
 
-    if (targetLang === "de") {
-      // Add Google Translate script
-      const googleTranslateScript = document.createElement("script")
-      googleTranslateScript.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-      document.head.appendChild(googleTranslateScript)
-
-      // Define the callback function
-      window.googleTranslateElementInit = () => {
-        new window.google.translate.TranslateElement(
-          {
-            pageLanguage: "en",
-            includedLanguages: "de",
-            autoDisplay: false,
-            layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
-          },
-          "google_translate_element",
-        )
-
-        // Trigger translation to German
-        setTimeout(() => {
-          const selectElement = document.querySelector(".goog-te-combo")
-          if (selectElement) {
-            selectElement.value = "de"
-            selectElement.dispatchEvent(new Event("change"))
-          }
-        }, 1000)
-      }
-    } else {
-      // Reload the page to get back to English
-      window.location.reload()
-    }
-
-    setCurrentLanguage(targetLang)
-  }
 
   // Index the page content when the component mounts
   useEffect(() => {
@@ -296,8 +259,7 @@ function NavbarOption1() {
 
   return (
     <nav className="navbar-organic">
-      {/* Hidden div for Google Translate */}
-      <div id="google_translate_element" style={{ display: "none" }}></div>
+   
 
       <div className="navbar-container-organic">
         <Link to="/" className="navbar-logo-organic" onClick={closeMobileMenu}>
@@ -407,13 +369,7 @@ function NavbarOption1() {
           <Link to="/contact" className="contact-link-organic">
             CONTACT
           </Link>
-          <div className="language-dropdown-organic">
-            <i className="fas fa-globe"></i>
-            <div className="language-menu-organic">
-              <div className="language-option-organic">EN</div>
-              <div className="language-option-organic">DE</div>
-            </div>
-          </div>
+         
         </div>
       </div>
 
