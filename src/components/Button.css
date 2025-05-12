@@ -1,0 +1,95 @@
+:root {
+  --primary: #7ea87e;
+  --primary-hover: #5f8c5f;
+  --outline: transparent;
+  --outline-hover: rgba(126, 168, 126, 0.1);
+  --text-light: #ffffff;
+  --text-dark: #5f8c5f;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 50px; /* Changed from 8px to 50px for pill shape */
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-align: center;
+  min-width: 180px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 2px solid var(--primary);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.4s ease;
+}
+
+.btn:hover::before {
+  left: 100%;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: var(--text-light);
+}
+
+.btn--primary:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.btn--outline {
+  background-color: var(--outline);
+  color: var(--text-dark);
+  border: 2px solid var(--primary);
+}
+
+.btn--outline:hover {
+  background-color: var(--outline-hover);
+  color: var(--text-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.btn--medium {
+  font-size: 16px;
+  padding: 10px 24px;
+}
+
+.btn--large {
+  font-size: 18px;
+  padding: 14px 32px;
+  min-width: 200px;
+}
+
+.btn-mobile {
+  display: block;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    min-width: 160px;
+  }
+
+  .btn--large {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}

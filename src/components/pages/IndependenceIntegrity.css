@@ -1,0 +1,322 @@
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  font-family: "Lato", sans-serif;
+  color: #4a4a4a;
+  background-color: #fcfbf7;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.page-header h1 {
+  color: #5f8c5f;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.leaf-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.divider-line {
+  height: 1px;
+  width: 80px;
+  background-color: #d5d1b7;
+  margin: 0 15px;
+}
+
+.leaf-divider i {
+  color: #7ea87e;
+  font-size: 18px;
+}
+
+/* Integrity Section - Open, flowing design */
+.integrity-section {
+  margin-bottom: 80px;
+}
+
+.integrity-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.integrity-icon {
+  font-size: 36px;
+  color: #7ea87e;
+  margin-right: 20px;
+}
+
+.integrity-header h2 {
+  color: #5f8c5f;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+  position: relative;
+}
+
+.integrity-header h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background-color: #7ea87e;
+}
+
+.integrity-intro {
+  font-size: 22px;
+  color: #4a4a4a;
+  margin: 0 0 40px 0;
+  padding-left: 56px; /* Aligns with the heading text */
+}
+
+/* Update the principles section to have the image next to the text */
+.principles-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-bottom: 0; /* Remove bottom margin */
+  flex: 2; /* Take more space than the image */
+}
+
+/* Create a flex container for principles list and image */
+.principles-container {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.principles-image {
+  margin-top: 0; /* Remove top margin */
+  flex: 1; /* Take less space than the list */
+}
+
+.principles-image-placeholder {
+  width: 100%;
+  height: 100%; /* Make it fill the container */
+  max-width: none; /* Remove max-width */
+  min-height: 300px; /* Ensure minimum height */
+  background-color: rgba(126, 168, 126, 0.1);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7ea87e;
+  font-style: italic;
+  border: 1px dashed rgba(126, 168, 126, 0.3);
+}
+
+.principle-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+}
+
+.principle-item:hover {
+  transform: translateY(-5px);
+}
+
+.principle-icon {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(126, 168, 126, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.principle-icon i {
+  font-size: 24px;
+  color: #7ea87e;
+}
+
+.principle-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  color: #4a4a4a;
+}
+
+.principles-image {
+  margin-top: 20px;
+}
+
+/* Governance Section - Clean, open design */
+.governance-section {
+  margin-top: 80px;
+}
+
+.governance-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  background-color: rgba(126, 168, 126, 0.1);
+  padding: 15px 20px;
+  border-radius: 12px;
+}
+
+.governance-icon {
+  font-size: 36px;
+  color: #7ea87e;
+  margin-right: 20px;
+}
+
+.governance-header h2 {
+  color: #5f8c5f;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+  position: relative;
+}
+
+.governance-header h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background-color: #7ea87e;
+}
+
+.governance-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.governance-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.governance-text p {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #4a4a4a;
+  margin: 0;
+  padding-left: 56px; /* Aligns with the heading text */
+  position: relative;
+}
+
+/* Remove this entire block to remove the vertical line before each paragraph */
+.governance-text p::before {
+  content: none; /* Changed from "" to none to completely disable it */
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #7ea87e;
+}
+
+.governance-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.governance-image-placeholder {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(126, 168, 126, 0.1);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7ea87e;
+  font-style: italic;
+  border: 1px dashed rgba(126, 168, 126, 0.3);
+}
+
+/* Completely redesign the governance section */
+.governance-content.full-width .governance-text {
+  max-width: 100%;
+  padding: 30px;
+  background-color: #f9f7f0; /* Light background */
+  border-radius: 12px;
+  position: relative;
+  border-left: 5px solid #7ea87e; /* Restored the accent bar */
+}
+
+.governance-content.full-width .governance-text p {
+  background-color: transparent; /* Remove individual card backgrounds */
+  padding: 0;
+  margin-bottom: 20px;
+  box-shadow: none;
+  border-left: none;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Media query updates */
+@media screen and (max-width: 768px) {
+  .integrity-header,
+  .governance-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .integrity-icon,
+  .governance-icon {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .integrity-header h2::after,
+  .governance-header h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .integrity-intro {
+    text-align: center;
+    padding-left: 0;
+    font-size: 18px;
+  }
+
+  .principles-list {
+    grid-template-columns: 1fr;
+  }
+
+  .governance-text p {
+    padding-left: 15px;
+    font-size: 18px;
+  }
+
+  .principles-image-placeholder,
+  .governance-image-placeholder {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .principles-container {
+    flex-direction: column;
+  }
+
+  .principles-image {
+    width: 100%;
+  }
+
+  .principles-image-placeholder {
+    height: 250px;
+  }
+}

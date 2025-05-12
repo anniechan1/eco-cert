@@ -1,0 +1,165 @@
+.legal-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  font-family: "Lato", sans-serif;
+  color: #4a4a4a;
+  background-color: #fcfbf7;
+}
+
+.legal-page-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.legal-page-header h1 {
+  color: #5f8c5f;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.legal-divider {
+  height: 3px;
+  width: 80px;
+  background-color: #7ea87e;
+  margin: 0 auto;
+}
+
+.legal-content {
+  background-color: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.legal-section {
+  margin-bottom: 30px;
+}
+
+.legal-section h2 {
+  color: #5f8c5f;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.legal-section h3 {
+  color: #5f8c5f;
+  font-size: 20px;
+  margin: 20px 0 10px;
+  font-weight: 500;
+}
+
+.legal-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.legal-section ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.legal-section li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.legal-section a {
+  color: #7ea87e;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.legal-section a:hover {
+  color: #5f8c5f;
+  text-decoration: underline;
+}
+
+.legal-last-updated {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(126, 168, 126, 0.2);
+  font-style: italic;
+  color: #777;
+}
+
+/* Sitemap specific styles */
+.sitemap-section {
+  margin-bottom: 30px;
+}
+
+.sitemap-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sitemap-list li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.sitemap-list li::before {
+  content: "•";
+  color: #7ea87e;
+  position: absolute;
+  left: 0;
+}
+
+.sitemap-list a {
+  color: #5f8c5f;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.sitemap-list a:hover {
+  color: #7ea87e;
+  padding-left: 5px;
+}
+
+/* Add these styles for the privacy policy page */
+
+.legal-effective-date {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #5f8c5f;
+}
+
+.legal-controller {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border-left: 3px solid #7ea87e;
+}
+
+@media screen and (max-width: 768px) {
+  .legal-page-container {
+    padding: 30px 15px 60px;
+  }
+
+  .legal-page-header h1 {
+    font-size: 28px;
+  }
+
+  .legal-content {
+    padding: 25px;
+  }
+
+  .legal-section h2 {
+    font-size: 22px;
+  }
+
+  .legal-section h3 {
+    font-size: 18px;
+  }
+
+  .legal-section p,
+  .legal-section li {
+    font-size: 15px;
+  }
+}

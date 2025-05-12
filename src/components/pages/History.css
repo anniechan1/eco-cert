@@ -1,0 +1,438 @@
+.history-container {
+  padding: 50px 20px; /* Reduced from 80px to 50px */
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  color: #4a4a4a;
+  background-color: #fcfbf7;
+}
+
+/* Make the header more compact */
+.history-header {
+  text-align: center;
+  margin-bottom: 40px; /* Reduced from 60px to 40px */
+}
+
+.history-header h1 {
+  color: #5f8c5f;
+  font-size: 36px; /* Reduced from 42px to 36px */
+  margin-bottom: 15px; /* Reduced from 20px to 15px */
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/* Add an underline directly to the h1 instead of using the leaf divider */
+.history-header h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 2px;
+  background-color: #7ea87e;
+}
+
+/* Make the leaf divider more compact */
+.leaf-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px; /* Added bottom margin and reduced overall size */
+}
+
+.leaf-divider::before,
+.leaf-divider::after {
+  content: "";
+  height: 1px;
+  background-color: rgba(126, 168, 126, 0.3);
+  width: 60px; /* Reduced from 80px to 60px */
+  margin: 0 10px; /* Reduced from 15px to 10px */
+}
+
+.leaf-divider i {
+  color: #7ea87e;
+  font-size: 18px; /* Reduced from 24px to 18px */
+}
+
+/* Make the image smaller */
+.history-image {
+  flex: 1;
+  min-width: 250px; /* Reduced from 300px to 250px */
+  max-width: 400px; /* Added max-width to limit image size */
+  position: relative;
+}
+
+.history-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease;
+}
+
+.history-image:hover img {
+  transform: scale(1.03);
+}
+
+.image-accent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid rgba(126, 168, 126, 0.2);
+  border-radius: 12px;
+  top: 12px;
+  left: 12px;
+  z-index: -1;
+}
+
+.history-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.history-text p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #4a4a4a;
+  position: relative;
+  padding-left: 20px;
+  border-left: 3px solid rgba(126, 168, 126, 0.3);
+}
+
+/* Adjust the content layout */
+.history-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px; /* Reduced from 50px to 40px */
+  margin: 30px 0; /* Reduced from 40px to 30px */
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px; /* Reduced from 40px to 30px */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.history-content::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid rgba(126, 168, 126, 0.1);
+  border-radius: 12px;
+  top: 15px;
+  left: 15px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 960px) {
+  .history-container {
+    padding: 60px 20px;
+  }
+
+  .history-header h1 {
+    font-size: 36px;
+  }
+
+  .history-content {
+    padding: 30px;
+  }
+
+  .history-text p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .history-container {
+    padding: 40px 20px;
+  }
+
+  .history-header h1 {
+    font-size: 32px;
+  }
+
+  .history-content {
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .history-text p {
+    font-size: 16px;
+    padding-left: 15px;
+  }
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px 40px; /* Reduced bottom padding from 80px to 40px */
+  font-family: "Lato", sans-serif;
+  color: #4a4a4a;
+  background-color: #fcfbf7;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.page-header h1 {
+  color: #5f8c5f;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.leaf-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.divider-line {
+  height: 1px;
+  width: 80px;
+  background-color: #d5d1b7;
+  margin: 0 15px;
+}
+
+.leaf-divider i {
+  color: #7ea87e;
+  font-size: 18px;
+}
+
+.two-column-layout {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.column-item {
+  flex: 1;
+  min-width: 0; /* Prevents flex items from overflowing */
+}
+
+.image-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  height: 350px;
+}
+
+.small-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.content-text {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+}
+
+.content-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Section divider and header styles */
+.section-divider {
+  height: 1px;
+  background-color: rgba(126, 168, 126, 0.2);
+  margin: 40px 0;
+}
+
+.section-header {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  color: #5f8c5f;
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background-color: #7ea87e;
+}
+
+/* Team image grid styles */
+.team-image-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.team-image-item {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  height: 350px;
+  transition: transform 0.3s ease;
+}
+
+.team-image-item:hover {
+  transform: translateY(-5px);
+}
+
+.team-image-item.large {
+  height: 400px;
+}
+
+.team-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.team-image-item:hover .team-image {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .two-column-layout {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .image-card {
+    height: 250px;
+  }
+
+  .content-text {
+    padding: 25px;
+  }
+
+  .content-text p {
+    font-size: 15px;
+  }
+
+  .team-image-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .team-image-item,
+  .team-image-item.large {
+    height: 280px;
+  }
+}
+
+/* Asymmetric layout with diagonal images */
+.asymmetric-layout {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "top-left-img main-content"
+    "team-content bottom-right-img";
+  gap: 30px; /* Reduced from 40px */
+  margin-bottom: 20px; /* Reduced from 60px */
+}
+
+.top-left-image,
+.bottom-right-image {
+  position: relative;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.top-left-image {
+  grid-area: top-left-img;
+  /* Adjust for the smaller image (350x233) */
+  height: 233px;
+  width: 350px;
+  justify-self: center;
+}
+
+.bottom-right-image {
+  grid-area: bottom-right-img;
+  /* Remove fixed dimensions and let it be more flexible */
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-left-image:hover,
+.bottom-right-image:hover {
+  transform: translateY(-5px);
+}
+
+.history-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.top-left-image:hover .history-image,
+.bottom-right-image:hover .history-image {
+  transform: scale(1.05);
+}
+
+.main-content {
+  grid-area: main-content;
+}
+
+.team-content {
+  grid-area: team-content;
+}
+
+.section-divider {
+  grid-column: 1 / -1;
+  height: 1px;
+  background-color: rgba(126, 168, 126, 0.2);
+  margin: 20px 0;
+}
+
+.section-header {
+  grid-column: 1 / -1;
+}
+
+@media screen and (max-width: 768px) {
+  .asymmetric-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "top-left-img"
+      "main-content"
+      "section-divider"
+      "team-content"
+      "bottom-right-img";
+  }
+
+  .top-left-image,
+  .bottom-right-image {
+    min-height: 250px;
+    max-height: 300px;
+  }
+}
