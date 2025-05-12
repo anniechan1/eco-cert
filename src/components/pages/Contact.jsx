@@ -26,7 +26,7 @@ function Contact() {
 
     script.onload = () => {
       // Initialize EmailJS with your public key
-      window.emailjs.init("YOUR_PUBLIC_KEY") // Replace with your actual EmailJS public key
+      window.emailjs.init("9rX_ZOw8GlIAm-RGb") // Replace with your actual EmailJS public key
     }
 
     return () => {
@@ -96,14 +96,14 @@ function Contact() {
         from_email: formData.email,
         subject: formData.subject,
         message: formData.message,
-        to_email: "yosheplc@gmail.com", // Updated email address
+        to_email: "eco-certification@greenacademyafrica.com", // Updated email address
       }
 
       // Send email using EmailJS
       window.emailjs
         .send(
-          "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-          "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+          "service_ecocert", // Replace with your EmailJS service ID
+          "template_qavuten", // Replace with your EmailJS template ID
           templateParams,
         )
         .then((response) => {
