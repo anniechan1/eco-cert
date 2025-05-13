@@ -1,3 +1,7 @@
+
+
+
+
 "use client"
 
 import "./ApplicationForm.css"
@@ -39,7 +43,7 @@ function ApplicationForm() {
 
     script.onload = () => {
       // Initialize EmailJS with your public key
-      window.emailjs.init("YOUR_PUBLIC_KEY") // Replace with your actual EmailJS public key
+      window.emailjs.init("9rX_ZOw8GlIAm-RGb") // Replace with your actual EmailJS public key
     }
 
     return () => {
@@ -111,32 +115,32 @@ function ApplicationForm() {
 
       // Create a formatted message for EmailJS
       const messageBody = `
-Organization Information:
-------------------------
-Organization Name: ${formData.orgName}
-Organization Type: ${formData.orgType}
-Number of Employees: ${formData.employees}
-Address: ${formData.address}
-City: ${formData.city}
-Country: ${formData.country}
+// Organization Information:
+// ------------------------
+// Organization Name: ${formData.orgName}
+// Organization Type: ${formData.orgType}
+// Number of Employees: ${formData.employees}
+// Address: ${formData.address}
+// City: ${formData.city}
+// Country: ${formData.country}
 
-Contact Information:
-------------------
-Name: ${formData.firstName} ${formData.lastName}
-Position: ${formData.position}
-Email: ${formData.email}
-Phone: ${formData.phone}
+// Contact Information:
+// ------------------
+// Name: ${formData.firstName} ${formData.lastName}
+// Position: ${formData.position}
+// Email: ${formData.email}
+// Phone: ${formData.phone}
 
-Certification Details:
---------------------
-Certification Type: ${formData.certType}
-Products/Crops: ${formData.products}
-Land Size: ${formData.landSize}
-Current Certifications: ${formData.currentCert}
+// Certification Details:
+// --------------------
+// Certification Type: ${formData.certType}
+// Products/Crops: ${formData.products}
+// Land Size: ${formData.landSize}
+// Current Certifications: ${formData.currentCert}
 
-Additional Information:
----------------------
-${formData.message}
+// Additional Information:
+// ---------------------
+// ${formData.message}
       `
 
       // Prepare template parameters for EmailJS
@@ -151,8 +155,8 @@ ${formData.message}
       // Send email using EmailJS
       window.emailjs
         .send(
-          "YOUR_SERVICE_ID", // Replace with your EmailJS service ID
-          "YOUR_TEMPLATE_ID", // Replace with your EmailJS template ID
+          "service_ecocert", // Replace with your EmailJS service ID
+          "template_cert", // Replace with your EmailJS template ID
           templateParams,
         )
         .then((response) => {
@@ -484,10 +488,10 @@ ${formData.message}
                   disabled={isSubmitting}
                 >
                   <option value="">Select certification</option>
-                  <option value="beekeeping">Organic Beekeeping</option>
-                  <option value="crop">Organic Crop Production</option>
-                  <option value="processing">Processing & Handling</option>
-                  <option value="wild">Wild Harvest & Forestry</option>
+                  <option value="Organic Beekeeping">Organic Beekeeping</option>
+                  <option value="Crop Production">Organic Crop Production</option>
+                  <option value="Processing & Handling">Processing & Handling</option>
+                  <option value="Wild Harvest & Forestry">Wild Harvest & Forestry</option>
                   <option value="multiple">Multiple Certifications</option>
                 </select>
                 {errors.certType && showValidation && <div className="error-message">{errors.certType}</div>}
