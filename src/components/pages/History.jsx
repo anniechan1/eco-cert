@@ -1,10 +1,13 @@
 import "./History.css"
+import { useTranslation } from "react-i18next"
 
 function History() {
+  const { t } = useTranslation()
+
   return (
     <div className="page-container">
       <div className="page-header">
-        <h1>Company History</h1>
+        <h1>{t("history_title")}</h1>
         <div className="leaf-divider">
           <span className="divider-line"></span>
           <i className="fas fa-leaf"></i>
@@ -14,21 +17,13 @@ function History() {
 
       <div className="asymmetric-layout">
         <div className="top-left-image">
-          <img src="/images/image.jpg" alt="Team meeting" className="history-image" />
+          <img src="/images/image.jpg" alt={t("history_image_alt")} className="history-image" />
         </div>
 
         <div className="content-text main-content">
-          <p>
-            Founded with the vision of creating a certification body that is both credible and collaborative,
-            EcoCertification emerged from a network of sustainability experts, agricultural cooperatives, and technology
-            partners. Since our beginning, we have expanded our reach across multiple regions, offering tailored certification
-            services to producers of all scales.
-          </p>
+          <p>{t("history_content")}</p>
         </div>
-
-        
       </div>
-     
     </div>
   )
 }

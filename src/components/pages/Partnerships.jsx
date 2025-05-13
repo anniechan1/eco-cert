@@ -57,7 +57,8 @@ function Partnerships() {
               <img
                 src="/images/talk1.webp"
                 alt="Research collaboration"
-                className="showcase-image" loading="lazy"
+                className="showcase-image"
+                loading="lazy"
                 style={{ objectPosition: "center" }}
               />
             </div>
@@ -65,7 +66,8 @@ function Partnerships() {
               <img
                 src="/images/talk2.webp"
                 alt="Partnership handshake"
-                className="showcase-image" loading="lazy"
+                className="showcase-image"
+                loading="lazy"
                 style={{ objectPosition: "center" }}
               />
             </div>
@@ -88,11 +90,26 @@ function Partnerships() {
 
           <div className="image-gallery">
             <div className="gallery-main">
-              <img src="/images/lecture.webp" alt="Quality testing" className="gallery-image main-image" loading="lazy" />
+              <img
+                src="/images/lecture.webp"
+                alt="Quality testing"
+                className="gallery-image main-image"
+                loading="lazy"
+              />
             </div>
             <div className="gallery-side">
-              <img src="/images/lab3.webp" alt="Educational lecture" className="gallery-image side-image" loading="lazy"/>
-              <img src="/images/lab4.webp" alt="Partnership handshake" className="gallery-image side-image" loading="lazy"/>
+              <img
+                src="/images/lab3.webp"
+                alt="Educational lecture"
+                className="gallery-image side-image"
+                loading="lazy"
+              />
+              <img
+                src="/images/lab4.webp"
+                alt="Partnership handshake"
+                className="gallery-image side-image"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>

@@ -25,18 +25,12 @@
   "search_results": "Suchergebnisse",
   "no_results": "Keine Ergebnisse gefunden für",
 
-
-
-  
   "hero_title": "Willkommen bei <1>EcoCertification</1>",
   "hero_intro": "Bei EcoCertification setzen wir uns für eine nachhaltigere Zukunft ein – durch vertrauenswürdige, transparente und zugängliche Zertifizierungsdienste. Als Zertifizierungsstelle, die eng mit Plattformen wie <1>Ecopia Value Chain (EVC)</1> zusammenarbeitet, unterstützen wir Landwirte, Produzenten und Unternehmen dabei, international anerkannte Standards für ökologischen Landbau, fairen Handel und entwaldungsfreie Lieferketten zu erfüllen.",
   "hero_second": "Wir bringen einen frischen, digitalen Ansatz in die Öko-Zertifizierung – mit benutzerfreundlichen Tools für echte Wirkung.",
   "hero_join": "Begleiten Sie uns auf dem Weg zur Nachhaltigkeit.",
   "hero_certify_btn": "Zertifizieren lassen",
   "hero_explore_btn": "Unsere Services entdecken",
-
-
-
 
   "roots_intro": "Wir sind stolz, eine Vorreiterrolle in der Bio-Zertifizierung und nachhaltigen Landwirtschaft Äthiopiens einzunehmen.",
   "roots_title": "Unsere Wurzeln",
@@ -66,12 +60,369 @@
   "market_list1_part3": ", um eine Plattform für Bio-Produzent*innen und bewusste Verbraucher*innen zu schaffen.",
   "market_list2": "Wir setzen uns weiterhin für innovative Marktzugänge für Äthiopiens Bio-Bäuer*innen ein.",
 
-  "mission_title": "Unsere zukünftige Mission",
+  "mission_title": "Unsere Mission",
   "mission_part1": "Aufbauend auf jahrzehntelanger Erfahrung und tiefer lokaler Verankerung gründen wir nun Äthiopiens",
   "mission_emphasis1": " erstes spezialisiertes Öko-Zertifizierungsunternehmen",
   "mission_part2": ", mit ",
   "mission_emphasis2": "internationaler Akkreditierung",
-  "mission_part3": " in Vorbereitung. Unser Ziel ist es, Produzent*innen zu stärken, Verbraucher*innen Sicherheit zu geben und Äthiopiens Biobranche weltweit zu fördern."
+  "mission_part3": " in Vorbereitung. Unser Ziel ist es, Produzent*innen zu stärken, Verbraucher*innen Sicherheit zu geben und Äthiopiens Biobranche weltweit zu fördern.",
+
+  "about_page_title": "Wer wir sind",
+  "about_intro_1": "EcoCertification ist ein modernes Zertifizierungsunternehmen mit tiefen Wurzeln in Nachhaltigkeit und digitaler Innovation. Unsere Mission ist es, Stakeholder in den Bereichen Landwirtschaft, Forstwirtschaft und Bienenzucht dabei zu unterstützen, aussagekräftige Zertifizierungen zu erreichen, die ökologische Verantwortung und soziale Fairness widerspiegeln.",
+  "about_intro_2": "Wir glauben, dass Zertifizierung keine Belastung sein sollte – sie sollte ein Werkzeug zur Stärkung sein. Deshalb arbeiten wir eng mit Landwirten, Genossenschaften und Unternehmen zusammen, um sicherzustellen, dass Zertifizierungsprozesse zugänglich, effizient und an lokale Gegebenheiten angepasst sind. Durch Partnerschaften wie mit der Ecopia Value Chain (EVC) Plattform helfen wir, die Lücke zwischen Compliance und langfristiger Wirkung zu schließen.",
+  "mission_text": "Wir sind Äthiopiens erstes spezialisiertes Öko-Zertifizierungsunternehmen, gegründet um lokale Produzenten und Verarbeiter mit international anerkannter Bio-Zertifizierung zu stärken. Unsere Mission ist es, Nachhaltigkeit zu fördern, den Marktzugang zu verbessern und Vertrauen durch transparente und glaubwürdige Zertifizierung aufzubauen.",
+  "mission_list_1": "Zertifizierung nach globalen Standards.",
+  "mission_list_2": "Äthiopische Produzenten befähigen, global zu konkurrieren.",
+  "mission_list_3": "Förderung ökologischer, sozialer und wirtschaftlicher Nachhaltigkeit.",
+
+  "history_title": "Unternehmensgeschichte",
+  "history_image_alt": "Team-Meeting",
+  "history_content": "Gegründet mit der Vision, eine Zertifizierungsstelle zu schaffen, die sowohl glaubwürdig als auch kooperativ ist, entstand EcoCertification aus einem Netzwerk von Nachhaltigkeitsexperten, landwirtschaftlichen Genossenschaften und Technologiepartnern. Seit unseren Anfängen haben wir unsere Reichweite auf mehrere Regionen ausgedehnt und bieten maßgeschneiderte Zertifizierungsdienste für Produzenten aller Größenordnungen an.",
+
+  "team_title": "Unser Team",
+  "team_intro": "Lernen Sie die Experten hinter EcoCertification kennen. Unser Team vereint jahrzehntelange Erfahrung in Bio-Zertifizierung, nachhaltiger Landwirtschaft und Qualitätssicherung, um Ihnen höchstes Serviceniveau und Fachkompetenz zu bieten.",
+  "team_founder": "Gründerin",
+  "team_founder_desc": "Unsere Gründerin ist eine Pionierin im Bereich Bio-Zertifizierung und nachhaltige Agrar-Technologie, die Äthiopiens erstes Bio-Zertifizierungsrahmenwerk vorangetrieben und digitale ICS-Lösungen für über 11.000 Kleinbauern implementiert hat. Mit einem Doktortitel in internationalen Verifizierungsregimen und einem Hintergrund in Abrüstung und strategischer Führung bringt sie eine seltene Kombination aus technischer Expertise und visionärer Politikgestaltung mit, um die landwirtschaftliche Landschaft Ostafrikas zu transformieren.",
+  "team_auditor": "Chefauditorin",
+  "team_auditor_desc": "Mit einem Doktortitel in Biochemie und mehr als 6 Jahren Erfahrung als forensische Auditorin gewährleistet sie die Einhaltung der EU-Standards.",
+  "team_coo": "COO",
+  "team_coo_desc": "Unser COO für Zertifizierung ist ein erfahrener Führungsexperte mit über 20 Jahren Führungserfahrung sowohl im öffentlichen als auch im privaten Sektor in Äthiopien. Seine Arbeit bei Dashen und Habesha Beer zeichnet sich besonders aus und bringt wichtige Expertise im Management von nachgelagerten Rohstoff-Wertschöpfungsketten und ein tiefes Verständnis für industrielle Fermentation mit – entscheidend für die Qualitätssicherung und Compliance in der zertifizierten Agrarverarbeitung.",
+  "team_inspector": "Chefinspektor",
+  "team_inspector_desc": "Als erfahrener Forscher mit Doktortitel und ehemaliger COO bei Chilalo Food Complex sowie IOM-zertifizierter Inspektor leitet Herr Werdofa die Vor-Ort-Inspektionen.",
+
+  "method_title": "Digital gestützte Zertifizierung",
+  "method_intro_1": "Bei EcoCertification optimieren wir den Zertifizierungsprozess durch digitale Innovation. Unsere Online-Plattform – entwickelt in Zusammenarbeit mit ",
+  "method_evc_link": "EVC (Ecopia Value Chain)",
+  "method_intro_2": " – vereinfacht Kommunikation, Dokumentation und Nachverfolgung während des gesamten Zertifizierungsprozesses.",
+  "method_intro_3": "Von der Antragstellung bis zur endgültigen Genehmigung bieten unsere digitalen Tools:",
+  "method_feature_1": "Reduzierung des Papieraufwands",
+  "method_feature_2": "Verbesserte Datengenauigkeit",
+  "method_feature_3": "Echtzeit-Statusaktualisierungen",
+  "method_feature_4": "Erhöhte Transparenz",
+
+  "platform_title": "Digitale Plattform für Öko-Zertifizierung",
+  "platform_hero_title": "Wegweisende heimatbasierte Bio-Zertifizierung in Afrika",
+  "platform_subtitle": "Eine innovative digitale Lösung für die Einhaltung ökologischer Landwirtschaftsstandards",
+  "platform_badge": "Erste in Afrika",
+  "platform_intro_title": "Einführung",
+  "platform_intro_1": "Die Eco Certification ICS-Plattform ist das",
+  "platform_intro_emphasis_1": "erste in Afrika",
+  "platform_intro_emphasis_2": "heimatbasierte Bio-Zertifizierungssystem, vollständig unterstützt durch digitale Technologie",
+  "platform_intro_2": "Sie wurde entwickelt, um Verbände, Genossenschaften und Produzentengruppen bei der effizienten Verwaltung ihres",
+  "platform_intro_emphasis_3": "internen Kontrollsystems (ICS)",
+  "platform_intro_3": "zu unterstützen – eine entscheidende Komponente im ökologischen Landbau, um die Einhaltung internationaler Bio-Standards zu gewährleisten.",
+  "platform_intro_4": "Die Plattform ermöglicht es Organisationen, zu überwachen und zu verifizieren, dass alle landwirtschaftlichen Praktiken die Anforderungen der Bio-Zertifizierungsstellen auf",
+  "platform_intro_emphasis_4": "systematische und zuverlässige Weise",
+  "platform_functions_title": "Hauptfunktionen",
+  "platform_function_1_title": "Interne Inspektionen (Mobile Anwendung)",
+  "platform_function_1_item_1_1": "Führen Sie Inspektionen",
+  "platform_function_1_item_1_2": "offline",
+  "platform_function_1_item_1_3": "durch, ideal für abgelegene Gebiete.",
+  "platform_function_1_item_2_1": "Nutzen Sie",
+  "platform_function_1_item_2_2": "GPS-Kartierung",
+  "platform_function_1_item_2_3": "zur Registrierung von Feldern, Parzellen und relevanten Daten.",
+  "platform_function_1_item_3": "Erfassen Sie detaillierte Informationen zu Produzenten, Kulturen und Umweltbedingungen.",
+  "platform_function_1_item_4_1": "Implementieren Sie",
+  "platform_function_1_item_4_2": "benutzerdefinierte Fragebögen",
+  "platform_function_1_item_4_3": "und Risikobewertungen.",
+  "platform_function_2_title": "Mitarbeiter- & Inspektionsmanagement",
+  "platform_function_2_item_1_1": "Verwalten Sie die",
+  "platform_function_2_item_1_2": "Struktur, Mitarbeiter und Rollen",
+  "platform_function_2_item_2": "Legen Sie Zugriffskontrollen und Berechtigungen fest.",
+  "platform_function_2_item_3_1": "Überwachen Sie",
+  "platform_function_2_item_3_2": "Leistung",
+  "platform_function_2_item_3_3": "und verwalten Sie Inspektionsaufträge.",
+  "platform_function_3_title": "Zertifizierungsvorbereitung",
+  "platform_function_3_item_1_1": "Passen Sie",
+  "platform_function_3_item_1_2": "Multi-Standard-Fragebögen",
+  "platform_function_3_item_1_3": "an, die auf spezifische Zertifizierungsschemata zugeschnitten sind.",
+  "platform_function_3_item_2_1": "Verwalten Sie",
+  "platform_function_3_item_2_2": "Nicht-Konformitäten, Korrekturmaßnahmen und Sanktionen",
+  "platform_function_3_item_3_1": "Organisieren",
+  "platform_function_3_item_3_2": "Sie Daten und Dokumentation für reibungslose",
+  "platform_function_3_item_3_3": "externe Audits",
+  "platform_features_title": "Kernfunktionen",
+  "platform_feature_1_title": "Offline-Fähigkeit:",
+  "platform_feature_1_text": "Volle Funktionalität ohne Internetverbindung.",
+  "platform_feature_2_title": "Felddatenerfassung:",
+  "platform_feature_2_text": "Genaue Echtzeit-Erfassung aller feldbezogenen Daten.",
+  "platform_feature_3_title": "Parzellenkartierung:",
+  "platform_feature_3_text": "Fortschrittliche Polygon-Kartierung mit GPS, die präzise Messung und Feldvisualisierung unterstützt.",
+  "platform_feature_4_title": "Organisationsstruktur:",
+  "platform_feature_4_text": "Flexible Einrichtung, die die Hierarchie oder Abteilungen Ihrer Organisation widerspiegelt.",
+  "platform_feature_5_title": "Mehrsprachiges System:",
+  "platform_feature_5_text": "Unterstützt Englisch, Französisch, Spanisch und anpassbare lokale Sprachen.",
+  "platform_feature_6_title": "Umfassende Berichterstattung:",
+  "platform_feature_6_text": "Generieren und exportieren Sie Daten in verschiedenen Formaten und gewinnen Sie Einblicke durch Tabellen, Diagramme und Karten.",
+  "platform_compliance_title": "Compliance & Anpassungsfähigkeit",
+  "platform_compliance_text": "Die Plattform ist zukunftssicher und anpassungsfähig an sich ändernde Vorschriften, einschließlich:",
+  "platform_compliance_badge_1_1": "Neue",
+  "platform_compliance_badge_1_2": "EU-Bio-Verordnungen",
+  "platform_compliance_badge_2": "NOP (National Organic Program)",
+  "platform_compliance_badge_3": "EU-Verordnung gegen Entwaldung",
+  "platform_compliance_badge_4": "Menschenrechtliche Sorgfaltspflicht (HRDD)",
+  "platform_conclusion_1": "Die Eco Certification Digital Platform bietet einen",
+  "platform_conclusion_emphasis_1": "robusten, transparenten und effizienten",
+  "platform_conclusion_2": "Weg für afrikanische Landwirtschaftsorganisationen, sich auf die",
+  "platform_conclusion_emphasis_2": "Bio-Zertifizierung",
+  "platform_conclusion_3": "vorzubereiten und diese zu erreichen. Als",
+  "platform_conclusion_emphasis_3": "erstes heimatbasiertes digitales Zertifizierungssystem in Afrika",
+  "platform_conclusion_4": "befähigt es Landwirte und Genossenschaften, die Einhaltung von Vorschriften zu gewährleisten, Abläufe zu verbessern und ihr Engagement für globale Bio-Standards zu demonstrieren.",
+  "platform_cta": "Mehr erfahren",
+
+  "sustainability_title": "Unser Engagement",
+  "sustainability_intro": "Nachhaltigkeit steht im Mittelpunkt unserer Mission. Unsere Zertifizierungen sind nicht nur darauf ausgerichtet, globale Marktstandards zu erfüllen, sondern auch reale ökologische und soziale Veränderungen voranzutreiben. Durch die Zusammenarbeit mit Initiativen wie Ecopia Value Chain stellen wir sicher, dass unsere Zertifizierungen mit breiteren Bemühungen zum Aufbau widerstandsfähiger, fairer und umweltverträglicher Wertschöpfungsketten übereinstimmen.",
+  "sustainability_image_1_alt": "Landwirt bei der Feldarbeit",
+  "sustainability_image_2_alt": "Ethische Arbeitspraktiken",
+  "sustainability_image_3_alt": "Lokale Stärkung",
+  "sustainability_image_4_alt": "Transparente Lieferketten",
+  "sustainability_image_5_alt": "Bildung und Schulung",
+  "sustainability_commitment_1_title": "Biodiversitätsschutz",
+  "sustainability_commitment_1_text": "Unterstützung landwirtschaftlicher Praktiken, die natürliche Ökosysteme erhalten und die Biodiversität fördern.",
+  "sustainability_commitment_2_title": "Ethische Arbeitspraktiken",
+  "sustainability_commitment_2_text": "Förderung fairer Löhne, sicherer Arbeitsbedingungen und Respekt für die Rechte der Arbeitnehmer in der gesamten Lieferkette.",
+  "sustainability_commitment_3_title": "Lokale Stärkung",
+  "sustainability_commitment_3_text": "Aufbau von Kapazitäten innerhalb von Gemeinschaften, um ihre Ressourcen nachhaltig zu verwalten und die Lebensgrundlagen zu verbessern.",
+  "sustainability_commitment_4_title": "Transparente Lieferketten",
+  "sustainability_commitment_4_text": "Schaffung von Sichtbarkeit vom Produzenten bis zum Verbraucher durch digitale Nachverfolgung und Verifizierungssysteme.",
+  "sustainability_commitment_5_title": "Bildung & Wissensaustausch",
+  "sustainability_commitment_5_text": "Bereitstellung von Schulungen und Ressourcen zur Förderung nachhaltiger landwirtschaftlicher Praktiken.",
+
+  "organic_certification": {
+    "title": "Bio-Zertifizierung",
+    "nav": {
+      "beekeeping": "Bio-Imkerei",
+      "crop_production": "Bio-Pflanzenproduktion",
+      "processing": "Verarbeitung & Handhabung",
+      "wild_harvest": "Wildsammlung & Forstwirtschaft"
+    },
+    "intro": {
+      "text": "Unsere Öko-Zertifizierungsdienste umfassen:",
+      "crop_production": {
+        "title": "Bio-Pflanzenproduktion:",
+        "desc": "Nachhaltige Boden- und Pflanzengesundheitsbewirtschaftung."
+      },
+      "beekeeping": {
+        "title": "Bio-Imkerei (Bienenzucht-Zertifizierung)"
+      },
+      "processing": {
+        "title": "Verarbeitung & Handhabung:",
+        "desc": "Erhaltung der biologischen Integrität in der gesamten Lieferkette."
+      },
+      "wild_harvest": {
+        "title": "Wildsammlung & Forstwirtschaft:",
+        "desc": "Verantwortungsvolle Wildsammlung und Nachhaltigkeit."
+      },
+      "regions": "Wir arbeiten mit Kleinbauerngenossenschaften, kommerziellen Betrieben und Verarbeitern in den verschiedenen Regionen Äthiopiens zusammen."
+    },
+    "images": {
+      "beekeeping": "Bio-Imkerei",
+      "bee_on_flower": "Biene auf Blume",
+      "crop_field": "Bio-Anbaufeld"
+    },
+    "beekeeping": {
+      "title": "Bio-Imkerei (Bienenzucht-Zertifizierung)",
+      "intro": "Wir bieten spezialisierte Zertifizierung für Bio-Imkerei (Bienenstände) an und stellen sicher, dass Honig und Bienenprodukte strenge internationale Bio-Standards erfüllen. Unsere Zertifizierung umfasst:",
+      "location": {
+        "title": "Bienenstandort & Umgebung:",
+        "desc": "Sicherstellung, dass Bienenstände in sauberen, chemikalienfreien Zonen mit reichlich biologischem Futter angesiedelt sind."
+      },
+      "health": {
+        "title": "Bienengesundheit & Wohlbefinden:",
+        "desc": "Natürliche Methoden zur Krankheitsbekämpfung und Bienenstockbewirtschaftung ohne synthetische Chemikalien oder Antibiotika."
+      },
+      "harvesting": {
+        "title": "Ernte & Verarbeitung:",
+        "desc": "Schonende und hygienische Honiggewinnung, Verarbeitung und Verpackung zur Erhaltung der biologischen Integrität."
+      },
+      "traceability": {
+        "title": "Rückverfolgbarkeit & Dokumentation:",
+        "desc": "Vollständige Aufzeichnung von Bienenstockbewirtschaftung, Futtergebieten und Honigchargen."
+      },
+      "impact": {
+        "title": "Unsere Wirkung",
+        "intro": "Dieser Dienst unterstützt äthiopische Imker, um:",
+        "markets": "Zugang zu Premium-Bio-Honigmärkten zu erhalten.",
+        "biodiversity": "Biodiversität und Bestäubungsgesundheit zu erhalten.",
+        "reputation": "Äthiopiens Ruf als führender Honigproduzent in Afrika zu wahren."
+      }
+    },
+    "crop_production": {
+      "title": "Bio-Pflanzenproduktion",
+      "intro": "Unsere Zertifizierung für Bio-Pflanzenproduktion konzentriert sich auf nachhaltige, umweltfreundliche Praktiken, die die Bodengesundheit, Biodiversität und Umweltintegrität schützen.",
+      "areas_title": "Zu den wichtigsten Zertifizierungsbereichen gehören:",
+      "soil": {
+        "title": "Nachhaltige Bodenbewirtschaftung:",
+        "desc": "Schwerpunkt auf Kompostierung, Fruchtfolge, Gründüngung und natürlicher Bodenverbesserung."
+      },
+      "pest": {
+        "title": "Pflanzengesundheit & Schädlingsbekämpfung:",
+        "desc": "Nicht-chemische Schädlings- und Krankheitsbekämpfung durch biologische Methoden, Mischkultur und resistente Pflanzensorten."
+      },
+      "seed": {
+        "title": "Saatgutintegrität:",
+        "desc": "Verwendung von Bio- oder unbehandeltem Nicht-GVO-Saatgut und Pflanzenmaterial."
+      },
+      "water": {
+        "title": "Wasserschutz:",
+        "desc": "Umweltfreundliche Bewässerungs- und Wassermanagementpraktiken."
+      },
+      "traceability": {
+        "title": "Rückverfolgbarkeit:",
+        "desc": "Vollständige Dokumentation von der Pflanzung bis zur Ernte, um die Einhaltung internationaler Bio-Standards zu gewährleisten."
+      },
+      "benefits_title": "Vorteile:",
+      "benefits": {
+        "soil": "Verbessert die Bodenfruchtbarkeit und die langfristige Produktivität der Betriebe.",
+        "environment": "Reduziert die Umweltbelastung und fördert die Biodiversität.",
+        "markets": "Öffnet Zugang zu zertifizierten Bio-Märkten weltweit."
+      }
+    },
+    "processing": {
+      "title": "Verarbeitung & Handhabung",
+      "intro": "Wir bieten Zertifizierung für Verarbeitungs- und Handhabungsbetriebe an, um sicherzustellen, dass die biologische Integrität vom Bauernhof bis zum Endprodukt erhalten bleibt.",
+      "areas_title": "Zu den wichtigsten Zertifizierungsbereichen gehören:",
+      "integrity": {
+        "title": "Bio-Integrität:",
+        "desc": "Strikte Trennung von biologischen und nicht-biologischen Materialien in jeder Phase der Verarbeitung."
+      },
+      "sanitation": {
+        "title": "Reinigung & Hygiene:",
+        "desc": "Verwendung von Reinigungsmitteln und Verfahren, die den Bio-Standards entsprechen und keine Kontamination verursachen."
+      },
+      "verification": {
+        "title": "Zutatenkontrolle:",
+        "desc": "Sicherstellung, dass alle Zusatzstoffe, Verarbeitungshilfsmittel und Verpackungsmaterialien die Bio-Anforderungen erfüllen."
+      },
+      "storage": {
+        "title": "Lagerung & Transport:",
+        "desc": "Zertifizierte Systeme zur Aufrechterhaltung des Bio-Status während Lagerung, Lagerhaltung und Versand."
+      },
+      "traceability": {
+        "title": "Rückverfolgbarkeit:",
+        "desc": "Vollständige Dokumentation und Aufzeichnung vom Rohstoffeinkauf bis zum Produktausgang."
+      },
+      "scope_title": "Umfang:",
+      "scope": {
+        "food": "Lebensmittel- und Getränkeverarbeiter.",
+        "herbal": "Hersteller von Kräutern und Naturkosmetik.",
+        "fiber": "Faser- und Textilverarbeiter (falls zutreffend).",
+        "packaging": "Verpackungs- und Kennzeichnungsbetriebe."
+      },
+      "outcome_title": "Ergebnis:",
+      "outcome_desc": "Diese Zertifizierung sichert das Verbrauchervertrauen durch Aufrechterhaltung der Bio-Authentizität in der gesamten Lieferkette und unterstützt den Marktzugang zu zertifizierten Bio-Kanälen sowohl lokal als auch international."
+    },
+    "wild_harvest": {
+      "title": "Wildsammlung & Forstwirtschaft",
+      "intro": "Unsere Zertifizierung für Wildsammlung & Forstwirtschaft stellt sicher, dass die Sammlung von Wildpflanzen, Kräutern und Forstprodukten verantwortungsvoll, nachhaltig und im Einklang mit der Natur durchgeführt wird.",
+      "areas_title": "Zu den wichtigsten Zertifizierungsbereichen gehören:",
+      "practices": {
+        "title": "Nachhaltige Sammelpraktiken:",
+        "desc": "Richtlinien zur Verhinderung von Übersammlung und zur Sicherstellung der natürlichen Regeneration von Wildarten."
+      },
+      "ecosystem": {
+        "title": "Ökosystemschutz:",
+        "desc": "Schutz der Biodiversität, Lebensräume und Bodengesundheit in Sammelgebieten."
+      },
+      "training": {
+        "title": "Sammler-Schulung:",
+        "desc": "Ausstattung der Sammler mit Wissen über nachhaltige Methoden und Rückverfolgbarkeitsanforderungen."
+      },
+      "traceability": {
+        "title": "Rückverfolgbarkeit & Dokumentation:",
+        "desc": "Gewährleistung vollständiger Transparenz von der Wildsammlung bis zum Markt, in Übereinstimmung mit internationalen Bio-Standards."
+      },
+      "community": {
+        "title": "Gemeinschaftsbeteiligung:",
+        "desc": "Förderung einer gerechten Aufteilung der Vorteile mit lokalen Gemeinschaften und Respekt für traditionelles Wissen."
+      },
+      "scope_title": "Umfang:",
+      "scope": {
+        "medicinal": "Medizinische & aromatische Pflanzen.",
+        "edible": "Essbare Wildpflanzen und Früchte.",
+        "gums": "Natürliche Gummis und Harze (z.B. Myrrhe, Weihrauch).",
+        "forest": "Nicht-Holz-Forstprodukte."
+      },
+      "impact_title": "Wirkung:",
+      "impact_desc": "Diese Zertifizierung verbessert den Zugang zu Premium-Märkten und schützt gleichzeitig Äthiopiens reiche Biodiversität und unterstützt nachhaltige Lebensgrundlagen für ländliche und waldabhängige Gemeinschaften."
+    }
+  },
+
+  "certification_process": {
+    "title": "Zertifizierungsprozess",
+    "intro": "Wir folgen einem systematischen, transparenten Prozess:",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Antrag & Dokumentenprüfung",
+        "description": "Der erste Schritt Ihrer Zertifizierungsreise beginnt mit der Einreichung Ihres Antrags und der erforderlichen Dokumentation."
+      },
+      {
+        "number": "2",
+        "title": "Vorbewertung (Gap-Analyse)",
+        "description": "Wir führen eine vorläufige Bewertung durch, um Lücken zwischen Ihren aktuellen Praktiken und den Zertifizierungsanforderungen zu identifizieren."
+      },
+      {
+        "number": "3",
+        "title": "Vor-Ort-Audit",
+        "description": "Umfassende Inspektion der Betriebsabläufe zur Überprüfung der Einhaltung der geltenden Standards."
+      },
+      {
+        "number": "4",
+        "title": "Auswertung",
+        "description": "Interne Überprüfung und Risikobewertung aller Ergebnisse aus dem Auditprozess."
+      },
+      {
+        "number": "5",
+        "title": "Zertifizierungsentscheidung",
+        "description": "Ein unabhängiges Entscheidungsgremium prüft alle Unterlagen und trifft die endgültige Zertifizierungsentscheidung."
+      },
+      {
+        "number": "6",
+        "title": "Überwachungsaudits & Erneuerung",
+        "description": "Regelmäßige Folgeaudits gewährleisten die kontinuierliche Einhaltung, mit vollständigen Erneuerungsbewertungen in festgelegten Intervallen."
+      }
+    ],
+    "compliance": {
+      "icon": "certificate",
+      "text": "Dieser Prozess ist vollständig mit ISO/IEC 17065 und den von IOAS und EU-Gremien geforderten Bio-Standards konform."
+    }
+  },
+
+  "independence_integrity": {
+    "title": "Unabhängigkeit & Integrität",
+    "commitment": {
+      "title": "Unser Engagement für Unparteilichkeit",
+      "intro": "Wir wahren strenge Unparteilichkeit durch:",
+      "principles": [
+        {
+          "icon": "handshake",
+          "text": "Trennung von Zertifizierungs- und Beratungsdienstleistungen."
+        },
+        {
+          "icon": "user-shield",
+          "text": "Unabhängigkeit der Auditoren mit Rotationsrichtlinien zur Vermeidung von Voreingenommenheit."
+        },
+        {
+          "icon": "balance-scale",
+          "text": "Eine robuste Richtlinie zu Interessenkonflikten."
+        },
+        {
+          "icon": "comments",
+          "text": "Transparente Einspruchs- und Beschwerdeverfahren."
+        }
+      ],
+      "image": {
+        "src": "/images/cal.webp",
+        "alt": "Handschlag als Symbol für Integrität und Partnerschaft"
+      }
+    },
+    "governance": {
+      "title": "Governance-Struktur",
+      "text": [
+        "Unsere Governance-Struktur umfasst einen Aufsichtsausschuss, der Objektivität und kontinuierliche Compliance sicherstellt. Dieser Ausschuss besteht aus unabhängigen Experten, die unsere Zertifizierungsprozesse überprüfen, unsere Abläufe auditieren und Orientierung zur Aufrechterhaltung höchster Standards für Integrität und Unparteilichkeit bieten.",
+        "Der Ausschuss trifft sich vierteljährlich, um unsere Tätigkeiten zu überprüfen und sicherzustellen, dass alle Zertifizierungsentscheidungen mit vollständiger Unabhängigkeit und unter Einhaltung internationaler Standards getroffen werden."
+      ]
+    }
+  }
 }
-
-

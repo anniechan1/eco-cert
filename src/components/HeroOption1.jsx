@@ -3,11 +3,10 @@ import { useEffect, useRef } from "react"
 import { Button } from "./Button"
 import "./HeroOption1.css"
 import { Link } from "react-router-dom"
-import { Trans, useTranslation } from 'react-i18next';
-
+import { Trans, useTranslation } from "react-i18next"
 
 function HeroOption1() {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   const leafRef = useRef(null)
   const textRef = useRef(null)
 
@@ -40,41 +39,41 @@ function HeroOption1() {
       <div className="hero-content-organic">
         <div ref={textRef} className="hero-text-organic">
           <h1>
-  <Trans i18nKey="hero_title" components={{ 1: <span className="highlight" /> }} />
-</h1>
+            <Trans i18nKey="hero_title" components={{ 1: <span className="highlight" /> }} />
+          </h1>
 
-<p>
-  <Trans
-    i18nKey="hero_intro"
-    components={{
-      1: (
-        <a
-          href="https://ecopiavaluechain.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-link"
-           aria-label="Ecopia Value Chain website"
-        ></a>
-      )
-    }}
-  />
-</p>
-         <p>{t('hero_second')}</p>
+          <p>
+            <Trans
+              i18nKey="hero_intro"
+              components={{
+                1: (
+                  <a
+                    href="https://ecopiavaluechain.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-link"
+                    aria-label="Ecopia Value Chain website"
+                  ></a>
+                ),
+              }}
+            />
+          </p>
+          <p>{t("hero_second")}</p>
 
-<p className="join-text">
-  <strong>{t('hero_join')}</strong>
-</p>
+          <p className="join-text">
+            <strong>{t("hero_join")}</strong>
+          </p>
 
           <div className="hero-cta">
             <Link to="/application">
               <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
-                  {t('hero_certify_btn')}
+                {t("hero_certify_btn")}
               </Button>
             </Link>
-             <Link to="/services/farmer-training">
-            <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-              {t('hero_explore_btn')}
-            </Button>
+            <Link to="/services/farmer-training">
+              <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
+                {t("hero_explore_btn")}
+              </Button>
             </Link>
           </div>
         </div>
@@ -91,5 +90,3 @@ function HeroOption1() {
 }
 
 export default HeroOption1
-
-

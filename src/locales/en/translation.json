@@ -25,8 +25,6 @@
   "search_results": "Search Results",
   "no_results": "No results found for",
 
-
-
   "hero_title": "Welcome to <1>EcoCertification</1>",
   "hero_intro": "At EcoCertification, we are dedicated to enabling a more sustainable future through trusted, transparent, and accessible certification services. As a certification body cooperating closely with platforms like <1>Ecopia Value Chain (EVC)</1>, we support farmers, producers, and businesses in meeting internationally recognized standards for organic farming, ethical trade, and deforestation-free sourcing.",
   "hero_second": "We bring a fresh, digital-first approach to eco-certification—combining environmental integrity with user-friendly tools designed for real-world impact.",
@@ -34,12 +32,6 @@
   "hero_certify_btn": "Get Certified",
   "hero_explore_btn": "Explore Our Services",
 
-
-
-
-
-
-  
   "roots_intro": "We are proud to be a pioneering force in Ethiopia's organic certification and sustainable agriculture movement.",
   "roots_title": "Our Roots",
   "roots_paragraph1_part1": "We are among the founding members of Ethiopia's ",
@@ -68,12 +60,369 @@
   "market_list1_part3": ", creating a consistent platform for organic producers to connect with conscious consumers.",
   "market_list2": "Continue to champion innovative market access solutions for Ethiopia's organic farmers.",
 
-  "mission_title": "Our Mission Moving Forward",
+  "mission_title": "Our Mission",
   "mission_part1": "Building on decades of practical experience and deep local engagement, we are now establishing Ethiopia's",
   "mission_emphasis1": " first dedicated eco-certification company",
   "mission_part2": ", with ",
   "mission_emphasis2": "international accreditation",
-  "mission_part3": " underway. Our goal is to empower producers, assure consumers, and help Ethiopia's organic sector thrive on a global stage."
+  "mission_part3": " underway. Our goal is to empower producers, assure consumers, and help Ethiopia's organic sector thrive on a global stage.",
 
+  "about_page_title": "Who We Are",
+  "about_intro_1": "EcoCertification is a modern certification company with deep roots in sustainability and digital innovation. Our mission is to guide and support stakeholders across agricultural, forestry, and apiculture value chains in achieving meaningful certification that reflects ecological responsibility and social fairness.",
+  "about_intro_2": "We believe certification should not be a burden—it should be a tool for empowerment. That's why we work closely with farmers, cooperatives, and businesses to ensure that certification processes are accessible, efficient, and adapted to local realities. Through partnerships like with the Ecopia Value Chain (EVC) platform, we help bridge the gap between compliance and long-term impact.",
+  "mission_text": "We are Ethiopia's first dedicated eco-certification body, established to empower local producers and processors with internationally recognized organic certification. Our mission is to foster sustainability, enhance market access, and build trust through transparent and credible certification.",
+  "mission_list_1": "Certify in line with global standards.",
+  "mission_list_2": "Empower Ethiopian producers to compete globally.",
+  "mission_list_3": "Advance ecological, social, and economic sustainability.",
 
+  "history_title": "Company History",
+  "history_image_alt": "Team meeting",
+  "history_content": "Founded with the vision of creating a certification body that is both credible and collaborative, EcoCertification emerged from a network of sustainability experts, agricultural cooperatives, and technology partners. Since our beginning, we have expanded our reach across multiple regions, offering tailored certification services to producers of all scales.",
+
+  "team_title": "Our Team",
+  "team_intro": "Meet the experts behind EcoCertification. Our team brings together decades of experience in organic certification, sustainable agriculture, and quality assurance to provide you with the highest level of service and expertise.",
+  "team_founder": "Founder",
+  "team_founder_desc": "Our founder is a pioneering leader in organic certification and sustainable agri-tech, having spearheaded Ethiopia's first organic certification framework and implemented digital ICS solutions for over 11,000 smallholder farmers. With a PhD in international verification regimes and a background in disarmament and strategic leadership, they bring a rare blend of technical expertise and visionary policy advocacy to transform East Africa's agricultural landscape.",
+  "team_auditor": "Chief Auditor",
+  "team_auditor_desc": "With a PHD in Biochemistry, as well as more than 6 years of experience as a forensic auditor, she is our auditor ensuring compliance with EU standards.",
+  "team_coo": "COO",
+  "team_coo_desc": "Our COO for Certification is a seasoned executive with over 20 years of leadership experience in both the public and private sectors in Ethiopia. His work at Dashen and Habesha Beer stands out, bringing vital expertise in downstream feedstock value chain management and a deep understanding of industrial-scale fermentation — critical for ensuring quality and compliance in certified agri-processing.",
+  "team_inspector": "Chief Inspector",
+  "team_inspector_desc": "An experienced PHD researcher and former COO at Chilalo Food Complex as well as an IOM certified inspector, Mr. Werdofa leads on the ground inspections.",
+
+  "method_title": "Digitally-Driven Certification",
+  "method_intro_1": "At EcoCertification, we streamline certification through digital innovation. Our online platform—built in cooperation with ",
+  "method_evc_link": "EVC (Ecopia Value Chain)",
+  "method_intro_2": "—simplifies communication, documentation, and tracking throughout the certification process.",
+  "method_intro_3": "From application to final approval, our digital tools:",
+  "method_feature_1": "Reduce paperwork",
+  "method_feature_2": "Improve data accuracy",
+  "method_feature_3": "Real-time status updates",
+  "method_feature_4": "Increase transparency",
+
+  "platform_title": "Eco Certification Digital Platform",
+  "platform_hero_title": "Pioneering Home-Based Organic Certification in Africa",
+  "platform_subtitle": "An Innovative Digital Solution for Organic Farming Compliance",
+  "platform_badge": "First in Africa",
+  "platform_intro_title": "Introduction",
+  "platform_intro_1": "The Eco Certification ICS platform is the",
+  "platform_intro_emphasis_1": "first in Africa",
+  "platform_intro_emphasis_2": "home-based organic certification system, fully supported by digital technology",
+  "platform_intro_2": "It is designed to assist associations, cooperatives, and producer groups in efficiently managing their",
+  "platform_intro_emphasis_3": "Internal Control System (ICS)",
+  "platform_intro_3": "—a crucial component in organic farming to ensure compliance with international organic standards.",
+  "platform_intro_4": "The platform enables organizations to monitor and verify that all farming practices meet the requirements of organic certification bodies in a",
+  "platform_intro_emphasis_4": "systematic and reliable way",
+  "platform_functions_title": "Key Functions",
+  "platform_function_1_title": "Internal Inspections (Mobile Application)",
+  "platform_function_1_item_1_1": "Conduct inspections",
+  "platform_function_1_item_1_2": "offline",
+  "platform_function_1_item_1_3": ", ideal for remote areas.",
+  "platform_function_1_item_2_1": "Use",
+  "platform_function_1_item_2_2": "GPS mapping",
+  "platform_function_1_item_2_3": "to register fields, plots, and relevant data.",
+  "platform_function_1_item_3": "Record detailed information on producers, crops, and environmental conditions.",
+  "platform_function_1_item_4_1": "Implement",
+  "platform_function_1_item_4_2": "custom questionnaires",
+  "platform_function_1_item_4_3": "and risk assessments.",
+  "platform_function_2_title": "Staff & Inspection Management",
+  "platform_function_2_item_1_1": "Manage your organization's",
+  "platform_function_2_item_1_2": "structure, staff, and roles",
+  "platform_function_2_item_2": "Set access controls and permissions.",
+  "platform_function_2_item_3_1": "Monitor",
+  "platform_function_2_item_3_2": "performance",
+  "platform_function_2_item_3_3": "and manage inspection assignments.",
+  "platform_function_3_title": "Certification Preparation",
+  "platform_function_3_item_1_1": "Customize",
+  "platform_function_3_item_1_2": "multi-standard questionnaires",
+  "platform_function_3_item_1_3": "tailored to specific certification schemes.",
+  "platform_function_3_item_2_1": "Manage",
+  "platform_function_3_item_2_2": "non-conformities, corrective actions, and sanctions",
+  "platform_function_3_item_3_1": "Organize",
+  "platform_function_3_item_3_2": "data and documentation for smooth",
+  "platform_function_3_item_3_3": "external audits",
+  "platform_features_title": "Core Features",
+  "platform_feature_1_title": "Offline Capability:",
+  "platform_feature_1_text": "Full functionality without internet connection.",
+  "platform_feature_2_title": "Field Data Collection:",
+  "platform_feature_2_text": "Accurate, real-time collection of all field-related data.",
+  "platform_feature_3_title": "Plot Mapping:",
+  "platform_feature_3_text": "Advanced polygon mapping with GPS, supporting precise measurement and field visualization.",
+  "platform_feature_4_title": "Organizational Structure:",
+  "platform_feature_4_text": "Flexible setup to reflect your organization's hierarchy or divisions.",
+  "platform_feature_5_title": "Multilingual System:",
+  "platform_feature_5_text": "Supports English, French, Spanish, and customizable local languages.",
+  "platform_feature_6_title": "Comprehensive Reporting:",
+  "platform_feature_6_text": "Generate and export data in various formats, providing insights through tables, charts, and maps.",
+  "platform_compliance_title": "Compliance & Adaptability",
+  "platform_compliance_text": "The platform is designed to be future-proof and adaptable to changing regulations, including:",
+  "platform_compliance_badge_1_1": "New",
+  "platform_compliance_badge_1_2": "EU Organic Regulations",
+  "platform_compliance_badge_2": "NOP (National Organic Program)",
+  "platform_compliance_badge_3": "EU Anti-Deforestation Regulation",
+  "platform_compliance_badge_4": "Human Rights Due Diligence (HRDD)",
+  "platform_conclusion_1": "The Eco Certification Digital Platform provides a",
+  "platform_conclusion_emphasis_1": "robust, transparent, and efficient",
+  "platform_conclusion_2": "way for African farming organizations to prepare for and achieve",
+  "platform_conclusion_emphasis_2": "organic certification",
+  "platform_conclusion_3": "As the",
+  "platform_conclusion_emphasis_3": "first home-based digital certification system in Africa",
+  "platform_conclusion_4": ", it empowers farmers and cooperatives to ensure compliance, improve operations, and demonstrate commitment to global organic standards.",
+  "platform_cta": "Learn More",
+
+  "sustainability_title": "Our Commitment",
+  "sustainability_intro": "Sustainability is at the core of our mission. Our certifications are designed not only to meet global market standards but to drive real ecological and social change. By cooperating with initiatives like Ecopia Value Chain, we ensure our certifications align with broader efforts to build resilient, fair, and environmentally sound value chains.",
+  "sustainability_image_1_alt": "Farmer working in field",
+  "sustainability_image_2_alt": "Ethical labor practices",
+  "sustainability_image_3_alt": "Local empowerment",
+  "sustainability_image_4_alt": "Transparent supply chains",
+  "sustainability_image_5_alt": "Education and training",
+  "sustainability_commitment_1_title": "Biodiversity protection",
+  "sustainability_commitment_1_text": "Supporting farming practices that preserve natural ecosystems and promote biodiversity.",
+  "sustainability_commitment_2_title": "Ethical labor practices",
+  "sustainability_commitment_2_text": "Promoting fair wages, safe working conditions, and respect for workers' rights throughout the supply chain.",
+  "sustainability_commitment_3_title": "Local empowerment",
+  "sustainability_commitment_3_text": "Building capacity within communities to manage their resources sustainably and improve livelihoods.",
+  "sustainability_commitment_4_title": "Transparent supply chains",
+  "sustainability_commitment_4_text": "Creating visibility from producer to consumer through digital tracking and verification systems.",
+  "sustainability_commitment_5_title": "Education & knowledge sharing",
+  "sustainability_commitment_5_text": "Providing training and resources to promote sustainable agricultural practices.",
+
+  "organic_certification": {
+    "title": "Organic Certification",
+    "nav": {
+      "beekeeping": "Organic Beekeeping",
+      "crop_production": "Organic Crop Production",
+      "processing": "Processing & Handling",
+      "wild_harvest": "Wild Harvest & Forestry"
+    },
+    "intro": {
+      "text": "Our eco-certification services cover:",
+      "crop_production": {
+        "title": "Organic Crop Production:",
+        "desc": "Sustainable soil and plant health management."
+      },
+      "beekeeping": {
+        "title": "Organic Beekeeping (Apiary Certification)"
+      },
+      "processing": {
+        "title": "Processing & Handling:",
+        "desc": "Preservation of organic integrity throughout the supply chain."
+      },
+      "wild_harvest": {
+        "title": "Wild Harvest & Forestry:",
+        "desc": "Responsible wild collection and sustainability."
+      },
+      "regions": "We work with smallholder cooperatives, commercial farms, and processors across Ethiopia's diverse regions."
+    },
+    "images": {
+      "beekeeping": "Organic beekeeping",
+      "bee_on_flower": "Bee on flower",
+      "crop_field": "Organic crop field"
+    },
+    "beekeeping": {
+      "title": "Organic Beekeeping (Apiary Certification)",
+      "intro": "We provide specialized certification for organic beekeeping (apiaries), ensuring that honey and bee products meet strict international organic standards. Our certification covers:",
+      "location": {
+        "title": "Hive Location & Environment:",
+        "desc": "Ensuring apiaries are situated in clean, chemical-free zones with abundant organic forage."
+      },
+      "health": {
+        "title": "Bee Health & Welfare:",
+        "desc": "Natural methods for disease control and hive management without synthetic chemicals or antibiotics."
+      },
+      "harvesting": {
+        "title": "Harvesting & Processing:",
+        "desc": "Gentle and hygienic honey extraction, processing, and packaging to maintain organic integrity."
+      },
+      "traceability": {
+        "title": "Traceability & Documentation:",
+        "desc": "Full record-keeping of hive management, foraging areas, and honey batches."
+      },
+      "impact": {
+        "title": "Our Impact",
+        "intro": "This service supports Ethiopian beekeepers to:",
+        "markets": "Access premium organic honey markets.",
+        "biodiversity": "Preserve biodiversity and pollination health.",
+        "reputation": "Uphold Ethiopia's reputation as a leading honey producer in Africa."
+      }
+    },
+    "crop_production": {
+      "title": "Organic Crop Production",
+      "intro": "Our certification for Organic Crop Production focuses on sustainable, eco-friendly practices that protect soil health, biodiversity, and environmental integrity.",
+      "areas_title": "Key Certification Areas Include:",
+      "soil": {
+        "title": "Sustainable Soil Management:",
+        "desc": "Emphasis on composting, crop rotation, green manures, and natural soil fertility enhancement."
+      },
+      "pest": {
+        "title": "Plant Health & Pest Management:",
+        "desc": "Non-chemical pest and disease control using biological methods, companion planting, and resistant crop varieties."
+      },
+      "seed": {
+        "title": "Seed Integrity:",
+        "desc": "Use of organic or untreated non-GMO seeds and planting materials."
+      },
+      "water": {
+        "title": "Water Conservation:",
+        "desc": "Eco-friendly irrigation and water management practices."
+      },
+      "traceability": {
+        "title": "Traceability:",
+        "desc": "Full documentation from planting to harvest to ensure compliance with international organic standards."
+      },
+      "benefits_title": "Benefits:",
+      "benefits": {
+        "soil": "Enhances soil fertility and long-term farm productivity.",
+        "environment": "Reduces environmental impact and promotes biodiversity.",
+        "markets": "Opens access to certified organic markets globally."
+      }
+    },
+    "processing": {
+      "title": "Processing & Handling",
+      "intro": "We provide certification for Processing & Handling operations to ensure that organic integrity is preserved from farm to final product.",
+      "areas_title": "Key Certification Areas Include:",
+      "integrity": {
+        "title": "Organic Integrity:",
+        "desc": "Strict separation of organic and non-organic materials at every stage of processing."
+      },
+      "sanitation": {
+        "title": "Sanitation & Hygiene:",
+        "desc": "Use of cleaning agents and procedures that comply with organic standards, ensuring no contamination."
+      },
+      "verification": {
+        "title": "Ingredient Verification:",
+        "desc": "Ensuring all additives, processing aids, and packaging materials meet organic requirements."
+      },
+      "storage": {
+        "title": "Storage & Transportation:",
+        "desc": "Certified systems for maintaining organic status during storage, warehousing, and shipping."
+      },
+      "traceability": {
+        "title": "Traceability:",
+        "desc": "Full documentation and record-keeping from raw material intake to product output."
+      },
+      "scope_title": "Scope:",
+      "scope": {
+        "food": "Food & beverage processors.",
+        "herbal": "Herbal and natural cosmetics manufacturers.",
+        "fiber": "Fiber and textile processors (if applicable).",
+        "packaging": "Packaging and labeling operations."
+      },
+      "outcome_title": "Outcome:",
+      "outcome_desc": "This certification ensures consumer trust by maintaining organic authenticity throughout the supply chain and supports market access to certified organic channels both locally and internationally."
+    },
+    "wild_harvest": {
+      "title": "Wild Harvest & Forestry",
+      "intro": "Our certification for Wild Harvest & Forestry ensures that the collection of wild plants, herbs, and forest products is conducted responsibly, sustainably, and in harmony with nature.",
+      "areas_title": "Key Certification Areas Include:",
+      "practices": {
+        "title": "Sustainable Harvesting Practices:",
+        "desc": "Guidelines to prevent overharvesting and ensure natural regeneration of wild species."
+      },
+      "ecosystem": {
+        "title": "Ecosystem Protection:",
+        "desc": "Safeguarding biodiversity, habitats, and soil health in collection areas."
+      },
+      "training": {
+        "title": "Collector Training:",
+        "desc": "Equipping harvesters with knowledge on sustainable methods and traceability requirements."
+      },
+      "traceability": {
+        "title": "Traceability & Documentation:",
+        "desc": "Ensuring full transparency from wild collection to market, in compliance with international organic standards."
+      },
+      "community": {
+        "title": "Community Involvement:",
+        "desc": "Promoting fair benefit-sharing with local communities and respect for traditional knowledge."
+      },
+      "scope_title": "Scope:",
+      "scope": {
+        "medicinal": "Medicinal & aromatic plants.",
+        "edible": "Edible wild plants and fruits.",
+        "gums": "Natural gums and resins (e.g., myrrh, frankincense).",
+        "forest": "Non-timber forest products."
+      },
+      "impact_title": "Impact:",
+      "impact_desc": "This certification enhances access to premium markets while protecting Ethiopia's rich biodiversity and supporting sustainable livelihoods for rural and forest-dependent communities."
+    }
+  },
+
+  "certification_process": {
+    "title": "Certification Process",
+    "intro": "We follow a systematic, transparent process:",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Application & Document Review",
+        "description": "The first step in your certification journey begins with submitting your application and required documentation."
+      },
+      {
+        "number": "2",
+        "title": "Pre-Assessment (Gap Analysis)",
+        "description": "We conduct a preliminary assessment to identify any gaps between your current practices and certification requirements."
+      },
+      {
+        "number": "3",
+        "title": "Onsite Audit",
+        "description": "Comprehensive inspection of operations to verify compliance with applicable standards."
+      },
+      {
+        "number": "4",
+        "title": "Evaluation",
+        "description": "Internal review and risk assessment of all findings from the audit process."
+      },
+      {
+        "number": "5",
+        "title": "Certification Decision",
+        "description": "Independent decision-making committee reviews all documentation and makes the final certification determination."
+      },
+      {
+        "number": "6",
+        "title": "Surveillance Audits & Renewal",
+        "description": "Regular follow-up audits ensure continued compliance, with full renewal assessments at specified intervals."
+      }
+    ],
+    "compliance": {
+      "icon": "certificate",
+      "text": "This process is fully aligned with ISO/IEC 17065 and organic standards required by IOAS and EU bodies."
+    }
+  },
+
+  "independence_integrity": {
+    "title": "Independence & Integrity",
+    "commitment": {
+      "title": "Our Commitment to Impartiality",
+      "intro": "We maintain rigorous impartiality through:",
+      "principles": [
+        {
+          "icon": "handshake",
+          "text": "Separation of certification and consultancy services."
+        },
+        {
+          "icon": "user-shield",
+          "text": "Auditor independence, with rotation policies to prevent bias."
+        },
+        {
+          "icon": "balance-scale",
+          "text": "A robust conflict-of-interest policy."
+        },
+        {
+          "icon": "comments",
+          "text": "Transparent appeals and complaints processes."
+        }
+      ],
+      "image": {
+        "src": "/images/cal.webp",
+        "alt": "Handshake representing integrity and partnership"
+      }
+    },
+    "governance": {
+      "title": "Governance Structure",
+      "text": [
+        "Our governance structure includes an oversight committee to ensure objectivity and continuous compliance. This committee consists of independent experts who review our certification processes, audit our operations, and provide guidance on maintaining the highest standards of integrity and impartiality.",
+        "The committee meets quarterly to review our operations and ensure that all certification decisions are made with complete independence and adherence to international standards."
+      ]
+    }
+  }
 }

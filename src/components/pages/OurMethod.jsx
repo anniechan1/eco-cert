@@ -1,10 +1,13 @@
 import "./OurMethod.css"
+import { useTranslation } from "react-i18next"
 
 function OurMethod() {
+  const { t } = useTranslation()
+
   return (
     <div className="page-container">
       <div className="page-header">
-        <h1>Digitally-Driven Certification</h1>
+        <h1>{t("method_title")}</h1>
         <div className="leaf-divider">
           <span className="divider-line"></span>
           <i className="fas fa-leaf"></i>
@@ -32,19 +35,18 @@ function OurMethod() {
         </div>
         <div className="intro-text">
           <p>
-            At EcoCertification, we streamline certification through digital innovation. Our online platform—built in
-            cooperation with{" "}
+            {t("method_intro_1")}
             <a
               href="https://ecopiavaluechain.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="highlight-link"
             >
-              EVC (Ecopia Value Chain)
+              {t("method_evc_link")}
             </a>
-            —simplifies communication, documentation, and tracking throughout the certification process.
+            {t("method_intro_2")}
           </p>
-          <p>From application to final approval, our digital tools:</p>
+          <p>{t("method_intro_3")}</p>
         </div>
       </div>
 
@@ -54,7 +56,7 @@ function OurMethod() {
             <i className="fas fa-file-alt"></i>
           </div>
           <div className="feature-content">
-            <h3>Reduce paperwork</h3>
+            <h3>{t("method_feature_1")}</h3>
           </div>
         </div>
 
@@ -63,7 +65,7 @@ function OurMethod() {
             <i className="fas fa-chart-line"></i>
           </div>
           <div className="feature-content">
-            <h3>Improve data accuracy</h3>
+            <h3>{t("method_feature_2")}</h3>
           </div>
         </div>
 
@@ -72,7 +74,7 @@ function OurMethod() {
             <i className="fas fa-sync-alt"></i>
           </div>
           <div className="feature-content">
-            <h3>Real-time status updates</h3>
+            <h3>{t("method_feature_3")}</h3>
           </div>
         </div>
 
@@ -81,7 +83,7 @@ function OurMethod() {
             <i className="fas fa-search"></i>
           </div>
           <div className="feature-content">
-            <h3>Increase transparency</h3>
+            <h3>{t("method_feature_4")}</h3>
           </div>
         </div>
       </div>

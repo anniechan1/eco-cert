@@ -1,10 +1,13 @@
 import "./Sustainability.css"
+import { useTranslation } from "react-i18next"
 
 function Sustainability() {
+  const { t } = useTranslation()
+
   return (
     <div className="page-container">
       <div className="page-header">
-        <h1>Our Commitment</h1>
+        <h1>{t("sustainability_title")}</h1>
         <div className="leaf-divider">
           <span className="divider-line"></span>
           <i className="fas fa-leaf"></i>
@@ -13,81 +16,72 @@ function Sustainability() {
       </div>
 
       <div className="sustainability-intro">
-        <p>
-          Sustainability is at the core of our mission. Our certifications are designed not only to meet global market
-          standards but to drive real ecological and social change. 
-          By cooperating with initiatives like Ecopia Value
-          Chain, we ensure our certifications align with broader efforts to build resilient, fair, and environmentally
-          sound value chains.
-        </p>
+        <p>{t("sustainability_intro")}</p>
       </div>
 
       <div className="commitment-showcase">
         <div className="commitment-item">
           <div className="commitment-image">
-            <img src="/images/cows.webp" alt="Farmer working in field" />
+            <img src="/images/cows.webp" alt={t("sustainability_image_1_alt")} />
           </div>
           <div className="commitment-content">
             <div className="commitment-icon">
               <i className="fas fa-seedling"></i>
             </div>
-            <h3>Biodiversity protection</h3>
-            <p>Supporting farming practices that preserve natural ecosystems and promote biodiversity.</p>
+            <h3>{t("sustainability_commitment_1_title")}</h3>
+            <p>{t("sustainability_commitment_1_text")}</p>
           </div>
         </div>
 
         <div className="commitment-item reverse">
           <div className="commitment-image">
-            <img src="/images/kid.webp" alt="Ethical labor practices" loading="lazy" />
+            <img src="/images/kid.webp" alt={t("sustainability_image_2_alt")} loading="lazy" />
           </div>
           <div className="commitment-content">
             <div className="commitment-icon">
               <i className="fas fa-handshake"></i>
             </div>
-            <h3>Ethical labor practices</h3>
-            <p>
-              Promoting fair wages, safe working conditions, and respect for workers' rights throughout the supply
-              chain.
-            </p>
+            <h3>{t("sustainability_commitment_2_title")}</h3>
+            <p>{t("sustainability_commitment_2_text")}</p>
           </div>
         </div>
 
         <div className="commitment-item">
           <div className="commitment-image">
-            <img src="/images/mom.webp" alt="Local empowerment" loading="lazy"/>
+            <img src="/images/mom.webp" alt={t("sustainability_image_3_alt")} loading="lazy" />
           </div>
           <div className="commitment-content">
             <div className="commitment-icon">
               <i className="fas fa-users"></i>
             </div>
-            <h3>Local empowerment</h3>
-            <p>Building capacity within communities to manage their resources sustainably and improve livelihoods.</p>
+            <h3>{t("sustainability_commitment_3_title")}</h3>
+            <p>{t("sustainability_commitment_3_text")}</p>
           </div>
         </div>
 
         <div className="commitment-item reverse">
           <div className="commitment-image">
-            <img src="/images/produce.webp" alt="Transparent supply chains" loading="lazy" />
+            <img src="/images/produce.webp" alt={t("sustainability_image_4_alt")} loading="lazy" />
           </div>
           <div className="commitment-content">
             <div className="commitment-icon">
               <i className="fas fa-project-diagram"></i>
             </div>
-            <h3>Transparent supply chains</h3>
-            <p>Creating visibility from producer to consumer through digital tracking and verification systems.</p>
+            <h3>{t("sustainability_commitment_4_title")}</h3>
+            <p>{t("sustainability_commitment_4_text")}</p>
           </div>
         </div>
 
         <div className="commitment-item">
           <div className="commitment-image">
-            <img src="/images/teach.webp" alt="Education and training" loading="lazy"/>
+            <img src="/images/teach.webp" alt={t("sustainability_image_5_alt")} loading="lazy" />
           </div>
           <div className="commitment-content">
             <div className="commitment-icon">
               <i className="fas fa-chalkboard-teacher"></i>
             </div>
-            <h3>Education & knowledge sharing</h3>
-            <p>Providing training and resources to promote sustainable agricultural practices.</p>
+            <h3>{t("sustainability_commitment_5_title")}</h3>
+            <p>{t("sustainability_commitment_5_text")}</p>
           </div>
         </div>
       </div>

@@ -2,8 +2,11 @@
 
 import "./ApplicationForm.css"
 import { useState, useEffect } from "react"
+import { useTranslation } from "react-i18next"
 
 function ApplicationForm() {
+  const { t } = useTranslation();
+  
   const [formData, setFormData] = useState({
     orgName: "",
     orgType: "",
@@ -86,14 +89,14 @@ function ApplicationForm() {
 
     requiredFields.forEach((field) => {
       if (!formData[field]) {
-        newErrors[field] = `${field.charAt(0).toUpperCase() + field.slice(1).replace(/([A-Z])/g, " $1")} is required`
+        newErrors[field] = `${field.charAt(0).toUpperCase() + field.slice(1).replace(/([A-Z])/g, " $1")} ${t("contact_required")}`
         isValid = false
       }
     })
 
     // Email validation
     if (formData.email && !/\S+@\S+\.\S+/.test(formData.email)) {
-      newErrors.email = "Email is invalid"
+      newErrors.email = t("contact_invalid_email")
       isValid = false
     }
 
@@ -190,7 +193,7 @@ function ApplicationForm() {
   return (
     <div className="page-container">
       <div className="page-header">
-        <h1>Get Certified</h1>
+        <h1>{t("application_title")}</h1>
         <div className="leaf-divider">
           <span className="divider-line"></span>
           <i className="fas fa-leaf"></i>
@@ -200,22 +203,21 @@ function ApplicationForm() {
 
       <div className="application-content">
         <div className="application-info">
-          <h2>Start Your Certification Journey</h2>
+          <h2>{t("application_intro_title")}</h2>
           <p>
-            Thank you for your interest in EcoCertification. Complete this form to begin the certification process. Our
-            team will review your application and contact you within 2-3 business days to discuss the next steps.
+            {t("application_intro_text")}
           </p>
 
           <div className="certification-types">
-            <h3>Available Certification Types</h3>
+            <h3>{t("application_cert_types")}</h3>
             <div className="cert-type-grid">
               <div className="cert-type-item">
                 <div className="cert-icon">
                   <i className="fa-regular fa-jar"></i>
                 </div>
                 <div>
-                  <h4>Organic Beekeeping</h4>
-                  <p>For apiaries and honey producers</p>
+                  <h4>{t("application_cert_type_1")}</h4>
+                  <p>{t("application_cert_type_1_desc")}</p>
                 </div>
               </div>
 
@@ -224,8 +226,8 @@ function ApplicationForm() {
                   <i className="fa-solid fa-seedling"></i>
                 </div>
                 <div>
-                  <h4>Organic Crop Production</h4>
-                  <p>For farms and crop producers</p>
+                  <h4>{t("application_cert_type_2")}</h4>
+                  <p>{t("application_cert_type_2_desc")}</p>
                 </div>
               </div>
 
@@ -234,8 +236,8 @@ function ApplicationForm() {
                   <i className="fas fa-industry"></i>
                 </div>
                 <div>
-                  <h4>Processing & Handling</h4>
-                  <p>For processors and handlers of organic products</p>
+                  <h4>{t("application_cert_type_3")}</h4>
+                  <p>{t("application_cert_type_3_desc")}</p>
                 </div>
               </div>
 
@@ -244,8 +246,8 @@ function ApplicationForm() {
                   <i className="fas fa-tree"></i>
                 </div>
                 <div>
-                  <h4>Wild Harvest & Forestry</h4>
-                  <p>For wild collection and forestry products</p>
+                  <h4>{t("application_cert_type_4")}</h4>
+                  <p>{t("application_cert_type_4_desc")}</p>
                 </div>
               </div>
             </div>
@@ -253,13 +255,12 @@ function ApplicationForm() {
         </div>
 
         <div className="application-form-container">
-          <h2>Application Form</h2>
+          <h2>{t("application_form_title")}</h2>
 
           {submitStatus === "success" && (
             <div className="success-message">
               <p>
-                Thank you for your application! We have received your information and will contact you within 2-3
-                business days to discuss the next steps.
+                {t("application_success")}
               </p>
             </div>
           )}
@@ -267,15 +268,14 @@ function ApplicationForm() {
           {submitStatus === "error" && (
             <div className="error-summary">
               <p>
-                There was a problem submitting your application. Please try again or contact us directly at
-                eco-certification@greenacademyafrica.com
+                {t("application_error")}
               </p>
             </div>
           )}
 
           {showValidation && Object.keys(errors).length > 0 && (
             <div className="validation-summary">
-              <p>Please correct the following errors:</p>
+              <p>{t("contact_validation")}</p>
               <ul>
                 {Object.values(errors).map((error, index) => (
                   <li key={index}>{error}</li>
@@ -286,10 +286,10 @@ function ApplicationForm() {
 
           <form className="application-form" onSubmit={handleSubmit}>
             <div className="form-section">
-              <h3>Organization Information</h3>
+              <h3>{t("application_org_info")}</h3>
 
               <div className="form-group">
-                <label htmlFor="orgName">Organization Name*</label>
+                <label htmlFor="orgName">{t("application_org_name")}*</label>
                 <input
                   type="text"
                   id="orgName"
@@ -304,7 +304,7 @@ function ApplicationForm() {
 
               <div className="form-row">
                 <div className="form-group">
-                  <label htmlFor="orgType">Organization Type*</label>
+                  <label htmlFor="orgType">{t("application_org_type")}*</label>
                   <select
                     id="orgType"
                     name="orgType"
@@ -313,18 +313,18 @@ function ApplicationForm() {
                     className={errors.orgType && showValidation ? "input-error" : ""}
                     disabled={isSubmitting}
                   >
-                    <option value="">Select type</option>
-                    <option value="farm">Farm</option>
-                    <option value="processor">Processor</option>
-                    <option value="cooperative">Cooperative</option>
-                    <option value="trader">Trader</option>
-                    <option value="other">Other</option>
+                    <option value="">{t("applicationForm.form.selectOption")}</option>
+                    <option value="farm">{t("applicationForm.form.farm")}</option>
+                    <option value="processor">{t("applicationForm.form.processor")}</option>
+                    <option value="cooperative">{t("applicationForm.form.cooperative")}</option>
+                    <option value="trader">{t("applicationForm.form.trader")}</option>
+                    <option value="other">{t("applicationForm.form.other")}</option>
                   </select>
                   {errors.orgType && showValidation && <div className="error-message">{errors.orgType}</div>}
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="employees">Number of Employees</label>
+                  <label htmlFor="employees">{t("application_employees")}</label>
                   <input
                     type="number"
                     id="employees"
@@ -338,7 +338,7 @@ function ApplicationForm() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="address">Address*</label>
+                <label htmlFor="address">{t("application_address")}*</label>
                 <input
                   type="text"
                   id="address"
@@ -353,7 +353,7 @@ function ApplicationForm() {
 
               <div className="form-row">
                 <div className="form-group">
-                  <label htmlFor="city">City*</label>
+                  <label htmlFor="city">{t("application_city")}*</label>
                   <input
                     type="text"
                     id="city"
@@ -367,7 +367,7 @@ function ApplicationForm() {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="country">Country*</label>
+                  <label htmlFor="country">{t("application_country")}*</label>
                   <input
                     type="text"
                     id="country"
@@ -383,11 +383,11 @@ function ApplicationForm() {
             </div>
 
             <div className="form-section">
-              <h3>Contact Information</h3>
+              <h3>{t("application_contact_info")}</h3>
 
               <div className="form-row">
                 <div className="form-group">
-                  <label htmlFor="firstName">First Name*</label>
+                  <label htmlFor="firstName">{t("application_first_name")}*</label>
                   <input
                     type="text"
                     id="firstName"
@@ -401,7 +401,7 @@ function ApplicationForm() {
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="lastName">Last Name*</label>
+                  <label htmlFor="lastName">{t("application_last_name")}*</label>
                   <input
                     type="text"
                     id="lastName"
@@ -416,7 +416,7 @@ function ApplicationForm() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="position">Position/Title*</label>
+                <label htmlFor="position">{t("application_position")}*</label>
                 <input
                   type="text"
                   id="position"
@@ -430,7 +430,7 @@ function ApplicationForm() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="email">Email*</label>
+                <label htmlFor="email">{t("application_email")}*</label>
                 <input
                   type="email"
                   id="email"
@@ -444,7 +444,7 @@ function ApplicationForm() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="phone">Phone Number*</label>
+                <label htmlFor="phone">{t("application_phone")}*</label>
                 <input
                   type="tel"
                   id="phone"
@@ -459,10 +459,10 @@ function ApplicationForm() {
             </div>
 
             <div className="form-section">
-              <h3>Certification Details</h3>
+              <h3>{t("application_cert_details")}</h3>
 
               <div className="form-group">
-                <label htmlFor="certType">Certification Type*</label>
+                <label htmlFor="certType">{t("application_cert_type")}*</label>
                 <select
                   id="certType"
                   name="certType"
@@ -471,18 +471,18 @@ function ApplicationForm() {
                   className={errors.certType && showValidation ? "input-error" : ""}
                   disabled={isSubmitting}
                 >
-                  <option value="">Select certification</option>
-                  <option value="Organic Beekeeping">Organic Beekeeping</option>
-                  <option value="Crop Production">Organic Crop Production</option>
-                  <option value="Processing & Handling">Processing & Handling</option>
-                  <option value="Wild Harvest & Forestry">Wild Harvest & Forestry</option>
-                  <option value="multiple">Multiple Certifications</option>
+                  <option value="">{t("applicationForm.form.selectOption")}</option>
+                  <option value="Organic Beekeeping">{t("application_cert_type_1")}</option>
+                  <option value="Crop Production">{t("application_cert_type_2")}</option>
+                  <option value="Processing & Handling">{t("application_cert_type_3")}</option>
+                  <option value="Wild Harvest & Forestry">{t("application_cert_type_4")}</option>
+                  <option value="multiple">{t("applicationForm.form.multiple")}</option>
                 </select>
                 {errors.certType && showValidation && <div className="error-message">{errors.certType}</div>}
               </div>
 
               <div className="form-group">
-                <label htmlFor="products">Products/Crops*</label>
+                <label htmlFor="products">{t("application_products")}*</label>
                 <input
                   type="text"
                   id="products"
@@ -497,7 +497,7 @@ function ApplicationForm() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="landSize">Land Size (hectares, if applicable)</label>
+                <label htmlFor="landSize">{t("application_land_size")}</label>
                 <input
                   type="number"
                   id="landSize"
@@ -511,7 +511,7 @@ function ApplicationForm() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="currentCert">Current Certifications (if any)</label>
+                <label htmlFor="currentCert">{t("application_current_cert")}</label>
                 <input
                   type="text"
                   id="currentCert"
@@ -524,7 +524,7 @@ function ApplicationForm() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="message">Additional Information</label>
+                <label htmlFor="message">{t("application_additional_info")}</label>
                 <textarea
                   id="message"
                   name="message"
@@ -548,13 +548,13 @@ function ApplicationForm() {
                   className={errors.terms && showValidation ? "input-error" : ""}
                   disabled={isSubmitting}
                 />
-                <label htmlFor="terms">I agree to the terms and conditions*</label>
+                <label htmlFor="terms">{t("application_terms")}*</label>
               </div>
               {errors.terms && showValidation && <div className="error-message">{errors.terms}</div>}
             </div>
 
             <button type="submit" className="submit-button" disabled={isSubmitting}>
-              {isSubmitting ? "Submitting..." : "Submit Application"}
+              {isSubmitting ? t("application_submitting") : t("application_submit")}
             </button>
           </form>
         </div>
