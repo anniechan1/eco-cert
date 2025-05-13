@@ -378,16 +378,26 @@ function NavbarOption1() {
          
 
            <div className="language-dropdown-organic">
-            <i className="fas fa-globe"></i>
-            <div className="language-menu-organic">
-              <div className="language-option-organic" onClick={() => handleLanguageChange('en')}>
+  <i className="fas fa-globe" aria-hidden="true"></i>
+  
+  <div className="language-menu-organic" role="menu">
+    <button
+      className="language-option-organic"
+      onClick={() => handleLanguageChange('en')}
+      role="menuitem"
+    >
       EN
-    </div>
-             <div className="language-option-organic" onClick={() => handleLanguageChange('de')}>
+    </button>
+    <button
+      className="language-option-organic"
+      onClick={() => handleLanguageChange('de')}
+      role="menuitem"
+    >
       DE
-    </div>
-            </div>
-          </div>
+    </button>
+  </div>
+</div>
+
         </div>
       </div>
 

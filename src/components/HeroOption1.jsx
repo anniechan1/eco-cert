@@ -53,7 +53,7 @@ function HeroOption1() {
           target="_blank"
           rel="noopener noreferrer"
           className="text-link"
-        />
+        ></a>
       )
     }}
   />
