@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from "react"
 import { useTranslation } from 'react-i18next'
 import { Link } from "react-router-dom"
 // eslint-disable-next-line no-unused-vars
-import i18n from './i18n';
+
 import i18n from 'i18next';
 import "./NavbarOption1.css"
 
