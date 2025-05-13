@@ -25,7 +25,7 @@ function Sustainability() {
       <div className="commitment-showcase">
         <div className="commitment-item">
           <div className="commitment-image">
-            <img src="/images/cows.jpg" alt="Farmer working in field" />
+            <img src="/images/cows.webp" alt="Farmer working in field" />
           </div>
           <div className="commitment-content">
             <div className="commitment-icon">
@@ -38,7 +38,7 @@ function Sustainability() {
 
         <div className="commitment-item reverse">
           <div className="commitment-image">
-            <img src="/images/kid.jpg" alt="Ethical labor practices" />
+            <img src="/images/kid.webp" alt="Ethical labor practices" loading="lazy" />
           </div>
           <div className="commitment-content">
             <div className="commitment-icon">
@@ -54,7 +54,7 @@ function Sustainability() {
 
         <div className="commitment-item">
           <div className="commitment-image">
-            <img src="/images/mom.jpg" alt="Local empowerment" />
+            <img src="/images/mom.webp" alt="Local empowerment" loading="lazy"/>
           </div>
           <div className="commitment-content">
             <div className="commitment-icon">
@@ -67,7 +67,7 @@ function Sustainability() {
 
         <div className="commitment-item reverse">
           <div className="commitment-image">
-            <img src="/images/produce.jpg" alt="Transparent supply chains" />
+            <img src="/images/produce.webp" alt="Transparent supply chains" loading="lazy" />
           </div>
           <div className="commitment-content">
             <div className="commitment-icon">
@@ -80,7 +80,7 @@ function Sustainability() {
 
         <div className="commitment-item">
           <div className="commitment-image">
-            <img src="/images/teach.jpg" alt="Education and training" />
+            <img src="/images/teach.webp" alt="Education and training" loading="lazy"/>
           </div>
           <div className="commitment-content">
             <div className="commitment-icon">

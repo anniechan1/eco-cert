@@ -57,16 +57,16 @@ function FarmerTraining() {
             <div className="training-image-grid three-images">
               <div className="training-image-item">
                 <img
-                  src="/images/girl.JPG"
+                  src="/images/girl.webp"
                   alt="Young farmer learning sustainable practices"
-                  className="training-img"
+                  className="training-img" loading="lazy"
                 />
               </div>
               <div className="training-image-item">
-                <img src="/images/lesson.jpg" alt="Farmer training workshop" className="training-img" />
+                <img src="/images/lesson.webp" alt="Farmer training workshop" className="training-img" loading="lazy" />
               </div>
               <div className="training-image-item">
-                <img src="/images/lab1.jpg" alt="Sustainable farming practices" className="training-img" />
+                <img src="/images/lab1.webp" alt="Sustainable farming practices" className="training-img" loading="lazy" />
               </div>
             </div>
           </div>
@@ -106,10 +106,10 @@ function FarmerTraining() {
 
             <div className="training-image-grid">
               <div className="training-image-item">
-                <img src="/images/discuss.JPG" alt="Inspector discussion session" className="training-img" />
+                <img src="/images/discuss.webp" alt="Inspector discussion session" className="training-img" loading="lazy" />
               </div>
               <div className="training-image-item">
-                <img src="/images/talk.jpg" alt="Inspector field training" className="training-img" />
+                <img src="/images/talk.webp" alt="Inspector field training" className="training-img" loading="lazy"/>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ function FarmerTraining() {
 
               <div className="auditor-image">
                 <div className="training-image-item">
-                  <img src="/images/group.JPG" alt="Auditor training session" className="training-img" />
+                  <img src="/images/group.webp" alt="Auditor training session" className="training-img"loading="lazy" />
                 </div>
               </div>
             </div>
@@ -198,7 +198,7 @@ function FarmerTraining() {
             </div>
             <div className="platform-image">
               <div className="training-image-item">
-                <img src="/images/mobile.jpg" alt="Digital learning platform" className="training-img" />
+                <img src="/images/mobile.webp" alt="Digital learning platform" className="training-img" loading="lazy"/>
               </div>
             </div>
           </div>

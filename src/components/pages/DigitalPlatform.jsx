@@ -154,7 +154,7 @@ function DigitalPlatform() {
         <div className="features-grid">
           <div className="feature-item-animated">
             <div className="feature-icon-animated" ref={(el) => (featureIconsRef.current[0] = el)}>
-              <i className="fas fa-signal-slash"></i>
+              <i className="fa-solid fa-wifi"></i>
             </div>
             <div className="feature-text">
               <span className="feature-title">Offline Capability:</span> Full functionality without internet connection.

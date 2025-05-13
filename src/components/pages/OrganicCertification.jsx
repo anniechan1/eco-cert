@@ -116,12 +116,12 @@ function OrganicCertification() {
       <div className="two-column-layout">
         <div className="column-item">
           <div className="image-card">
-            <img src="/images/bee.jpg" alt="Organic beekeeping" className="certification-image" />
+            <img src="/images/bee.webp" alt="Organic beekeeping" className="certification-image" loading="lazy" />
           </div>
         </div>
         <div className="column-item">
           <div className="image-card">
-            <img src="/images/bee1.jpg" alt="Bee on flower" className="certification-image" />
+            <img src="/images/bee1.webp" alt="Bee on flower" className="certification-image" loading="lazy" />
           </div>
         </div>
       </div>
@@ -197,7 +197,7 @@ function OrganicCertification() {
             <li>Opens access to certified organic markets globally.</li>
           </ul>
 
-          <img src="/images/rural.jpg" alt="Organic crop field" className="certification-image rural-image" />
+          <img src="/images/rural.webp" alt="Organic crop field" className="certification-image rural-image" loading="lazy"/>
         </div>
 
         <div id="processing" className="certification-type">

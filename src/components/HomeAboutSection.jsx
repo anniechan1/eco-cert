@@ -33,10 +33,10 @@ const { t } = useTranslation();
             <div className="timeline-image">
               <div className="image-grid">
                 <div className="image-item">
-                  <img src="/images/coffee.jpg" alt="coffee" className="small-image" />
+                  <img src="/images/coffee.webp" alt="coffee" className="small-image" loading="lazy"/>
                 </div>
                 <div className="image-item">
-                  <img src="/images/crops.jpg" alt="crops" className="small-image" />
+                  <img src="/images/crops.webp" alt="crops" className="small-image" loading="lazy" />
                 </div>
               </div>
             </div>
@@ -75,7 +75,7 @@ const { t } = useTranslation();
             </div>
             <div className="timeline-image">
               <div className="image-placeholder">
-                <img src="/images/farmers.jpg" alt="farmers" className="small-image" />
+                <img src="/images/farmers.webp" alt="farmers" className="small-image" loading="lazy" />
               </div>
             </div>
           </div>
@@ -108,10 +108,10 @@ const { t } = useTranslation();
             <div className="timeline-image">
               <div className="image-grid">
                 <div className="image-item">
-                  <img src="/images/market.jpg" alt="market" className="small-image" />
+                  <img src="/images/market.webp" alt="market" className="small-image" loading="lazy" />
                 </div>
                 <div className="image-item">
-                  <img src="/images/soap.jpg" alt="soap" className="small-image" />
+                  <img src="/images/soap.webp" alt="soap" className="small-image" loading="lazy"/>
                 </div>
               </div>
             </div>

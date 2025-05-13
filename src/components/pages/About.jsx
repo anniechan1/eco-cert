@@ -14,13 +14,13 @@ function About() {
 
       <div className="image-grid-three">
         <div className="grid-image-item">
-          <img src="/images/beans.jpg" alt="Coffee beans" className="grid-image" />
+          <img src="/images/beans.webp" alt="Coffee beans" className="grid-image"  />
         </div>
         <div className="grid-image-item">
-          <img src="/images/beans1.jpg" alt="Coffee beans close-up" className="grid-image" />
+          <img src="/images/beans1.webp" alt="Coffee beans close-up" className="grid-image" />
         </div>
         <div className="grid-image-item">
-          <img src="/images/cooperate.jpg" alt="Cooperation" className="grid-image" />
+          <img src="/images/cooperate.webp" alt="Cooperation" className="grid-image" />
         </div>
       </div>
 
@@ -60,13 +60,13 @@ function About() {
       <div className="two-column-layout">
         <div className="column-item">
           <div className="image-card">
-            <img src="/images/tree.jpg" alt="Tree" className="small-image" />
+            <img src="/images/tree.webp" alt="Tree" className="small-image" loading="lazy" />
           </div>
         </div>
 
         <div className="column-item">
           <div className="image-card">
-            <img src="/images/field.jpg" alt="Field" className="small-image" />
+            <img src="/images/field.webp" alt="Field" className="small-image" loading="lazy"/>
           </div>
         </div>
       </div>

@@ -60,7 +60,7 @@ function IndependenceIntegrity() {
 
           <div className="principles-image">
             <img
-              src="/images/cal.jpg"
+              src="/images/cal.webp"
               alt="Handshake representing integrity and partnership"
               className="principles-image-placeholder"
             />

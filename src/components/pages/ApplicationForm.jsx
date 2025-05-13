@@ -211,7 +211,7 @@ function ApplicationForm() {
             <div className="cert-type-grid">
               <div className="cert-type-item">
                 <div className="cert-icon">
-                  <i className="fas fa-bee"></i>
+                  <i className="fa-regular fa-jar"></i>
                 </div>
                 <div>
                   <h4>Organic Beekeeping</h4>
@@ -221,7 +221,7 @@ function ApplicationForm() {
 
               <div className="cert-type-item">
                 <div className="cert-icon">
-                  <i className="fas fa-seedling"></i>
+                  <i className="fa-solid fa-seedling"></i>
                 </div>
                 <div>
                   <h4>Organic Crop Production</h4>
