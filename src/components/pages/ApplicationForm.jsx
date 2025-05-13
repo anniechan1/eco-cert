@@ -1,7 +1,3 @@
-
-
-
-
 "use client"
 
 import "./ApplicationForm.css"
@@ -113,43 +109,31 @@ function ApplicationForm() {
     if (validateForm()) {
       setIsSubmitting(true)
 
-      // Create a formatted message for EmailJS
-      const messageBody = `
-// Organization Information:
-// ------------------------
-// Organization Name: ${formData.orgName}
-// Organization Type: ${formData.orgType}
-// Number of Employees: ${formData.employees}
-// Address: ${formData.address}
-// City: ${formData.city}
-// Country: ${formData.country}
-
-// Contact Information:
-// ------------------
-// Name: ${formData.firstName} ${formData.lastName}
-// Position: ${formData.position}
-// Email: ${formData.email}
-// Phone: ${formData.phone}
-
-// Certification Details:
-// --------------------
-// Certification Type: ${formData.certType}
-// Products/Crops: ${formData.products}
-// Land Size: ${formData.landSize}
-// Current Certifications: ${formData.currentCert}
-
-// Additional Information:
-// ---------------------
-// ${formData.message}
-      `
-
-      // Prepare template parameters for EmailJS
+      // Prepare template parameters for EmailJS - send each field separately
       const templateParams = {
+        // Send each form field as a separate parameter to match the template
+        orgName: formData.orgName,
+        orgType: formData.orgType,
+        employees: formData.employees || "Not specified",
+        address: formData.address,
+        city: formData.city,
+        country: formData.country,
+        firstName: formData.firstName,
+        lastName: formData.lastName,
+        position: formData.position,
+        email: formData.email,
+        phone: formData.phone,
+        certType: formData.certType,
+        products: formData.products,
+        landSize: formData.landSize || "Not specified",
+        currentCert: formData.currentCert || "None",
+        message: formData.message || "No additional information provided.",
+        terms: formData.terms ? "Agreed" : "Not agreed",
+        // Additional parameters for EmailJS
         from_name: `${formData.firstName} ${formData.lastName}`,
         from_email: formData.email,
         subject: `Certification Application - ${formData.orgName}`,
-        message: messageBody,
-        to_email: "annie@greenacademyafrica.com",
+        to_email: "eco-certification@greenacademyafrica.com",
       }
 
       // Send email using EmailJS
@@ -284,7 +268,7 @@ function ApplicationForm() {
             <div className="error-summary">
               <p>
                 There was a problem submitting your application. Please try again or contact us directly at
-                annie@greenacademyafrica.com
+                eco-certification@greenacademyafrica.com
               </p>
             </div>
           )}
