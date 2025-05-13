@@ -1,3 +1,4 @@
+import i18n from 'i18next'
 import NavbarOption1 from "./components/NavbarOption1"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from "./components/pages/Home"

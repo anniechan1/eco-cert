@@ -3,8 +3,11 @@ import { useEffect, useRef } from "react"
 import { Button } from "./Button"
 import "./HeroOption1.css"
 import { Link } from "react-router-dom"
+import { Trans, useTranslation } from 'react-i18next';
+
 
 function HeroOption1() {
+  const { t } = useTranslation();
   const leafRef = useRef(null)
   const textRef = useRef(null)
 
@@ -37,34 +40,39 @@ function HeroOption1() {
       <div className="hero-content-organic">
         <div ref={textRef} className="hero-text-organic">
           <h1>
-            Welcome to <span className="highlight">EcoCertification</span>
-          </h1>
-          <p>
-            At EcoCertification, we are dedicated to enabling a more sustainable future through trusted, transparent,
-            and accessible certification services. As a certification body cooperating closely with platforms like
-            <a href="https://ecopiavaluechain.com/" target="_blank" rel="noopener noreferrer" className="text-link">
-              {" "}
-              Ecopia Value Chain (EVC)
-            </a>
-            , we support farmers, producers, and businesses in meeting internationally recognized standards for organic
-            farming, ethical trade, and deforestation-free sourcing.
-          </p>
-          <p>
-            We bring a fresh, digital-first approach to eco-certification—combining environmental integrity with
-            user-friendly tools designed for real-world impact.
-          </p>
-          <p className="join-text">
-            <strong>Join us on the path to sustainability.</strong>
-          </p>
+  <Trans i18nKey="hero_title" components={{ 1: <span className="highlight" /> }} />
+</h1>
+
+<p>
+  <Trans
+    i18nKey="hero_intro"
+    components={{
+      1: (
+        <a
+          href="https://ecopiavaluechain.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-link"
+        />
+      )
+    }}
+  />
+</p>
+         <p>{t('hero_second')}</p>
+
+<p className="join-text">
+  <strong>{t('hero_join')}</strong>
+</p>
+
           <div className="hero-cta">
             <Link to="/application">
               <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
-                Get Certified
+                  {t('hero_certify_btn')}
               </Button>
             </Link>
              <Link to="/services/farmer-training">
             <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-              Explore Our Services
+              {t('hero_explore_btn')}
             </Button>
             </Link>
           </div>

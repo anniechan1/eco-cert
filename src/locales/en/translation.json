@@ -1,0 +1,79 @@
+{
+  "about": "About Us",
+  "about_who": "Who We Are",
+  "about_history": "History",
+  "about_team": "Our Team",
+  "about_method": "Our Method",
+  "about_platform": "Eco Certification Digital Platform",
+  "about_commitment": "Our Commitment",
+
+  "certifications": "Certifications",
+  "cert_scope": "Scope of Certification",
+  "cert_process": "Certification Process",
+  "cert_integrity": "Independence & Integrity",
+  "cert_standards": "International Standards",
+
+  "services": "Services",
+  "services_training": "Training Programs",
+
+  "partners": "Partners & Accreditations",
+  "partners_collab": "Partnerships & Collaborations",
+  "partners_accreditation": "Accreditation",
+
+  "contact": "Contact",
+  "search_placeholder": "Search for ...",
+  "search_results": "Search Results",
+  "no_results": "No results found for",
+
+
+
+  "hero_title": "Welcome to <1>EcoCertification</1>",
+  "hero_intro": "At EcoCertification, we are dedicated to enabling a more sustainable future through trusted, transparent, and accessible certification services. As a certification body cooperating closely with platforms like <1>Ecopia Value Chain (EVC)</1>, we support farmers, producers, and businesses in meeting internationally recognized standards for organic farming, ethical trade, and deforestation-free sourcing.",
+  "hero_second": "We bring a fresh, digital-first approach to eco-certification—combining environmental integrity with user-friendly tools designed for real-world impact.",
+  "hero_join": "Join us on the path to sustainability.",
+  "hero_certify_btn": "Get Certified",
+  "hero_explore_btn": "Explore Our Services",
+
+
+
+
+
+
+  
+  "roots_intro": "We are proud to be a pioneering force in Ethiopia's organic certification and sustainable agriculture movement.",
+  "roots_title": "Our Roots",
+  "roots_paragraph1_part1": "We are among the founding members of Ethiopia's ",
+  "roots_paragraph1_emphasis1": "first Organic Agriculture Association",
+  "roots_paragraph1_part2": ", working alongside esteemed experts including ",
+  "roots_paragraph1_emphasis2": "Dr. Sue Edwards",
+  "roots_paragraph1_part3": ". This early involvement laid the groundwork for advancing organic farming in Ethiopia.",
+
+  "track_title": "Our Track Record",
+  "track_intro_part1": "Through our close collaboration with ",
+  "track_link_text": "Eljojofe e.V.",
+  "track_intro_part2": ", we have:",
+  "track_list_item1_part1": "Trained ",
+  "track_list_item1_emphasis": "over 3,000 organic farmers",
+  "track_list_item1_part2": " across Ethiopia, helping them maintain their organic practices in line with international standards.",
+  "track_list_item2_part1": "Actively contributed to the ",
+  "track_list_item2_emphasis": "development of all Ethiopian Biosphere Reserves",
+  "track_list_item2_part2": ", supporting ecological conservation and sustainable livelihoods.",
+
+  "market_title": "Market Development",
+  "market_intro": "We proudly:",
+  "market_list1_part1": "Organized ",
+  "market_list1_emphasis": "Ethiopia's first-ever Organic Monthly Market",
+  "market_list1_part2": ", in partnership with ",
+  "market_list1_link_text": "Ecopia PLC",
+  "market_list1_part3": ", creating a consistent platform for organic producers to connect with conscious consumers.",
+  "market_list2": "Continue to champion innovative market access solutions for Ethiopia's organic farmers.",
+
+  "mission_title": "Our Mission Moving Forward",
+  "mission_part1": "Building on decades of practical experience and deep local engagement, we are now establishing Ethiopia's",
+  "mission_emphasis1": " first dedicated eco-certification company",
+  "mission_part2": ", with ",
+  "mission_emphasis2": "international accreditation",
+  "mission_part3": " underway. Our goal is to empower producers, assure consumers, and help Ethiopia's organic sector thrive on a global stage."
+
+
+}

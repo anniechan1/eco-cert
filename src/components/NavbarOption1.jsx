@@ -1,10 +1,14 @@
 "use client"
-
-import { useState, useEffect, useRef } from "react"
+import React, { useState, useEffect, useRef } from "react"
+import { useTranslation } from 'react-i18next'
 import { Link } from "react-router-dom"
+import i18n from 'i18next';
 import "./NavbarOption1.css"
 
+
+
 function NavbarOption1() {
+   const { t, i18n } = useTranslation();
   const [click, setClick] = useState(false)
   const [searchActive, setSearchActive] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
@@ -12,7 +16,10 @@ function NavbarOption1() {
   const [showResults, setShowResults] = useState(false)
   const searchInputRef = useRef(null)
   const [pageContent, setPageContent] = useState([])
- 
+
+  const handleLanguageChange = (lang) => {
+    i18n.changeLanguage(lang);
+  };
 
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
@@ -273,76 +280,73 @@ function NavbarOption1() {
         <ul className={click ? "nav-menu-organic active" : "nav-menu-organic"}>
           <li className="nav-item-organic">
             <span className="nav-links-organic">
-              About Us <i className="fas fa-caret-down"></i>
+              {t('about')}<i className="fas fa-caret-down"></i>
             </span>
             <div className="dropdown-menu-organic">
               <Link to="/about" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Who We Are
-              </Link>
-              <Link to="/history" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                History
-              </Link>
-              <Link to="/our-team" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Our Team
-              </Link>
+        {t('about_who')}
+      </Link>
+      <Link to="/history" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('about_history')}
+      </Link>
+      <Link to="/our-team" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('about_team')}
+      </Link>
+      <Link to="/our-method" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('about_method')}
+      </Link>
+      <Link to="/digital-platform" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('about_platform')}
+      </Link>
+      <Link to="/sustainability" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('about_commitment')}
+      </Link>
+            </div>
+          </li>
 
-              <Link to="/our-method" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Our Method
-              </Link>
-              <Link to="/digital-platform" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Eco Certification Digital Platform
-              </Link>
-              <Link to="/sustainability" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Our Commitment
-              </Link>
+          <li className="nav-item-organic">
+             <span className="nav-links-organic">
+      {t('certifications')} <i className="fas fa-caret-down"></i>
+    </span>
+    <div className="dropdown-menu-organic">
+      <Link to="/organic-certification" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('cert_scope')}
+      </Link>
+      <Link to="/certification-process" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('cert_process')}
+      </Link>
+      <Link to="/independence-integrity" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('cert_integrity')}
+      </Link>
+      <Link to="/international-standards" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('cert_standards')}
+      </Link>
+            </div>
+          </li>
+
+          <li className="nav-item-organic">
+             <span className="nav-links-organic">
+      {t('services')} <i className="fas fa-caret-down"></i>
+    </span>
+    <div className="dropdown-menu-organic">
+      <Link to="/services/farmer-training" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('services_training')}
+      </Link>
+            
             </div>
           </li>
 
           <li className="nav-item-organic">
             <span className="nav-links-organic">
-              Certifications <i className="fas fa-caret-down"></i>
-            </span>
-            <div className="dropdown-menu-organic">
-              <Link to="/organic-certification" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Scope of Certification
-              </Link>
-              <Link to="/certification-process" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Certification Process
-              </Link>
-              <Link to="/independence-integrity" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Independence & Integrity
-              </Link>
-              <Link to="/international-standards" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                International Standards
-              </Link>
-            </div>
-          </li>
-
-          <li className="nav-item-organic">
-            <span className="nav-links-organic">
-              Services <i className="fas fa-caret-down"></i>
-            </span>
-            <div className="dropdown-menu-organic">
-              <Link to="/services/farmer-training" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Training Programs
-              </Link>
-              {/* <Link to="/services/inspector-training" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Inspector & Auditor Training
-              </Link> */}
-            </div>
-          </li>
-
-          <li className="nav-item-organic">
-            <span className="nav-links-organic">
-              Partners & Accreditations <i className="fas fa-caret-down"></i>
-            </span>
-            <div className="dropdown-menu-organic">
-              <Link to="/partnerships" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Partnerships & Collaborations
-              </Link>
-              <Link to="/accreditation" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                Accreditation
-              </Link>
+      {t('partners')} <i className="fas fa-caret-down"></i>
+    </span>
+    <div className="dropdown-menu-organic">
+      <Link to="/partnerships" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('partners_collab')}
+      </Link>
+      <Link to="/accreditation" className="dropdown-link-organic" onClick={closeMobileMenu}>
+        {t('partners_accreditation')}
+      </Link>
             </div>
           </li>
         </ul>
@@ -367,16 +371,28 @@ function NavbarOption1() {
             </div>
           </div>
           <Link to="/contact" className="contact-link-organic">
-            CONTACT
+               {t('contact')}
           </Link>
          
+
+           <div className="language-dropdown-organic">
+            <i className="fas fa-globe"></i>
+            <div className="language-menu-organic">
+              <div className="language-option-organic" onClick={() => handleLanguageChange('en')}>
+      EN
+    </div>
+             <div className="language-option-organic" onClick={() => handleLanguageChange('de')}>
+      DE
+    </div>
+            </div>
+          </div>
         </div>
       </div>
 
       {showResults && (
         <div className="search-results">
           <div className="search-results-header">
-            <h3>Search Results</h3>
+ <h3>{t('search_results')}</h3>
             <button className="close-results" onClick={closeSearchResults}>
               <i className="fas fa-times"></i>
             </button>
@@ -398,7 +414,7 @@ function NavbarOption1() {
               ))}
             </ul>
           ) : (
-            <p className="no-results">No results found for "{searchQuery}"</p>
+             <p className="no-results">{t('no_results')} "{searchQuery}"</p>
           )}
         </div>
       )}

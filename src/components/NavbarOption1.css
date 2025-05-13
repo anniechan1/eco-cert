@@ -93,9 +93,7 @@
   color: #7ea87e;
 }
 
-.nav-links-organic:hover i {
-  /* Remove transform rotation */
-}
+
 
 .nav-links-organic::after {
   content: "";
@@ -340,10 +338,7 @@
   }
 }
 
-.dropdown-menu-organic,
-.language-menu-organic {
-  /* Remove animation */
-}
+
 
 /* Add this to your existing NavbarOption1.css */
 .logo-img {

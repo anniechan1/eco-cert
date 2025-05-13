@@ -1,6 +1,9 @@
 import "./HomeAboutSection.css"
+import { useTranslation } from 'react-i18next';
 
 function HomeAboutSection() {
+const { t } = useTranslation();
+
   return (
     <section className="about-section design-two">
       <div className="organic-shape top-shape"></div>
@@ -8,8 +11,7 @@ function HomeAboutSection() {
       <div className="about-container">
         <div className="about-intro-centered">
           <p>
-            We are proud to be a pioneering force in Ethiopia's organic certification and sustainable agriculture
-            movement.
+             {t('roots_intro')}
           </p>
         </div>
 
@@ -19,13 +21,14 @@ function HomeAboutSection() {
               <div className="timeline-icon">
                 <i className="fas fa-seedling"></i>
               </div>
-              <h3>Our Roots</h3>
+         <h3>{t('roots_title')}</h3>
               <p>
-                We are among the founding members of Ethiopia's{" "}
-                <span className="emphasis">first Organic Agriculture Association</span>, working alongside esteemed
-                experts including <span className="emphasis">Dr. Sue Edwards</span>. This early involvement laid the
-                groundwork for advancing organic farming in Ethiopia.
-              </p>
+  {t('roots_paragraph1_part1')}
+  <span className="emphasis">{t('roots_paragraph1_emphasis1')}</span>
+  {t('roots_paragraph1_part2')}
+  <span className="emphasis">{t('roots_paragraph1_emphasis2')}</span>
+  {t('roots_paragraph1_part3')}
+</p>
             </div>
             <div className="timeline-image">
               <div className="image-grid">
@@ -44,29 +47,30 @@ function HomeAboutSection() {
               <div className="timeline-icon">
                 <i className="fas fa-award"></i>
               </div>
-              <h3>Our Track Record</h3>
-              <p>
-                Through our close collaboration with{" "}
-                <a
-                  href="http://www.eljojofe.org/index.php?p=1&lang=EN#home-section"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="emphasis-link"
-                >
-                  <span className="emphasis">Eljojofe e.V.</span>
-                </a>
-                , we have:
-              </p>
+             <h3>{t('track_title')}</h3>
+<p>
+  {t('track_intro_part1')}
+  <a
+    href="http://www.eljojofe.org/index.php?p=1&lang=EN#home-section"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="emphasis-link"
+  >
+    <span className="emphasis">{t('track_link_text')}</span>
+  </a>
+  {t('track_intro_part2')}
+</p>
               <ul className="eco-list">
                 <li>
-                  Trained <span className="emphasis">over 3,000 organic farmers</span> across Ethiopia, helping them
-                  maintain their organic practices in line with international standards.
-                </li>
-                <li>
-                  Actively contributed to the{" "}
-                  <span className="emphasis">development of all Ethiopian Biosphere Reserves</span>, supporting
-                  ecological conservation and sustainable livelihoods.
-                </li>
+  {t('track_list_item1_part1')}
+  <span className="emphasis">{t('track_list_item1_emphasis')}</span>
+  {t('track_list_item1_part2')}
+</li>
+<li>
+  {t('track_list_item2_part1')}
+  <span className="emphasis">{t('track_list_item2_emphasis')}</span>
+  {t('track_list_item2_part2')}
+</li>
               </ul>
             </div>
             <div className="timeline-image">
@@ -81,24 +85,25 @@ function HomeAboutSection() {
               <div className="timeline-icon">
                 <i className="fas fa-store"></i>
               </div>
-              <h3>Market Development</h3>
-              <p>We proudly:</p>
-              <ul className="eco-list">
-                <li>
-                  Organized <span className="emphasis">Ethiopia's first-ever Organic Monthly Market</span>, in
-                  partnership with{" "}
-                  <a
-                    href="http://www.de.ecopia.de/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="emphasis-link"
-                  >
-                    <span className="emphasis">Ecopia PLC</span>
-                  </a>
-                  , creating a consistent platform for organic producers to connect with conscious consumers.
-                </li>
-                <li>Continue to champion innovative market access solutions for Ethiopia's organic farmers.</li>
-              </ul>
+              <h3>{t('market_title')}</h3>
+<p>{t('market_intro')}</p>
+<ul className="eco-list">
+  <li>
+    {t('market_list1_part1')}
+    <span className="emphasis">{t('market_list1_emphasis')}</span>
+    {t('market_list1_part2')}
+    <a
+      href="http://www.de.ecopia.de/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="emphasis-link"
+    >
+      <span className="emphasis">{t('market_list1_link_text')}</span>
+    </a>
+    {t('market_list1_part3')}
+  </li>
+  <li>{t('market_list2')}</li>
+</ul>
             </div>
             <div className="timeline-image">
               <div className="image-grid">
@@ -117,13 +122,14 @@ function HomeAboutSection() {
           <div className="mission-icon">
             <i className="fas fa-compass"></i>
           </div>
-          <h3>Our Mission Moving Forward</h3>
-          <p>
-            Building on decades of practical experience and deep local engagement, we are now establishing Ethiopia's
-            <span className="emphasis"> first dedicated eco-certification company</span>, with{" "}
-            <span className="emphasis">international accreditation</span> underway. Our goal is to empower producers,
-            assure consumers, and help Ethiopia's organic sector thrive on a global stage.
-          </p>
+          <h3>{t('mission_title')}</h3>
+<p>
+  {t('mission_part1')}
+  <span className="emphasis">{t('mission_emphasis1')}</span>
+  {t('mission_part2')}
+  <span className="emphasis">{t('mission_emphasis2')}</span>
+  {t('mission_part3')}
+</p>
         </div>
       </div>
 

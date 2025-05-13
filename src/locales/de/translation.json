@@ -1,0 +1,77 @@
+{
+  "about": "Über uns",
+  "about_who": "Wer wir sind",
+  "about_history": "Geschichte",
+  "about_team": "Unser Team",
+  "about_method": "Unsere Methode",
+  "about_platform": "Digitale Plattform für Öko-Zertifizierung",
+  "about_commitment": "Unser Engagement",
+
+  "certifications": "Zertifizierungen",
+  "cert_scope": "Zertifizierungsumfang",
+  "cert_process": "Zertifizierungsprozess",
+  "cert_integrity": "Unabhängigkeit & Integrität",
+  "cert_standards": "Internationale Standards",
+
+  "services": "Dienstleistungen",
+  "services_training": "Schulungsprogramme",
+
+  "partners": "Partner & Akkreditierungen",
+  "partners_collab": "Partnerschaften & Kooperationen",
+  "partners_accreditation": "Akkreditierung",
+
+  "contact": "Kontakt",
+  "search_placeholder": "Suche nach ...",
+  "search_results": "Suchergebnisse",
+  "no_results": "Keine Ergebnisse gefunden für",
+
+
+
+  
+  "hero_title": "Willkommen bei <1>EcoCertification</1>",
+  "hero_intro": "Bei EcoCertification setzen wir uns für eine nachhaltigere Zukunft ein – durch vertrauenswürdige, transparente und zugängliche Zertifizierungsdienste. Als Zertifizierungsstelle, die eng mit Plattformen wie <1>Ecopia Value Chain (EVC)</1> zusammenarbeitet, unterstützen wir Landwirte, Produzenten und Unternehmen dabei, international anerkannte Standards für ökologischen Landbau, fairen Handel und entwaldungsfreie Lieferketten zu erfüllen.",
+  "hero_second": "Wir bringen einen frischen, digitalen Ansatz in die Öko-Zertifizierung – mit benutzerfreundlichen Tools für echte Wirkung.",
+  "hero_join": "Begleiten Sie uns auf dem Weg zur Nachhaltigkeit.",
+  "hero_certify_btn": "Zertifizieren lassen",
+  "hero_explore_btn": "Unsere Services entdecken",
+
+
+
+
+  "roots_intro": "Wir sind stolz, eine Vorreiterrolle in der Bio-Zertifizierung und nachhaltigen Landwirtschaft Äthiopiens einzunehmen.",
+  "roots_title": "Unsere Wurzeln",
+  "roots_paragraph1_part1": "Wir gehören zu den Gründungsmitgliedern von Äthiopiens ",
+  "roots_paragraph1_emphasis1": "erster Vereinigung für ökologische Landwirtschaft",
+  "roots_paragraph1_part2": " und arbeiteten mit angesehenen Expert*innen wie ",
+  "roots_paragraph1_emphasis2": "Dr. Sue Edwards",
+  "roots_paragraph1_part3": " zusammen. Dieses frühe Engagement legte den Grundstein für die Förderung des ökologischen Landbaus in Äthiopien.",
+
+  "track_title": "Unsere Erfolge",
+  "track_intro_part1": "Durch unsere enge Zusammenarbeit mit ",
+  "track_link_text": "Eljojofe e.V.",
+  "track_intro_part2": " haben wir:",
+  "track_list_item1_part1": "Über ",
+  "track_list_item1_emphasis": "3.000 Biobäuer*innen",
+  "track_list_item1_part2": " in ganz Äthiopien geschult und sie bei der Einhaltung internationaler Standards unterstützt.",
+  "track_list_item2_part1": "Aktiv zur ",
+  "track_list_item2_emphasis": "Entwicklung aller Biosphärenreservate Äthiopiens",
+  "track_list_item2_part2": " beigetragen und damit Naturschutz und nachhaltige Lebensgrundlagen unterstützt.",
+
+  "market_title": "Marktentwicklung",
+  "market_intro": "Wir sind stolz darauf:",
+  "market_list1_part1": "Äthiopiens ",
+  "market_list1_emphasis": "ersten monatlichen Bio-Markt",
+  "market_list1_part2": " organisiert zu haben, in Partnerschaft mit ",
+  "market_list1_link_text": "Ecopia PLC",
+  "market_list1_part3": ", um eine Plattform für Bio-Produzent*innen und bewusste Verbraucher*innen zu schaffen.",
+  "market_list2": "Wir setzen uns weiterhin für innovative Marktzugänge für Äthiopiens Bio-Bäuer*innen ein.",
+
+  "mission_title": "Unsere zukünftige Mission",
+  "mission_part1": "Aufbauend auf jahrzehntelanger Erfahrung und tiefer lokaler Verankerung gründen wir nun Äthiopiens",
+  "mission_emphasis1": " erstes spezialisiertes Öko-Zertifizierungsunternehmen",
+  "mission_part2": ", mit ",
+  "mission_emphasis2": "internationaler Akkreditierung",
+  "mission_part3": " in Vorbereitung. Unser Ziel ist es, Produzent*innen zu stärken, Verbraucher*innen Sicherheit zu geben und Äthiopiens Biobranche weltweit zu fördern."
+}
+
+
