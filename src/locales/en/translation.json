@@ -3,6 +3,7 @@
   "about_who": "Who We Are",
   "about_history": "History",
   "about_team": "Our Team",
+    "about_founder": "About the Founder",
   "about_method": "Our Method",
   "about_platform": "Eco Certification Digital Platform",
   "about_commitment": "Our Commitment",
@@ -865,7 +866,7 @@
       "<strong>Right to Object to Processing:</strong> You have the right to object to our processing of your personal data, under certain conditions.",
       "<strong>Right to Data Portability:</strong> You have the right to request that we transfer the data we have collected to another organization, or directly to you, under certain conditions."
     ],
-    "paragraph2": "If you would like to exercise any of these rights, please contact us at privacy@ecocertification.com. We will respond to your request within 30 days.",
+    "paragraph2": "If you would like to exercise any of these rights, please contact us at yosheplc@gmail.com. We will respond to your request within 30 days.",
     "paragraph3": "You also have the right to lodge a complaint with a supervisory authority. In Germany, the competent authority is the State Data Protection Authority (Landesdatenschutzbehörde) in the federal state where our company is headquartered."
   },
   "childrens_privacy": {
@@ -994,7 +995,7 @@
     "title": "Contact Us",
     "paragraph": "If you have any questions about these Terms, please contact us at:",
     "list_items": [
-      "Email: info@ecocertification.com",
+      "Email: yosheplc@gmail.com",
       "Phone: +251 97 498 4675",
       "Mail: PO Box 1072, Addis Ababa, Ethiopia"
     ]
@@ -1071,7 +1072,7 @@
     "title": "Contact Us",
     "paragraph": "If you have any questions about our use of cookies or other technologies, please contact us at:",
     "list_items": [
-      "Email: privacy@ecocertification.com",
+      "Email: yosheplc@gmail.com",
       "Phone: +251 97 498 4675",
       "Mail: PO Box 1072, Addis Ababa, Ethiopia"
     ]
@@ -1128,8 +1129,258 @@
   "terms_of_service": "Terms of Service",
   "cookie_policy": "Cookie Policy",
   "sitemap": "Sitemap"
-}
+},
+
+  "founder": {
+    "name": "Dr. Mitslal Kifleyesus-Matschie",
+    "title": "Pioneer and Champion of Ethiopian Organic Agriculture",
+    "role_ceo": "CEO,",
+    "role_founder": "Founder,",
+    "role_expert": "Expert in Disarmament and Arms Control",
+
+    "intro_paragraph1_part1": "Dr. Mitslal Kifleyesus-Matschie has made extraordinary contributions to advancing organic agriculture in Ethiopia. Holding a",
+    "intro_paragraph1_strong1": "PhD in international organization verification and inspection regimes",
+    "intro_paragraph1_part2": "—a discipline focused on compliance and oversight in highly regulated environments—Dr. Mitslal successfully transitioned her expertise into building Ethiopia's first organic processing company, setting a national precedent.",
+
+    "intro_paragraph2_part1": "As the founder of",
+    "intro_paragraph2_part2": "—Ecological Products of Ethiopia—Dr. Mitslal was instrumental in laying the foundation for Ethiopia's organic food and cosmetic sectors. Established in 2006, Ecopia processes and markets strictly organic food, herbal medicine, and cosmetic products sourced from Ethiopia's biosphere reserves. Under her leadership, Ecopia integrated over",
+    "intro_paragraph2_strong1": "11,000 farmers into the organic value chain",
+    "intro_paragraph2_part3": "and trained more than",
+    "intro_paragraph2_strong2": "6,000 farmers in organic processing",
+    "intro_paragraph2_part4": ", with a clear focus on empowering women and marginalized communities: two-thirds of Ecopia's employees are women, and one-third are deaf-mute individuals.",
+
+    "intro_paragraph3_part1": "Importantly, Ecopia Plc was established in collaboration with",
+    "intro_paragraph3_part2": ", a German NGO, which has served as its implementing branch with community partners. Eljojofe e.V. has been pivotal in developing its own",
+    "intro_paragraph3_strong1": "organic certification scheme",
+    "intro_paragraph3_part3": "over the past five years, and it proudly showcased this initiative at",
+    "intro_paragraph3_strong2": "Biofach 2024 in Germany",
+    "intro_paragraph3_part4": ", one of the world's leading trade fairs for organic products.",
+
+    "intro_paragraph4_part1": "Dr. Mitslal has demonstrated",
+    "intro_paragraph4_strong1": "strong ethical leadership",
+    "intro_paragraph4_part2": "by signing a conflict-of-interest avoidance agreement with the eco-certification body to ensure transparency and fairness in Ecopia's certification processes. In addition to her executive role at Ecopia, she serves on the advisory board of Eljojofe e.V. and leads its",
+    "intro_paragraph4_strong2": "training program for inspectors and auditors",
+    "intro_paragraph4_part3": ", reinforcing capacity-building and standards compliance within the organic certification landscape.",
+
+    "intro_paragraph5_part1": "Beyond her business achievements, Dr. Mitslal is the",
+    "intro_paragraph5_strong1": "founder of the Ethiopian Organic Ecological Association",
+    "intro_paragraph5_part2": "and has been a member of its steering committee for more than 15 years, playing a pivotal role in shaping Ethiopia's organic agriculture policy and standards. Her advocacy contributed to the establishment of",
+    "intro_paragraph5_strong2": "Ethiopia's Organic Agriculture Regulation (Proclamation No. 488/2006)",
+    "intro_paragraph5_part3": ", which laid the groundwork for formal certification and export facilitation.",
+
+    "intro_paragraph6_part1": "She has also been a prominent figure in international forums, including the",
+    "intro_paragraph6_strong1": "African Union's Conference on Ecological Agriculture (2008)",
+    "intro_paragraph6_part2": ", where she worked with stakeholders to position ecological agriculture as a cornerstone of Africa's strategy for food security and climate change mitigation.",
+
+    "intro_paragraph7_part1": "Dr. Mitslal's work is characterized by her commitment to",
+    "intro_paragraph7_strong1": "environmental sustainability, community empowerment, and institutional integrity",
+    "intro_paragraph7_part2": ". Through her visionary leadership, she has built bridges between local Ethiopian farmers and international organic markets, setting a model for socially responsible enterprise and regulatory excellence.",
+
+    "professional_profile_title": "Professional Profile",
+    "professional_profile_paragraph_part1": "Dynamic and accomplished leader with over two decades of experience in strategic advisory roles, disarmament, and organic agriculture.",
+    "professional_profile_paragraph_strong1": "Pioneered Ethiopia's first organic processing company",
+    "professional_profile_paragraph_part2": ", integrating 11,000+ farmers into the organic value chain. Specializing in certification, verification regimes, and sustainable development, I bridge global security initiatives with ecological agriculture, empowering communities through ethical and regulatory excellence. My expertise includes leading the development of businesses that integrate",
+    "professional_profile_paragraph_strong2": "peacebuilding, disarmament, and sustainable development",
+    "professional_profile_paragraph_part3": ", with a particular focus on Africa. I am dedicated to fostering security, stability, and economic empowerment through innovative, community-driven approaches.",
+
+    "key_qualifications_title": "Key Qualifications",
+
+    "organic_certification_title": "Organic Certification & ICS Leadership:",
+    "organic_certification_item1_strong": "Spearheaded Ethiopia's first organic certification framework",
+    "organic_certification_item1_text": " (Proclamation No. 488/2006) and trained 6,000+ farmers in compliance.",
+    "organic_certification_item2_part1": "Implemented ",
+    "organic_certification_item2_strong": "digital ICS solutions",
+    "organic_certification_item2_part2": " (e.g., eco certification ICS software) to streamline group certification, offline data collection, and audit readiness for 11,000+ smallholders.",
+    "organic_certification_item3_part1": "Developed Eljojofe e.V.'s certification scheme, featuring",
+    "organic_certification_item3_strong": "GPS-based plot mapping, multilingual questionnaires, and non-conformity management",
+    "organic_certification_item3_part2": " (showcased at Biofach 2024).",
+
+    "verification_compliance_title": "Verification & Compliance:",
+    "verification_compliance_item1_part1": "PhD in international verification regimes, applied to design",
+    "verification_compliance_item1_strong": "transparent organic certification processes",
+    "verification_compliance_item2_part1": "Signed ",
+    "verification_compliance_item2_strong": "conflict-of-interest agreements",
+    "verification_compliance_item2_part2": " with certifiers to ensure audit integrity.",
+
+    "sustainable_agritech_title": "Sustainable Agri-Tech:",
+    "sustainable_agritech_item1_part1": "Advocated for ",
+    "sustainable_agritech_item1_strong": "EU Anti-Deforestation Due Diligence (HRDD)",
+    "sustainable_agritech_item1_part2": " and NOP/EU Regulation updates through ICS digitization.",
+
+    "disarmament_title": "Disarmament and Arms Control:",
+    "disarmament_item1_part1": "Extensive background in",
+    "disarmament_item1_strong": "DDR processes, dual-use technology regulation, and international security frameworks",
+
+    "strategic_leadership_title": "Strategic Leadership:",
+    "strategic_leadership_item1_part1": "Led initiatives aligning organic agriculture with",
+    "strategic_leadership_item1_strong": "food security, climate resilience, and women's empowerment",
+    "strategic_leadership_item1_part2": " (66% female workforce at Ecopia).",
+
+    "professional_experience_title": "Professional Experience",
+
+    "ecopia_title_part1": "Founder & CEO,",
+    "ecopia_title_part2": "| Ecological Products of Ethiopia",
+    "ecopia_date": "(2006–Present)",
+    "ecopia_item1_part1": "Established ",
+    "ecopia_item1_strong": "Ethiopia's first organic food/cosmetic company",
+    "ecopia_item1_part2": ", sourcing from biosphere reserves and training 6,000+ farmers in organic practices.",
+    "ecopia_item2_part1": "Collaborated with",
+    "ecopia_item2_part2": " (German NGO) to develop an organic certification scheme, presented at Biofach 2024.",
+    "ecopia_item3_part1": "Integrated ",
+    "ecopia_item3_strong": "11,000+ smallholder farmers",
+    "ecopia_item3_part2": " into the organic supply chain, prioritizing women and marginalized groups (33% deaf-mute employees).",
+
+    "advisory_roles_title": "Advisory Roles",
+    "advisory_roles_item1_strong": "Ethiopian Organic Ecological Association",
+    "advisory_roles_item1_text": " Steering committee member (15+ years), instrumental in drafting Ethiopia's Organic Agriculture Regulation.",
+    "advisory_roles_item2_text": " Advisor and lead trainer for organic inspectors/auditors, ensuring compliance with international standards.",
+
+    "lecturer_speaker_title": "Lecturer & Speaker",
+    "lecturer_speaker_item1_strong": "Weihenstephan-Triesdorf University",
+    "lecturer_speaker_item1_text": " (Germany): Courses on empowering African agri-entrepreneurs.",
+    "lecturer_speaker_item2_part1": "International Forums: Keynote speaker at ",
+    "lecturer_speaker_item2_strong": "AU Conferences on Ecological Agriculture",
+    "lecturer_speaker_item2_part2": " (2008), advocating for organic farming as a climate solution.",
+
+    "tgm_group_title": "Founder and Initiator, TGM Group",
+    "tgm_group_date": "(2023–Present)",
+    "tgm_group_item1_part1": "Established TGM Group to specialize in ",
+    "tgm_group_item1_strong": "security and defense solutions",
+    "tgm_group_item1_part2": ", with a focus on integrating advanced technologies and innovative strategies to address contemporary security challenges.",
+    "tgm_group_item2_part1": "Led the development of comprehensive solutions including",
+    "tgm_group_item2_strong": "laboratory training, software development, and capacity-building",
+    "tgm_group_item2_part2": " initiatives for enhancing trade security and resilience across Africa.",
+    "tgm_group_item3": "Collaborated with international organizations and African institutions to strengthen security frameworks and promote regional stability.",
+
+    "ecopia_seratera_title_part1": "CEO,",
+    "ecopia_seratera_title_part2": "| Founder,",
+    "ecopia_seratera_date": "(2006–Present)",
+    "ecopia_seratera_item1_part1": "Lead a consortium of ",
+    "ecopia_seratera_item1_strong": "universities, NGOs, and private sector entities",
+    "ecopia_seratera_item1_part2": " in establishing business incubation centers to support African youth startups.",
+    "ecopia_seratera_item2_part1": "Pioneered initiatives that integrate",
+    "ecopia_seratera_item2_strong": "disarmament policies with social enterprise development",
+    "ecopia_seratera_item2_part2": " in Ethiopia and South Sudan.",
+    "ecopia_seratera_item3": "Advocate for the role of natural products and biosphere reserves in promoting peace and security.",
+
+    "advisor_governments_title": "Advisor, to African Governments",
+    "advisor_governments_date": "(Ongoing)",
+    "advisor_governments_item1_strong": "Assistance Professor and advisor",
+    "advisor_governments_item1_text": " in security and defense solutions, with a focus on integrating advanced technologies and innovative strategies to address contemporary security challenges.",
+    "advisor_governments_item2_part1": "Provided strategic guidance on the development of",
+    "advisor_governments_item2_strong": "regulations for herbal medicinal plants",
+    "advisor_governments_item3_part1": "Collaborated with ",
+    "advisor_governments_item3_strong": "six ministries",
+    "advisor_governments_item3_part2": " to enhance community involvement in natural product development and its implications for peacebuilding and security.",
+
+    "lecturer_public_speaker_title": "Lecturer and Public Speaker",
+    "lecturer_public_speaker_date": "(1996–Present)",
+    "lecturer_public_speaker_item1_strong": "Assistance Professor in Jimma University",
+    "lecturer_public_speaker_item1_text": " (2024-Present) actively contributing to the establishment of the Political Science Department with a focus on the ethics of multidisciplinary sciences.",
+    "lecturer_public_speaker_item2_part1": "Lecturer, ",
+    "lecturer_public_speaker_item2_strong": "Weihenstephan-Triesdorf University",
+    "lecturer_public_speaker_item2_part2": " of Applied Sciences, Germany (2022–Present): Teaching courses on \"Empowering African Entrepreneurs in Agriculture\" and \"Entrepreneurship and Business Development in Africa.\"",
+    "lecturer_public_speaker_item3_part1": "Delivered lectures on ",
+    "lecturer_public_speaker_item3_strong": "Arms Control, Disarmament, and Dual-Use Technology",
+    "lecturer_public_speaker_item3_part2": " at various institutions.",
+    "lecturer_public_speaker_item4_part1": "Speaker at international forums such as ",
+    "lecturer_public_speaker_item4_strong": "Pugwash Conferences",
+    "lecturer_public_speaker_item4_part2": " on Science and World Affairs, addressing the intersection of disarmament and development in Africa.",
+
+    "opcw_title": "Advisor and Representative, OPCW (Organization for the Prohibition of Chemical Weapons)",
+    "opcw_date": "(2003–2010)",
+    "opcw_item1_part1": "Served as an advisor and representative to the ",
+    "opcw_item1_strong": "OPCW Preparatory Commission",
+    "opcw_item1_part2": " in Brussels, liaising with NATO, international organizations, and embassies without representation in The Hague.",
+    "opcw_item2_part1": "Facilitated ",
+    "opcw_item2_strong": "diplomatic engagement and multilateral negotiations",
+    "opcw_item2_part2": " to promote the nonproliferation of chemical, biological, and nuclear weapons.",
+    "opcw_item3_part1": "Played a key role in ensuring the implementation of ",
+    "opcw_item3_strong": "disarmament agreements",
+    "opcw_item3_part2": " across multiple nations, contributing to global security efforts.",
+
+    "eurocontact_title": "Manager, EuroContact",
+    "eurocontact_date": "(1998–2010)",
+    "eurocontact_item1_part1": "Managed ",
+    "eurocontact_item1_strong": "strategic consulting projects",
+    "eurocontact_item1_part2": " focused on international and European business development.",
+    "eurocontact_item2_part1": "Advised on ",
+    "eurocontact_item2_strong": "dual-use technology",
+    "eurocontact_item2_part2": " and its impact on arms control and nonproliferation efforts.",
+    "eurocontact_item3_part1": "Led projects that facilitated the conversion of ",
+    "eurocontact_item3_strong": "military technologies",
+    "eurocontact_item3_part2": " to private sector applications.",
+
+    "harvard_sussex_title": "Researcher, Harvard Sussex Program",
+    "harvard_sussex_date": "(2008–2010)",
+    "harvard_sussex_item1_part1": "Conducted research on ",
+    "harvard_sussex_item1_strong": "chemical and biological weapons",
+    "harvard_sussex_item1_part2": " armament and arms limitation.",
+    "harvard_sussex_item2_part1": "Assisted in ",
+    "harvard_sussex_item2_strong": "international negotiations",
+    "harvard_sussex_item2_part2": " on arms control and arms limitation, providing policy recommendations based on research findings.",
+
+    "recent_initiatives_title": "Recent Initiatives",
+    "recent_initiatives_item1_part1": "Chair, ",
+    "recent_initiatives_item1_strong": "Steering Committee for Ethiopian Diaspora Women Association",
+    "recent_initiatives_item1_part2": " (2024)",
+    "recent_initiatives_item2_part1": "Founder,",
+    "recent_initiatives_item2_part2": " Consortium (2021-Present)",
+    "recent_initiatives_item3_part1": "Member, Board of ",
+    "recent_initiatives_item3_strong": "The North-South Bridges Foundation",
+    "recent_initiatives_item3_part2": " (2012-2019)",
+    "recent_initiatives_item4_part1": "Lecturer on ",
+    "recent_initiatives_item4_strong": "Entrepreneurship and Business Development in Africa",
+    "recent_initiatives_item4_part2": " (2022-Present)",
+
+    "publications_title": "Publications, Research, and Analysis",
+    "disarmament_publications_title": "Disarmament, Arms Control, and Security",
+    "publication1_title": "The Changing Nature of Security in the Horn of Africa:",
+    "publication1_text": " Effects on Traditional Regional and International Security Architecture. Published by Peter Lang Europäischer Verlag der Wissenschaften (2007).",
+    "publication2_title": "The Role of Verification in International Relations:",
+    "publication2_text": " Erfurt University Online Publication (2006).",
+    "publication3_title": "Perceived Needs for Information: Important Target Groups:",
+    "publication3_text": " Paper presented and published by OPCW-PTS at the Regional Seminar on National Implementation of the Chemical Weapons Convention in South Africa (September 1994).",
+    "publication4_title": "Progress and Constraints on the Ratification and Implementation of the Chemical Weapons Convention in African Signatory States:",
+    "publication4_text": " Paper presented and published by OPCW-PTS at the Regional Seminar in Côte d'Ivoire (June 1995).",
+    "publication5_title": "Why African States Have to Sign and Ratify the Chemical Weapons Convention:",
+    "publication5_text": " Paper presented and published by OPCW-PTS at the Regional Seminar in Addis Ababa, Ethiopia (November 1995).",
+
+    "presentations_title": "Publications and Presentations",
+    "presentation1_title": "TEDx Addis Ababa:",
+    "presentation1_text": " Discussed the role of social enterprises in conflict prevention and sustainable development in Africa.",
+    "presentation2_title": "Pugwash International Conferences:",
+    "presentation2_text": " Presented research on the impact of dual-use technology on arms control in developing countries.",
+    "presentation3_title": "German Television Networks (DWL and MDR):",
+    "presentation3_text": " Featured in discussions on disarmament and sustainable development."
+   },
+  "key_certification": {
+    "title": "Key Certifications & Services",
+    "eu_organic": {
+      "title": "EU ORGANIC",
+      "alt": "EU Organic Logo",
+      "description": "The first certification we will offer is EU Organic to enable the honey producers of Ethiopia."
+    },
+    "fairtrade": {
+      "title": "FAIRTRADE",
+      "alt": "Fairtrade Logo",
+      "description": "Fairtrade certification will be the secondary scheme we offer to further drive better price discovery for Ethiopian farmers."
+    },
+    "afcta": {
+      "title": "AFCTA",
+      "alt": "AFCTA Logo",
+      "description": "With the AfCTA being enacted, we will be one of the first African certifiers, designing and certifying for the purposes of the AfCTA."
+    },
+    "eco_software": {
+      "title": "ECO CERTIFICATION SOFTWARE",
+      "alt": "Eco Certification Software Logo",
+      "description": "Together with Ecopia, we will roll out our ARGUS DIGITAL Program software that allows easier compliance for farmers and digital-based certification for certifiers."
+    }
+  
+
+
 
 
   
-}
+  }
+  }

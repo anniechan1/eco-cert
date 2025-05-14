@@ -292,9 +292,9 @@ function NavbarOption1() {
                 <Link to="/our-team" className="dropdown-link-organic team-link" onClick={closeMobileMenu}>
                   {t("about_team")}
                 </Link>
-                <Link to="/founder" className="dropdown-link-organic founder-link" onClick={closeMobileMenu}>
-                  About the Founder
-                </Link>
+               <Link to="/founder" className="dropdown-link-organic founder-link" onClick={closeMobileMenu}>
+  {t("about_founder")}
+</Link>
               </div>
               <Link to="/our-method" className="dropdown-link-organic" onClick={closeMobileMenu}>
                 {t("about_method")}

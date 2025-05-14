@@ -1,14 +1,16 @@
-import React from 'react';
-import './KeyCertification.css';
-import ScrollToTop from '../ScrollToTop';
+import "./KeyCertification.css"
+import ScrollToTop from "../ScrollToTop"
+import { useTranslation } from "react-i18next"
 
 function KeyCertification() {
+  const { t } = useTranslation()
+
   return (
     <>
       <ScrollToTop />
       <div className="page-container">
         <div className="page-header">
-          <h1>KEY CERTIFICATIONS & SERVICES</h1>
+          <h1>{t("key_certification.title")}</h1>
           <div className="leaf-divider">
             <span className="divider-line"></span>
             <i className="fas fa-leaf"></i>
@@ -19,47 +21,39 @@ function KeyCertification() {
         <div className="certifications-grid">
           <div className="certification-item">
             <div className="certification-logo">
-              <img src="/images/eu.jpg" alt="EU Organic Logo" />
+              <img src="/images/eu.jpg" alt={t("key_certification.eu_organic.alt")} />
             </div>
-            <div className="certification-title">EU ORGANIC</div>
-            <div className="certification-description">
-              The first certification we will offer is EU Organic to enable the honey producers of Ethiopia.
-            </div>
+            <div className="certification-title">{t("key_certification.eu_organic.title")}</div>
+            <div className="certification-description">{t("key_certification.eu_organic.description")}</div>
           </div>
-          
+
           <div className="certification-item">
             <div className="certification-logo">
-              <img src="/images/fairtrade-logo.png" alt="Fairtrade Logo" />
+              <img src="/images/fairtrade-logo.png" alt={t("key_certification.fairtrade.alt")} />
             </div>
-            <div className="certification-title">FAIRTRADE</div>
-            <div className="certification-description">
-              Fairtrade certification will be the secondary scheme we offer to further drive better price discovery for Ethiopian farmers.
-            </div>
+            <div className="certification-title">{t("key_certification.fairtrade.title")}</div>
+            <div className="certification-description">{t("key_certification.fairtrade.description")}</div>
           </div>
-          
+
           <div className="certification-item">
             <div className="certification-logo">
-              <img src="/images/afcta-logo.png" alt="AFCTA Logo" />
+              <img src="/images/afcta-logo.png" alt={t("key_certification.afcta.alt")} />
             </div>
-            <div className="certification-title">AFCTA</div>
-            <div className="certification-description">
-              With the AfCTA being enacted, we will be one of the first African certifiers, designing and certifying for the purposes of the AfCTA.
-            </div>
+            <div className="certification-title">{t("key_certification.afcta.title")}</div>
+            <div className="certification-description">{t("key_certification.afcta.description")}</div>
           </div>
-          
+
           <div className="certification-item">
             <div className="certification-logo">
-              <img src="/images/ecopia-logo.png" alt="Eco Certification Software Logo" />
+              <img src="/images/ecopia-logo.png" alt={t("key_certification.eco_software.alt")} />
             </div>
-            <div className="certification-title">ECO CERTIFICATION SOFTWARE</div>
-            <div className="certification-description">
-              Together with Ecopia, we will roll out our ARGUS DIGITAL Program software that allows easier compliance for farmers and digital-based certification for certifiers.
-            </div>
+            <div className="certification-title">{t("key_certification.eco_software.title")}</div>
+            <div className="certification-description">{t("key_certification.eco_software.description")}</div>
           </div>
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default KeyCertification;
+export default KeyCertification
