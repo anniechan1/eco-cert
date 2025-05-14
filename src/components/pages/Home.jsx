@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <HeroOption1 />
-      <HomeAboutSection /> {/* Change to designOption={2} to see the second design */}
+      <HomeAboutSection />
     
     </>
   );

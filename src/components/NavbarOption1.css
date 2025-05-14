@@ -1,6 +1,6 @@
 .navbar-organic {
   background: linear-gradient(to right, #f5f2e9, #e7dfc6);
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  padding: 0 20px;
+  padding: 0 10px 0 0; /* Adjusted padding to move logo more to the left */
 }
 
 .navbar-logo-organic {
@@ -28,6 +28,7 @@
   font-size: 1.8rem;
   font-weight: 700;
   transition: color 0.3s ease;
+  margin-left: -20px; /* Increased negative margin to move logo more to the left */
 }
 
 .logo-text {
@@ -54,20 +55,20 @@
 
 .nav-item-organic {
   position: relative;
-  height: 80px;
+  height: 90px;
   display: flex;
   align-items: center;
-  padding: 0 8px; /* Add padding similar to language dropdown */
+  padding: 0 8px;
 }
 
-/* Add hover bridge to all nav items, similar to language dropdown */
+/* Reduced height of hover bridge */
 .nav-item-organic::after {
   content: "";
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  height: 20px; /* Create an invisible bridge to the dropdown */
+  height: 5px;
   background-color: transparent;
 }
 
@@ -81,47 +82,49 @@
   cursor: pointer;
   position: relative;
   transition: color 0.3s ease;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .nav-links-organic i {
   margin-left: 6px;
   font-size: 0.8rem;
-  /* Remove transform transition */
 }
 
 .nav-links-organic:hover {
   color: #7ea87e;
 }
 
-
-
 .nav-links-organic::after {
   content: "";
   position: absolute;
-  bottom: 20px;
+  bottom: 25px;
   left: 16px;
   width: 0;
   height: 2px;
   background-color: #7ea87e;
-  /* Remove width transition */
 }
 
 .nav-links-organic:hover::after {
   width: calc(100% - 32px);
+  transition: width 0.3s ease;
 }
 
+/* Change this line to remove the gap between navbar and dropdown */
 .dropdown-menu-organic {
   display: none;
   position: absolute;
-  top: calc(100% + 15px); /* Position it below the invisible bridge, same as language dropdown */
+  top: 90px; /* Changed from calc(100% + 0px) to match navbar height exactly */
   left: 0;
   background-color: #f9f7f0;
   min-width: 220px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  border-radius: 8px; /* Make it consistent with language dropdown */
+  border-radius: 8px;
   padding: 10px 0;
   z-index: 1;
-  /* Remove transitions */
+  transition: opacity 0.2s ease;
+  opacity: 0;
+  margin-top: -1px; /* Added negative margin to eliminate any remaining gap */
 }
 
 /* Fix for Services dropdown - make it wider to prevent text wrapping */
@@ -129,9 +132,9 @@
   min-width: 280px;
 }
 
-/* Remove the transform and opacity properties to match language dropdown behavior */
 .nav-item-organic:hover .dropdown-menu-organic {
   display: block;
+  opacity: 1;
 }
 
 .dropdown-link-organic {
@@ -139,19 +142,35 @@
   color: #4a4a4a;
   padding: 12px 20px;
   text-decoration: none;
-  transition: color 0.3s ease; /* Keep only color transition */
+  transition: all 0.3s ease;
   position: relative;
-  white-space: nowrap; /* Prevent text wrapping */
+  white-space: nowrap;
+  font-size: 1rem;
 }
 
+/* Reverted back to original highlight color */
 .dropdown-link-organic:hover {
   background-color: rgba(126, 168, 126, 0.1);
   color: #7ea87e;
 }
 
-/* Remove the vertical bar effect */
 .dropdown-link-organic::before {
   display: none;
+}
+
+/* Team and Founder side by side */
+.team-founder-container {
+  display: flex;
+  width: 100%;
+}
+
+.team-link {
+  flex: 1;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.founder-link {
+  flex: 1;
 }
 
 .nav-icons-organic {
@@ -168,7 +187,7 @@
   color: #4a4a4a;
   font-size: 1.2rem;
   cursor: pointer;
-  transition: color 0.3s ease; /* Keep only color transition */
+  transition: color 0.3s ease;
 }
 
 .search-icon:hover {
@@ -202,13 +221,11 @@
   width: 80%;
   max-width: 600px;
   position: relative;
-  /* Remove transform */
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
 .search-overlay.active .search-input-wrapper {
-  /* Remove transform */
   opacity: 1;
 }
 
@@ -234,7 +251,7 @@
   color: #7ea87e;
   font-size: 1.2rem;
   cursor: pointer;
-  transition: color 0.3s ease; /* Keep only color transition */
+  transition: color 0.3s ease;
 }
 
 .search-button:hover {
@@ -249,7 +266,8 @@
   padding: 8px 16px;
   border-radius: 20px;
   border: 2px solid transparent;
-  transition: color 0.3s ease; /* Keep only color transition */
+  transition: all 0.3s ease;
+  font-size: 1.05rem;
 }
 
 .contact-link-organic:hover {
@@ -257,64 +275,80 @@
   border-color: #7ea87e;
 }
 
+/* Simplified language dropdown */
 .language-dropdown-organic {
   position: relative;
   cursor: pointer;
-  padding: 8px; /* Add padding to increase hover area */
+  padding: 8px;
+  height: 90px; /* Match the height of the navbar */
+  display: flex;
+  align-items: center;
 }
 
-/* Fix for language dropdown hover issue */
 .language-dropdown-organic::after {
   content: "";
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  height: 20px; /* Create an invisible bridge to the dropdown */
+  height: 5px;
   background-color: transparent;
 }
 
 .language-dropdown-organic i {
   color: #4a4a4a;
-  font-size: 1.2rem;
-  transition: color 0.3s ease; /* Keep only color transition */
+  font-size: 1.3rem;
+  transition: color 0.3s ease;
 }
 
 .language-dropdown-organic:hover i {
   color: #7ea87e;
 }
 
-/* Make language dropdown consistent with main dropdowns */
+/* Adjust the language menu to match other dropdowns */
 .language-menu-organic {
   display: none;
   position: absolute;
-  top: calc(100% + 15px);
+  top: 90px; /* Match the navbar height exactly */
   right: 0;
   background-color: #f9f7f0;
-  min-width: 120px;
+  min-width: 80px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 8px 0;
   z-index: 1;
-  /* Remove transitions */
+  transition: opacity 0.2s ease;
+  opacity: 0;
+  margin-top: -1px; /* Added negative margin to eliminate any remaining gap */
 }
 
 .language-dropdown-organic:hover .language-menu-organic {
   display: block;
+  opacity: 1;
 }
 
+/* Simplified language options */
 .language-option-organic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   padding: 10px 16px;
   color: #4a4a4a;
-  transition: color 0.3s ease; /* Keep only color transition */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
 }
 
+/* Reverted back to original highlight color */
 .language-option-organic:hover {
   background-color: rgba(126, 168, 126, 0.1);
   color: #7ea87e;
 }
 
-/* Add active state for language options */
 .language-option-organic.active {
   background-color: rgba(126, 168, 126, 0.1);
   color: #7ea87e;
@@ -328,7 +362,6 @@
   cursor: pointer;
 }
 
-/* Remove animation keyframes */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -338,26 +371,25 @@
   }
 }
 
-
-
-/* Add this to your existing NavbarOption1.css */
+/* Increased logo size */
 .logo-img {
-  height: 70px; /* Increase this value to make the logo bigger (was 50px) */
+  height: 85px;
   width: auto;
 }
 
+/* Update mobile styles to maintain consistency */
 @media screen and (max-width: 960px) {
   .navbar-organic {
-    height: 70px;
+    height: 80px;
   }
 
   .nav-menu-organic {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 80px);
     position: absolute;
-    top: 70px;
+    top: 80px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -395,10 +427,32 @@
     top: auto;
     animation: none;
     border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+    padding-left: 20px;
+  }
+
+  .language-dropdown-organic {
+    height: 80px; /* Match mobile navbar height */
+  }
+
+  .language-menu-organic {
+    top: 80px; /* Match mobile navbar height */
+    right: 0;
   }
 
   .dropdown-link-organic {
     padding: 15px 40px;
+  }
+
+  /* Mobile styles for team-founder container */
+  .team-founder-container {
+    flex-direction: column;
+  }
+
+  .team-link {
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .menu-icon-organic {
@@ -414,18 +468,18 @@
   }
 
   .nav-item-organic::after {
-    display: none; /* Remove the hover bridge on mobile */
+    display: none;
   }
 
   .logo-img {
-    height: 55px; /* Increase this value for mobile screens (was 40px) */
+    height: 65px;
   }
 }
 
-/* Add styles for search results */
+/* Search results styles */
 .search-results {
   position: fixed;
-  top: 80px;
+  top: 90px;
   left: 0;
   right: 0;
   max-width: 800px;
@@ -510,51 +564,8 @@
 
 @media screen and (max-width: 960px) {
   .search-results {
-    top: 70px;
+    top: 80px;
     max-width: 100%;
     border-radius: 0;
-  }
-}
-
-
-/* Add these styles to your existing CSS */
-.dropdown-item-with-children {
-  position: relative;
-}
-
-.team-dropdown-right {
-  display: none;
-  position: absolute;
-  left: 100%; /* Position to the right */
-  top: 0;     /* Align with the top of the parent */
-  background-color: #f9f7f0;
-  min-width: 180px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-  border-radius: 8px;
-  padding: 10px 0;
-  z-index: 1;
-}
-
-.dropdown-item-with-children:hover .team-dropdown-right {
-  display: block;
-}
-
-/* Make the entire dropdown item change color on hover */
-.dropdown-link-organic:hover {
-  background-color: rgba(126, 168, 126, 0.1);
-  color: #7ea87e;
-}
-
-/* For mobile responsiveness */
-@media screen and (max-width: 960px) {
-  .team-dropdown-right {
-    position: static;
-    box-shadow: none;
-    padding-left: 20px;
-    display: none;
-  }
-  
-  .dropdown-item-with-children.active .team-dropdown-right {
-    display: block;
   }
 }

@@ -16,7 +16,12 @@ function NavbarOption1() {
 
   const handleLanguageChange = (lang) => {
     i18n.changeLanguage(lang)
+    // Store the language preference in localStorage
+    localStorage.setItem("preferredLanguage", lang)
   }
+
+  // Get current language
+  const currentLanguage = i18n.language || "en"
 
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
@@ -283,20 +288,14 @@ function NavbarOption1() {
               <Link to="/history" className="dropdown-link-organic" onClick={closeMobileMenu}>
                 {t("about_history")}
               </Link>
-
-
-         <li className="dropdown-item-with-children">
-  <Link to="/our-team" className="dropdown-link-organic" onClick={closeMobileMenu}>
-    {t("about_team")}
-  </Link>
-  <div className="nested-dropdown team-dropdown-right">
-    <Link to="/founder" className="dropdown-link-organic" onClick={closeMobileMenu}>
-      About the Founder
-    </Link>
-  </div>
-</li>
-
-
+              <div className="team-founder-container">
+                <Link to="/our-team" className="dropdown-link-organic team-link" onClick={closeMobileMenu}>
+                  {t("about_team")}
+                </Link>
+                <Link to="/founder" className="dropdown-link-organic founder-link" onClick={closeMobileMenu}>
+                  About the Founder
+                </Link>
+              </div>
               <Link to="/our-method" className="dropdown-link-organic" onClick={closeMobileMenu}>
                 {t("about_method")}
               </Link>
@@ -314,10 +313,9 @@ function NavbarOption1() {
               {t("certifications")} <i className="fas fa-caret-down"></i>
             </span>
             <div className="dropdown-menu-organic">
-               <Link to="/key-certification" className="dropdown-link-organic" onClick={closeMobileMenu}>
+              <Link to="/key-certification" className="dropdown-link-organic" onClick={closeMobileMenu}>
                 Certifications & Services
               </Link>
-
               <Link to="/organic-certification" className="dropdown-link-organic" onClick={closeMobileMenu}>
                 {t("cert_scope")}
               </Link>
@@ -386,10 +384,18 @@ function NavbarOption1() {
             <i className="fas fa-globe" aria-hidden="true"></i>
 
             <div className="language-menu-organic" role="menu">
-              <button className="language-option-organic" onClick={() => handleLanguageChange("en")} role="menuitem">
+              <button
+                className={`language-option-organic ${currentLanguage === "en" ? "active" : ""}`}
+                onClick={() => handleLanguageChange("en")}
+                role="menuitem"
+              >
                 EN
               </button>
-              <button className="language-option-organic" onClick={() => handleLanguageChange("de")} role="menuitem">
+              <button
+                className={`language-option-organic ${currentLanguage === "de" ? "active" : ""}`}
+                onClick={() => handleLanguageChange("de")}
+                role="menuitem"
+              >
                 DE
               </button>
             </div>
