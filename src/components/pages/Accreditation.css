@@ -1,266 +1,130 @@
-.page-container {
+.accreditation-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px 80px;
+  padding: 2rem 1rem 4rem;
   font-family: "Lato", sans-serif;
-  color: #4a4a4a;
-  background-color: #fcfbf7;
 }
 
 .page-header {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 3rem;
 }
 
 .page-header h1 {
   color: #5f8c5f;
-  font-size: 36px;
-  font-weight: 500;
-  margin-bottom: 15px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .leaf-divider {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 1.5rem 0;
 }
 
 .divider-line {
   height: 1px;
   width: 80px;
-  background-color: #d5d1b7;
-  margin: 0 15px;
+  background-color: #7ea87e;
+  margin: 0 10px;
 }
 
 .leaf-divider i {
   color: #7ea87e;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
-.two-column-layout {
+.accreditation-content {
   display: flex;
-  gap: 30px;
-  margin-bottom: 40px;
-  height: auto; /* Remove fixed height */
+  gap: 3rem;
+  align-items: flex-start;
 }
 
-.column-item {
-  flex: 1;
-  min-width: 0; /* Prevents flex items from overflowing */
+.accreditation-text {
+  flex: 3;
 }
 
-.image-card {
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  height: auto; /* Changed to auto to maintain proper proportions */
-  aspect-ratio: 4608 / 3456; /* Added to maintain the original image aspect ratio */
-}
-
-.small-image {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  display: block;
-  transition: transform 0.5s ease;
-}
-
-.image-card:hover .small-image {
-  transform: scale(1.05);
-}
-
-.content-text {
-  background-color: white;
-  border-radius: 12px;
-  padding: 30px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  margin-bottom: 40px;
-}
-
-.content-text p {
-  font-size: 16px;
-  line-height: 1.7;
-  margin-bottom: 20px;
-}
-
-.content-text p:last-child {
-  margin-bottom: 0;
-}
-
-.highlight-text {
-  color: #5f8c5f;
-  font-weight: 600;
-}
-
-.highlight-link {
-  color: #5f8c5f;
-  font-weight: 600;
-  text-decoration: none;
-  position: relative;
-  transition: color 0.3s ease;
-}
-
-.highlight-link:hover {
-  color: #7ea87e;
-}
-
-.highlight-link::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: -2px;
-  left: 0;
-  background-color: #5f8c5f;
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.3s ease;
-}
-
-.highlight-link:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-/* Add these new styles for the mission section and photo placeholders */
-.section-divider {
-  height: 1px;
-  background-color: rgba(126, 168, 126, 0.2);
-  margin: 40px 0;
-}
-
-.section-title {
-  color: #5f8c5f;
-  font-size: 24px;
-  margin-bottom: 20px;
-  font-weight: 500;
-  position: relative;
-  padding-bottom: 10px;
-}
-
-.section-title::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 60px;
-  height: 2px;
-  background-color: #7ea87e;
-}
-
-.mission-list {
-  padding-left: 20px;
-  margin-bottom: 20px;
-  list-style-type: none;
-}
-
-.mission-list li {
-  position: relative;
-  padding-left: 15px;
-  margin-bottom: 10px;
+.intro-text {
+  font-size: 1.1rem;
   line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #4a4a4a;
 }
 
-.mission-list li::before {
-  content: "•";
-  color: #7ea87e;
-  font-weight: bold;
-  position: absolute;
-  left: 0;
+.accreditation-list {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
 }
 
-.photo-placeholder {
-  width: 100%;
-  height: 240px;
-  background-color: rgba(126, 168, 126, 0.1);
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #7ea87e;
+.accreditation-list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
+.commitment-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #4a4a4a;
+}
+
+.thank-you {
   font-style: italic;
-  border: 1px dashed rgba(126, 168, 126, 0.3);
+  color: #5f8c5f;
+  font-weight: 600;
+  margin-top: 2rem;
 }
 
-/* New styles for the three-image grid */
-.image-grid-three {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin-bottom: 40px;
-  height: auto; /* Remove fixed height */
+.accreditation-image {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  position: relative; /* Add this */
 }
 
-.grid-image-item {
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+.accreditation-img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 4px solid #e7dfc6;
+  background: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block; /* Add this */
+  position: relative; /* Add this */
+  z-index: 1; /* Add this */
 }
-
-/* Adjust heights based on image proportions */
-.grid-image-item:nth-child(1) {
-  /* For bean.jpg (landscape) */
-  height: 250px;
-}
-
-.grid-image-item:nth-child(2) {
-  /* For bean1.jpg (portrait) */
-  height: 300px;
-}
-
-.grid-image-item:nth-child(3) {
-  /* For cooperate.jpg */
-  height: 250px;
-}
-
-.grid-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.5s ease;
-}
-
-.grid-image-item:hover .grid-image {
-  transform: scale(1.05);
-}
-
-@media screen and (max-width: 900px) {
-  .image-grid-three {
-    grid-template-columns: 1fr 1fr; /* Two columns on tablet */
-  }
-
-  .grid-image-item:nth-child(3) {
-    grid-column: span 2; /* Make the third image span both columns */
-    height: 250px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .two-column-layout {
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .accreditation-content {
     flex-direction: column;
-    gap: 20px;
   }
 
-  .image-card {
-    height: 250px; /* Smaller height on mobile */
+  .accreditation-image {
+    order: -1;
+    margin-bottom: 2rem;
   }
 
-  .content-text {
-    padding: 25px;
+  .accreditation-img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-header h1 {
+    font-size: 2rem;
   }
 
-  .content-text p {
-    font-size: 15px;
-  }
-
-  .image-grid-three {
-    grid-template-columns: 1fr; /* One column on mobile */
-  }
-
-  .grid-image-item:nth-child(n) {
-    grid-column: span 1;
-    height: 250px; /* Consistent height on mobile */
+  .accreditation-img {
+    max-width: 100%;
   }
 }
