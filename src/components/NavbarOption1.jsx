@@ -283,9 +283,20 @@ function NavbarOption1() {
               <Link to="/history" className="dropdown-link-organic" onClick={closeMobileMenu}>
                 {t("about_history")}
               </Link>
-              <Link to="/our-team" className="dropdown-link-organic" onClick={closeMobileMenu}>
-                {t("about_team")}
-              </Link>
+
+
+         <li className="dropdown-item-with-children">
+  <Link to="/our-team" className="dropdown-link-organic" onClick={closeMobileMenu}>
+    {t("about_team")}
+  </Link>
+  <div className="nested-dropdown team-dropdown-right">
+    <Link to="/founder" className="dropdown-link-organic" onClick={closeMobileMenu}>
+      About the Founder
+    </Link>
+  </div>
+</li>
+
+
               <Link to="/our-method" className="dropdown-link-organic" onClick={closeMobileMenu}>
                 {t("about_method")}
               </Link>
@@ -303,6 +314,10 @@ function NavbarOption1() {
               {t("certifications")} <i className="fas fa-caret-down"></i>
             </span>
             <div className="dropdown-menu-organic">
+               <Link to="/key-certification" className="dropdown-link-organic" onClick={closeMobileMenu}>
+                Certifications & Services
+              </Link>
+
               <Link to="/organic-certification" className="dropdown-link-organic" onClick={closeMobileMenu}>
                 {t("cert_scope")}
               </Link>

@@ -1,0 +1,171 @@
+.founder-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  color: #4a4a4a;
+  font-family: "Lato", sans-serif;
+}
+
+.founder-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.founder-header h1 {
+  color: #5f8c5f;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.founder-header h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #7ea87e;
+  margin-top: 0;
+}
+
+.founder-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.founder-sidebar {
+  flex: 1;
+  max-width: 300px;
+}
+
+.founder-image-container {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.founder-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #e7dfc6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.founder-sidebar-content {
+  text-align: center;
+}
+
+.founder-roles {
+  margin-top: 1rem;
+}
+
+.founder-roles p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.external-link {
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  border-bottom: 1px dotted #4a4a4a;
+}
+
+.external-link:hover {
+  color: #7ea87e;
+  border-bottom-color: #7ea87e;
+}
+
+.founder-content {
+  flex: 3;
+}
+
+.founder-section {
+  margin-bottom: 2rem;
+}
+
+.founder-section h2 {
+  color: #5f8c5f;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e7dfc6;
+  padding-bottom: 0.5rem;
+}
+
+/* Updated to make h3 headings the same color as regular text */
+.founder-section h3 {
+  color: #4a4a4a;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.founder-section p,
+.founder-section li {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.founder-section ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.founder-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.experience-item {
+  margin-bottom: 1.5rem;
+}
+
+.experience-date {
+  font-style: italic;
+  color: #7c7c7c;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.publications-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.publications-list li {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.publications-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #7ea87e;
+}
+
+strong {
+  color: #5f8c5f;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .founder-container {
+    flex-direction: column;
+  }
+
+  .founder-sidebar {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .founder-header h1 {
+    font-size: 2rem;
+  }
+
+  .founder-header h2 {
+    font-size: 1.25rem;
+  }
+
+  .founder-image {
+    width: 200px;
+    height: 200px;
+  }
+}

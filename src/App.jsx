@@ -26,6 +26,8 @@ import Sitemap from "./components/pages/Sitemap"
 import CookiePolicy from "./components/pages/CookiePolicy"
 import CookieConsent from "./components/CookieConsent"
 import OurTeam from "./components/pages/OurTeam"
+import Founder from './components/pages/Founder';
+import KeyCertification from './components/pages/KeyCertification';
 import "./App.css"
 
 function App() {
@@ -40,10 +42,12 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/history" element={<History />} />
           <Route path="/our-team" element={<OurTeam />} />
+          <Route path="/founder" element={<Founder />} />
           <Route path="/our-method" element={<OurMethod />} />
           <Route path="/sustainability" element={<Sustainability />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/application" element={<ApplicationForm />} />
+           <Route path="/key-certification" element={<KeyCertification />} />
           <Route path="/organic-certification" element={<OrganicCertification />} />
           <Route path="/services/farmer-training" element={<FarmerTraining />} />
           <Route path="/certification-process" element={<CertificationProcess />} />

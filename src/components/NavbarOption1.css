@@ -515,3 +515,46 @@
     border-radius: 0;
   }
 }
+
+
+/* Add these styles to your existing CSS */
+.dropdown-item-with-children {
+  position: relative;
+}
+
+.team-dropdown-right {
+  display: none;
+  position: absolute;
+  left: 100%; /* Position to the right */
+  top: 0;     /* Align with the top of the parent */
+  background-color: #f9f7f0;
+  min-width: 180px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.dropdown-item-with-children:hover .team-dropdown-right {
+  display: block;
+}
+
+/* Make the entire dropdown item change color on hover */
+.dropdown-link-organic:hover {
+  background-color: rgba(126, 168, 126, 0.1);
+  color: #7ea87e;
+}
+
+/* For mobile responsiveness */
+@media screen and (max-width: 960px) {
+  .team-dropdown-right {
+    position: static;
+    box-shadow: none;
+    padding-left: 20px;
+    display: none;
+  }
+  
+  .dropdown-item-with-children.active .team-dropdown-right {
+    display: block;
+  }
+}
