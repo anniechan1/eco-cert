@@ -424,5 +424,715 @@
         "Der Ausschuss trifft sich vierteljährlich, um unsere Tätigkeiten zu überprüfen und sicherzustellen, dass alle Zertifizierungsentscheidungen mit vollständiger Unabhängigkeit und unter Einhaltung internationaler Standards getroffen werden."
       ]
     }
+  },
+
+  "international_standards": {
+    "title": "Einhaltung internationaler Standards",
+    "intro": "Wir halten uns strikt an:",
+    "logos": {
+      "iso": "ISO-Zertifizierung",
+      "ifoam": "IFOAM-Zertifizierung",
+      "eu": "EU-Bio-Zertifizierung",
+      "usda": "USDA NOP-Zertifizierung"
+    },
+    "standards": [
+      {
+        "name": "ISO/IEC 17065",
+        "description": "Konformitätsbewertung für Zertifizierungsstellen"
+      },
+      {
+        "name": "IFOAM-Normen",
+        "description": "Beste Praktiken in der Bio-Zertifizierung"
+      },
+      {
+        "name": "EU-Bio-Verordnung",
+        "description": "Europäische Standards (2018/848)"
+      },
+      {
+        "name": "USDA NOP",
+        "description": "US National Organic Program"
+      }
+    ],
+    "traceability": {
+      "title": "Rückverfolgbarkeit & Transparenz",
+      "paragraph1": "Wir gewährleisten vollständige Rückverfolgbarkeit und Transparenz in der gesamten Lieferkette, unterstützt durch robuste Dokumentation und Prüfpfade. Unsere Systeme ermöglichen die Überprüfung in jedem Schritt des Prozesses, vom Bauernhof bis zum Endprodukt, und sichern so die Integrität der zertifizierten Produkte.",
+      "paragraph2": "Unsere digitale Plattform verbessert diese Rückverfolgbarkeit, indem sie Echtzeitzugriff auf Zertifizierungsdaten bietet und es den Beteiligten ermöglicht, den Compliance-Status zu überprüfen und Produktwege mit Vertrauen zu verfolgen."
+    }
+  },
+
+  "farmer_training": {
+    "title": "Schulung & Bildung",
+    "intro": "Stärkung von Landwirten, Inspektoren & Auditoren für nachhaltigen Erfolg",
+    "description": "Als Teil unserer Mission bieten wir umfassende Schulungsprogramme an, die darauf ausgerichtet sind, Wissen aufzubauen, Praktiken zu verbessern und die vollständige Einhaltung internationaler Bio-Standards zu gewährleisten. Unsere Schulungsangebote sind auf den einzigartigen landwirtschaftlichen Kontext Äthiopiens zugeschnitten und an globalen Best Practices ausgerichtet.",
+    "farmers": {
+      "title": "Für Landwirte & Produzenten",
+      "intro": "Wir befähigen Landwirte:",
+      "points": [
+        {
+          "title": "Bio-Standards verstehen:",
+          "description": "Klare Anleitung zu EU-Bio, USDA NOP und anderen globalen Standards."
+        },
+        {
+          "title": "Betriebsmanagement verbessern:",
+          "description": "Techniken zur Bodenfruchtbarkeit, Schädlings- und Unkrautbekämpfung, Fruchtfolge und Förderung der Biodiversität."
+        },
+        {
+          "title": "Buchführung & Dokumentation:",
+          "description": "Schulung in Rückverfolgbarkeit und Compliance-Dokumentation."
+        },
+        {
+          "title": "Zertifizierungsbereitschaft:",
+          "description": "Schrittweise Vorbereitung auf Audits und Zertifizierungsprozesse."
+        }
+      ],
+      "programs_title": "Spezielle Programme umfassen:",
+      "programs": [
+        "Workshops für Kleinbauerngenossenschaften.",
+        "Praktische Sitzungen auf dem Bauernhof.",
+        "Digitale Ressourcen und Handbücher in lokalen Sprachen."
+      ],
+      "images": {
+        "young_farmer": "Junge Landwirtin lernt nachhaltige Praktiken",
+        "workshop": "Schulungsworkshop für Landwirte",
+        "sustainable_practices": "Nachhaltige landwirtschaftliche Praktiken"
+      }
+    },
+    "inspectors": {
+      "title": "Für Inspektoren",
+      "intro": "Wir entwickeln eine neue Generation qualifizierter Inspektoren mit Expertise in:",
+      "points": [
+        {
+          "title": "Inspektionstechniken:",
+          "description": "Best Practices bei Feldinspektion, Befragung und Berichterstattung."
+        },
+        {
+          "title": "Compliance-Bewertung:",
+          "description": "Identifizierung von Nicht-Konformitäten, Risikobewertung und Korrekturmaßnahmen."
+        },
+        {
+          "title": "Schulung zu internationalen Standards:",
+          "description": "Vertiefte Einblicke in ISO/IEC 17065, EU-Bio, USDA NOP und IFOAM-Normen."
+        },
+        {
+          "title": "Ethik & Integrität:",
+          "description": "Aufrechterhaltung von Unparteilichkeit und professionellem Verhalten."
+        }
+      ],
+      "courses_title": "Angebotene Kurse:",
+      "courses": [
+        "Grundausbildung für Inspektoren.",
+        "Fortgeschrittene Inspektoren-Workshops.",
+        "Kontinuierliche berufliche Weiterbildung (CPD)."
+      ],
+      "images": {
+        "discussion": "Diskussionsrunde für Inspektoren",
+        "field_training": "Feldtraining für Inspektoren"
+      }
+    },
+    "auditors": {
+      "title": "Für Auditoren",
+      "intro": "Auditoren spielen eine entscheidende Rolle bei der Sicherstellung der Glaubwürdigkeit der Zertifizierung. Wir bieten:",
+      "points": [
+        {
+          "title": "Audit-Methoden:",
+          "description": "Von der Dokumentenprüfung bis zur Vor-Ort-Verifizierung und Probenahme."
+        },
+        {
+          "title": "Risikobasiertes Auditieren:",
+          "description": "Werkzeuge zur Priorisierung kritischer Kontrollpunkte."
+        },
+        {
+          "title": "Berichterstattung & Entscheidungsfindung:",
+          "description": "Wie man Ergebnisse klar und objektiv präsentiert."
+        },
+        {
+          "title": "Updates zu internationalen Standards:",
+          "description": "Regelmäßige Auffrischungen und Aktualisierungen bei Weiterentwicklung globaler Normen."
+        }
+      ],
+      "training_title": "Schulungsmodi:",
+      "training": ["Online-Module.", "Präsenz-Schulungen.", "Mentorenprogramme mit erfahrenen Auditoren."],
+      "image": "Auditorenschulung"
+    },
+    "platform": {
+      "title": "Unsere Lernplattform",
+      "intro": "Wir entwickeln einen digitalen Lernhub mit:",
+      "features": [
+        "Interaktiven E-Learning-Kursen.",
+        "Webinaren mit internationalen Experten.",
+        "Herunterladbaren Leitfäden und Toolkits.",
+        "Foren für Peer-to-Peer-Lernen."
+      ],
+      "grid": [
+        {
+          "icon": "laptop",
+          "text": "Zugriff auf Kurse jederzeit und überall"
+        },
+        {
+          "icon": "globe",
+          "text": "Verbindung mit globalen Zertifizierungsexperten"
+        },
+        {
+          "icon": "certificate",
+          "text": "Anerkannte Zertifikate erwerben"
+        },
+        {
+          "icon": "users",
+          "text": "Einer Gemeinschaft von Praktikern beitreten"
+        }
+      ],
+      "image": "Digitale Lernplattform"
+    },
+    "get_involved": {
+      "title": "Mitmachen",
+      "description": "Landwirte, Inspektoren und Auditoren, die an unseren nächsten Schulungen teilnehmen möchten, können:",
+      "options": [
+        "Online über unser Schulungsportal registrieren.",
+        "Unser Bildungsteam für maßgeschneiderte Programme kontaktieren."
+      ],
+      "updates": "Bleiben Sie verbunden für Updates zu kommenden Workshops, Webinaren und neuen Kursangeboten.",
+      "button": "Für Schulung registrieren"
+    }
+  },
+
+ "partnerships": {
+  "title": "Partnerschaften & Kooperationen",
+  "intro": "Bei EcoCertification glauben wir an die Kraft der Zusammenarbeit. Unsere Partnerschaften mit lokalen und internationalen Organisationen stärken unsere Fähigkeit, wirkungsvolle Zertifizierungsdienste zu erbringen und nachhaltige Entwicklung in ganz Äthiopien zu unterstützen.",
+  "local": {
+    "title": "Lokale Landwirtschaftsbüros & Genossenschaften",
+    "text1": "Wir arbeiten eng mit regionalen Landwirtschaftsbüros und Bauerngenossenschaften zusammen, um sicherzustellen, dass unsere Zertifizierungsprozesse auf lokale Bedürfnisse und Realitäten abgestimmt sind. Diese Partnerschaften helfen uns, Zertifizierungsprotokolle zu entwickeln, die sowohl international anerkannt als auch lokal relevant sind.",
+    "text2": "Durch diese Kooperationen haben wir starke Netzwerke in den verschiedenen landwirtschaftlichen Regionen Äthiopiens aufgebaut, die es uns ermöglichen, maßgeschneiderte Unterstützung für Landwirte und Produzenten anzubieten."
+  },
+  "international": {
+    "title": "Internationale Organisationen & Akkreditierungsstellen",
+    "text1": "Unsere Zusammenarbeit mit internationalen Zertifizierungsstellen und Nachhaltigkeitsorganisationen hält uns mit globalen Best Practices und neuen Standards verbunden. Diese Beziehungen stellen sicher, dass unsere Zertifizierungsprozesse den höchsten internationalen Anforderungen entsprechen.",
+    "text2": "Wir führen aktive Dialoge mit wichtigen globalen Akteuren im Bio- und Nachhaltigkeitssektor, um an der Spitze der Zertifizierungsentwicklungen zu bleiben."
+  },
+  "universities": {
+    "title": "Universitäten & Forschungseinrichtungen",
+    "description": "Kooperationen mit akademischen und Forschungseinrichtungen helfen uns, an der Spitze nachhaltiger landwirtschaftlicher Praktiken und Zertifizierungsmethoden zu bleiben. Diese Partnerschaften treiben Innovationen in unseren Ansätzen voran und stellen sicher, dass unsere Arbeit auf solider Wissenschaft basiert."
+  },
+  "images": {
+    "fair": "Landwirtschaftsmesse",
+    "research": "Forschungskooperation",
+    "handshake": "Partnerschaftlicher Handschlag",
+    "quality_testing": "Qualitätsprüfung",
+    "lecture": "Bildungsvortrag"
   }
+},
+
+
+
+
+
+  "accreditation": {
+    "title": "Akkreditierungsreise",
+    "content": {
+      "intro": "Wir befinden uns in den letzten Phasen des Akkreditierungsprozesses mit:",
+      "points": [
+        "Laufende Vorabprüfungen mit IOAS und der deutschen Akkreditierungsstelle.",
+        "Abschluss der Dokumentation und Prozessanpassung für die Einhaltung der Vorschriften.",
+        "Offene Zusammenarbeit mit Akkreditierungsprüfern und kontinuierliche Systemverbesserung."
+      ],
+      "commitment": "Wir bleiben standhaft in unserem Engagement für Transparenz, Qualität und nachhaltiges Wachstum für Äthiopiens Bio-Sektor.",
+      "thank_you": "Wir danken Ihnen, dass Sie unser Unternehmen als vertrauenswürdigen Zertifizierungspartner in Betracht ziehen."
+    },
+    "images": {
+      "flower": "Bio-Blume"
+    }
+  },
+
+  "contact_page": {
+    "title": "Kontakt",
+    "header_line": "Kontaktieren Sie uns",
+    "get_in_touch": "Kontaktieren Sie uns",
+    "intro": "Wir sind hier, um Ihre Fragen zu unseren Zertifizierungsdiensten zu beantworten. Kontaktieren Sie uns und wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "ethiopia": "Äthiopien",
+    "germany": "Deutschland",
+    "contact_details": {
+      "yonas": "Yonas Alemu",
+      "yonas_email": "yosheplc@gmail.com",
+      "yonas_phone": "+251 97 498 4675",
+      "ecopia_address": "Ecopia PLC",
+      "po_box": "PO Box 1072",
+      "addis_ababa": "Addis Ababa",
+      "ethiopia": "Äthiopien",
+      "frederike": "Dr. Frederike Krammer",
+      "frederike_email": "info@greenacademyafrica.com",
+      "frederike_phone": "+49 1577 3746519"
+    },
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "success": "Vielen Dank für Ihre Nachricht! Wir haben Ihre Anfrage erhalten und werden uns so schnell wie möglich bei Ihnen melden.",
+      "error": "Es gab ein Problem beim Senden Ihrer Nachricht. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt unter yosheplc@gmail.com",
+      "validation": "Bitte korrigieren Sie die folgenden Fehler:",
+      "name": "Name*",
+      "email": "E-Mail*",
+      "subject": "Betreff*",
+      "message": "Nachricht*",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet..."
+    },
+    "errors": {
+      "name_required": "Name ist erforderlich",
+      "email_required": "E-Mail ist erforderlich",
+      "email_invalid": "E-Mail ist ungültig",
+      "subject_required": "Betreff ist erforderlich",
+      "message_required": "Nachricht ist erforderlich"
+    }
+  },
+
+  "application_form": {
+    "title": "Zertifizierung beantragen",
+    "leaf_divider": "Blatt-Trennlinie",
+    "journey": {
+      "title": "Beginnen Sie Ihre Zertifizierungsreise",
+      "intro": "Vielen Dank für Ihr Interesse an EcoCertification. Füllen Sie dieses Formular aus, um den Zertifizierungsprozess zu beginnen. Unser Team wird Ihre Bewerbung prüfen und Sie innerhalb von 2-3 Werktagen kontaktieren, um die nächsten Schritte zu besprechen."
+    },
+    "cert_types": {
+      "title": "Verfügbare Zertifizierungsarten",
+      "beekeeping": {
+        "title": "Bio-Imkerei",
+        "desc": "Für Bienenstände und Honigproduzenten"
+      },
+      "crop": {
+        "title": "Bio-Pflanzenproduktion",
+        "desc": "Für Betriebe und Pflanzenproduzenten"
+      },
+      "processing": {
+        "title": "Verarbeitung & Handhabung",
+        "desc": "Für Verarbeiter und Händler von Bio-Produkten"
+      },
+      "wild": {
+        "title": "Wildsammlung & Forstwirtschaft",
+        "desc": "Für Wildsammlungs- und Forstprodukte"
+      }
+    },
+    "form": {
+      "title": "Antragsformular",
+      "success": "Vielen Dank für Ihren Antrag! Wir haben Ihre Informationen erhalten und werden Sie innerhalb von 2-3 Werktagen kontaktieren, um die nächsten Schritte zu besprechen.",
+      "error": "Es gab ein Problem bei der Übermittlung Ihres Antrags. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt unter eco-certification@greenacademyafrica.com",
+      "validation": "Bitte korrigieren Sie die folgenden Fehler:",
+      "org_info": "Organisationsinformationen",
+      "org_name": "Name der Organisation*",
+      "org_type": "Organisationstyp*",
+      "select_type": "Typ auswählen",
+      "farm": "Landwirtschaftlicher Betrieb",
+      "processor": "Verarbeiter",
+      "cooperative": "Genossenschaft",
+      "trader": "Händler",
+      "other": "Andere",
+      "employees": "Anzahl der Mitarbeiter",
+      "address": "Adresse*",
+      "city": "Stadt*",
+      "country": "Land*",
+      "contact_info": "Kontaktinformationen",
+      "first_name": "Vorname*",
+      "last_name": "Nachname*",
+      "position": "Position/Titel*",
+      "email": "E-Mail*",
+      "phone": "Telefonnummer*",
+      "cert_details": "Zertifizierungsdetails",
+      "cert_type": "Zertifizierungstyp*",
+      "select_cert": "Zertifizierung auswählen",
+      "organic_beekeeping": "Bio-Imkerei",
+      "crop_production": "Bio-Pflanzenproduktion",
+      "processing_handling": "Verarbeitung & Handhabung",
+      "wild_harvest": "Wildsammlung & Forstwirtschaft",
+      "multiple": "Mehrere Zertifizierungen",
+      "products": "Produkte/Pflanzen*",
+      "products_placeholder": "z.B. Kaffee, Kakao, Honig",
+      "land_size": "Landgröße (Hektar, falls zutreffend)",
+      "current_cert": "Aktuelle Zertifizierungen (falls vorhanden)",
+      "current_cert_placeholder": "z.B. Rainforest Alliance, UTZ",
+      "additional_info": "Zusätzliche Informationen",
+      "additional_placeholder": "Bitte geben Sie alle zusätzlichen Details an, die für Ihren Zertifizierungsantrag relevant sein könnten",
+      "terms": "Ich stimme den Geschäftsbedingungen zu*",
+      "submit": "Antrag einreichen",
+      "submitting": "Wird eingereicht..."
+    }
+     },
+
+    "privacy_policy": {
+  "title": "Datenschutzrichtlinie",
+  "introduction": {
+    "title": "1. Einleitung",
+    "paragraph1": "EcoCertification (\"wir\", \"uns\" oder \"unser\") verpflichtet sich, Ihre Privatsphäre zu schützen. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Informationen sammeln, verwenden, offenlegen und schützen, wenn Sie unsere Website ecocertification.com besuchen, einschließlich aller anderen Medienformen, Medienkanäle, mobilen Websites oder mobilen Anwendungen, die damit verbunden sind (zusammen die \"Website\").",
+    "paragraph2": "Wir nehmen den Schutz Ihrer personenbezogenen Daten sehr ernst und halten uns strikt an die geltenden Datenschutzgesetze und -vorschriften, einschließlich der EU-Datenschutz-Grundverordnung (DSGVO) und des Bundesdatenschutzgesetzes (BDSG).",
+    "paragraph3": "Bitte lesen Sie diese Datenschutzrichtlinie sorgfältig durch. Wenn Sie mit den Bedingungen dieser Datenschutzrichtlinie nicht einverstanden sind, greifen Sie bitte nicht auf die Website zu."
+  },
+  "information_collected": {
+    "title": "2. Informationen, die wir sammeln",
+    "personal_data": {
+      "title": "2.1 Personenbezogene Daten",
+      "paragraph1": "Wir können personenbezogene Informationen sammeln, die Sie uns freiwillig zur Verfügung stellen, wenn Sie:",
+      "list_items": [
+        "Formulare auf unserer Website ausfüllen und einreichen (Kontaktformulare, Antragsformulare)",
+        "Sich für unsere Zertifizierungsdienste registrieren",
+        "Unseren Newsletter abonnieren",
+        "Informationen oder Unterstützung anfordern",
+        "An unseren Schulungsprogrammen teilnehmen"
+      ],
+      "paragraph2": "Die personenbezogenen Informationen, die wir sammeln können, umfassen:",
+      "list_items2": [
+        "Name, E-Mail-Adresse, Postanschrift und Telefonnummer",
+        "Geschäftsinformationen (Firmenname, Position, Geschäftsadresse)",
+        "Betriebs- oder Anlagendetails für Zertifizierungszwecke",
+        "Zahlungsinformationen (für Zertifizierungsdienste)",
+        "Sprachpräferenzen"
+      ]
+    },
+    "automatic_info": {
+      "title": "2.2 Automatisch gesammelte Informationen",
+      "paragraph": "Wenn Sie unsere Website besuchen, können wir automatisch bestimmte Informationen über Ihr Gerät sammeln, darunter:",
+      "list_items": [
+        "IP-Adresse",
+        "Browser-Typ und -Version",
+        "Betriebssystem",
+        "Besuchte Seiten und Verweildauer auf diesen Seiten",
+        "Verweisende Website-Adressen",
+        "Sprachpräferenzen"
+      ],
+      "paragraph2": "Diese Informationen werden verwendet, um Trends zu analysieren, die Website zu verwalten, Benutzerbewegungen auf der Website zu verfolgen und demografische Informationen zu sammeln."
+    }
+  },
+  "information_use": {
+    "title": "3. Wie wir Ihre Informationen verwenden",
+    "paragraph": "Wir verwenden die von uns gesammelten Informationen für verschiedene Zwecke, unter anderem um:",
+    "list_items": [
+      "Zertifizierungsanträge zu bearbeiten und zu verwalten",
+      "Unsere Dienstleistungen bereitzustellen und zu pflegen",
+      "Sie über Änderungen unserer Dienstleistungen zu informieren",
+      "Ihnen die Teilnahme an interaktiven Funktionen zu ermöglichen, wenn Sie dies wünschen",
+      "Kundensupport zu bieten und auf Ihre Anfragen zu antworten",
+      "Analysen oder wertvolle Informationen zu sammeln, um unsere Dienstleistungen zu verbessern",
+      "Die Nutzung unserer Dienstleistungen zu überwachen",
+      "Technische Probleme zu erkennen, zu verhindern und zu beheben",
+      "Ihnen Newsletter und Werbemitteilungen zu senden (mit Ihrer Einwilligung)",
+      "Gesetzlichen Verpflichtungen nachzukommen"
+    ],
+    "paragraph2": "Die Rechtsgrundlage für die Verarbeitung Ihrer personenbezogenen Daten ist:",
+    "list_items2": [
+      "Die Erfüllung eines Vertrags, wenn wir Ihnen Zertifizierungsdienste anbieten",
+      "Ihre Einwilligung, wenn Sie der Zusendung von Marketingmitteilungen zustimmen",
+      "Unsere berechtigten Interessen an der Aufrechterhaltung und Verbesserung unserer Dienstleistungen",
+      "Die Einhaltung gesetzlicher Verpflichtungen"
+    ]
+  },
+  "cookies": {
+    "title": "4. Cookies und Tracking-Technologien",
+    "paragraph1": "Wir verwenden Cookies und ähnliche Tracking-Technologien, um Aktivitäten auf unserer Website zu verfolgen und bestimmte Informationen zu speichern. Cookies sind Dateien mit einer kleinen Datenmenge, die möglicherweise eine anonyme eindeutige Kennung enthalten.",
+    "paragraph2": "Wir verwenden die folgenden Arten von Cookies:",
+    "list_items": [
+      "<strong>Essentielle Cookies:</strong> Notwendig für das ordnungsgemäße Funktionieren der Website",
+      "<strong>Funktionale Cookies:</strong> Speichern Ihre Präferenzen und Einstellungen (wie Sprachpräferenz)",
+      "<strong>Analyse-Cookies:</strong> Helfen uns zu verstehen, wie Besucher mit unserer Website interagieren"
+    ],
+    "paragraph3": "Sie können Ihren Browser anweisen, alle Cookies abzulehnen oder anzuzeigen, wenn ein Cookie gesendet wird. Wenn Sie jedoch keine Cookies akzeptieren, können Sie möglicherweise einige Teile unserer Website nicht nutzen.",
+    "paragraph4": "Für detailliertere Informationen über die von uns verwendeten Cookies lesen Sie bitte unsere <a href=\"/cookie-policy\">Cookie-Richtlinie</a>."
+  },
+  "data_sharing": {
+    "title": "5. Datenweitergabe und Offenlegung",
+    "paragraph": "Wir können Ihre personenbezogenen Daten in folgenden Situationen weitergeben:",
+    "list_items": [
+      "<strong>Dienstleister:</strong> Wir können Ihre Informationen mit Drittanbietern, Dienstleistern und anderen Geschäftspartnern teilen, die Dienstleistungen in unserem Auftrag erbringen, wie Hosting-Anbieter, Zahlungsabwickler und Analysedienste.",
+      "<strong>Akkreditierungsstellen:</strong> Im Rahmen des Zertifizierungsprozesses müssen wir möglicherweise bestimmte Informationen an Akkreditierungsstellen und Aufsichtsbehörden weitergeben.",
+      "<strong>Gesetzliche Anforderungen:</strong> Wir können Ihre Informationen offenlegen, wenn dies gesetzlich vorgeschrieben ist oder als Reaktion auf gültige Anfragen von Behörden.",
+      "<strong>Geschäftsübertragungen:</strong> Im Zusammenhang mit einer Fusion, einem Verkauf von Unternehmensvermögen, einer Finanzierung oder einer Übernahme unseres gesamten Unternehmens oder eines Teils davon durch ein anderes Unternehmen.",
+      "<strong>Mit Ihrer Zustimmung:</strong> Wir können Ihre Informationen mit Ihrer Zustimmung für andere Zwecke weitergeben."
+    ],
+    "paragraph2": "Wir verkaufen, vermieten oder handeln nicht mit Ihren personenbezogenen Daten an Dritte für Marketingzwecke."
+  },
+  "international_transfers": {
+    "title": "6. Internationale Datenübertragungen",
+    "paragraph1": "Ihre Informationen können auf Computer übertragen und dort gespeichert werden, die sich außerhalb Ihres Bundeslandes, Ihrer Provinz, Ihres Landes oder einer anderen staatlichen Gerichtsbarkeit befinden, wo die Datenschutzgesetze von denen Ihrer Gerichtsbarkeit abweichen können.",
+    "paragraph2": "Wenn Sie sich außerhalb Deutschlands befinden und sich dafür entscheiden, uns Informationen zur Verfügung zu stellen, beachten Sie bitte, dass wir die Daten, einschließlich personenbezogener Daten, nach Deutschland übertragen und dort verarbeiten.",
+    "paragraph3": "Wenn wir personenbezogene Daten außerhalb des Europäischen Wirtschaftsraums (EWR) übertragen, stellen wir sicher, dass ein ähnliches Schutzniveau gewährleistet ist, indem wir geeignete Schutzmaßnahmen implementieren, wie z.B. von der Europäischen Kommission genehmigte Standardvertragsklauseln."
+  },
+  "data_security": {
+    "title": "7. Datensicherheit",
+    "paragraph1": "Wir haben angemessene technische und organisatorische Maßnahmen implementiert, um die Sicherheit Ihrer personenbezogenen Daten zu schützen. Bitte beachten Sie jedoch, dass keine Methode der Übertragung über das Internet oder der elektronischen Speicherung 100% sicher ist.",
+    "paragraph2": "Wir unterhalten administrative, technische und physische Schutzmaßnahmen, um vor unbefugtem Zugriff, Nutzung, Änderung und Offenlegung personenbezogener Daten in unserem Besitz und unter unserer Kontrolle zu schützen."
+  },
+  "data_retention": {
+    "title": "8. Datenspeicherung",
+    "paragraph1": "Wir speichern Ihre personenbezogenen Daten nur so lange, wie es für die in dieser Datenschutzrichtlinie dargelegten Zwecke erforderlich ist. Wir werden Ihre Informationen in dem Umfang aufbewahren und verwenden, der erforderlich ist, um unseren rechtlichen Verpflichtungen nachzukommen, Streitigkeiten beizulegen und unsere Richtlinien durchzusetzen.",
+    "paragraph2": "Für Zertifizierungsdienste sind wir verpflichtet, Aufzeichnungen für einen Mindestzeitraum aufzubewahren, wie von Akkreditierungsstandards und geltenden Vorschriften festgelegt, typischerweise zwischen 5-10 Jahren."
+  },
+  "data_protection_rights": {
+    "title": "9. Ihre Datenschutzrechte",
+    "paragraph": "Gemäß der DSGVO und dem deutschen Datenschutzrecht haben Sie bestimmte Rechte in Bezug auf Ihre personenbezogenen Daten:",
+    "list_items": [
+      "<strong>Recht auf Zugang:</strong> Sie haben das Recht, Kopien Ihrer personenbezogenen Daten anzufordern.",
+      "<strong>Recht auf Berichtigung:</strong> Sie haben das Recht zu verlangen, dass wir Informationen korrigieren, die Sie für ungenau halten, oder unvollständige Informationen vervollständigen.",
+      "<strong>Recht auf Löschung:</strong> Sie haben das Recht zu verlangen, dass wir Ihre personenbezogenen Daten unter bestimmten Bedingungen löschen.",
+      "<strong>Recht auf Einschränkung der Verarbeitung:</strong> Sie haben das Recht zu verlangen, dass wir die Verarbeitung Ihrer personenbezogenen Daten unter bestimmten Bedingungen einschränken.",
+      "<strong>Recht auf Widerspruch gegen die Verarbeitung:</strong> Sie haben das Recht, der Verarbeitung Ihrer personenbezogenen Daten durch uns unter bestimmten Bedingungen zu widersprechen.",
+      "<strong>Recht auf Datenübertragbarkeit:</strong> Sie haben das Recht zu verlangen, dass wir die von uns gesammelten Daten unter bestimmten Bedingungen an eine andere Organisation oder direkt an Sie übertragen."
+    ],
+    "paragraph2": "Wenn Sie eines dieser Rechte ausüben möchten, kontaktieren Sie uns bitte unter privacy@ecocertification.com. Wir werden innerhalb von 30 Tagen auf Ihre Anfrage antworten.",
+    "paragraph3": "Sie haben auch das Recht, eine Beschwerde bei einer Aufsichtsbehörde einzureichen. In Deutschland ist die zuständige Behörde die Landesdatenschutzbehörde in dem Bundesland, in dem unser Unternehmen seinen Hauptsitz hat."
+  },
+  "childrens_privacy": {
+    "title": "10. Datenschutz für Kinder",
+    "paragraph": "Unsere Website richtet sich nicht an Kinder unter 16 Jahren. Wir sammeln wissentlich keine personenbezogenen Daten von Kindern unter 16 Jahren. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und wissen, dass Ihr Kind uns personenbezogene Daten zur Verfügung gestellt hat, kontaktieren Sie uns bitte, damit wir die notwendigen Maßnahmen ergreifen können."
+  },
+  "changes_to_policy": {
+    "title": "11. Änderungen dieser Datenschutzrichtlinie",
+    "paragraph1": "Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen und das \"Datum des Inkrafttretens\" am Anfang dieser Datenschutzrichtlinie aktualisieren.",
+    "paragraph2": "Es wird empfohlen, diese Datenschutzrichtlinie regelmäßig auf Änderungen zu überprüfen. Änderungen an dieser Datenschutzrichtlinie sind wirksam, wenn sie auf dieser Seite veröffentlicht werden."
+  },
+  "contact_us": {
+    "title": "12. Kontaktieren Sie uns",
+    "paragraph": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte:",
+    "list_items": [
+      "Per E-Mail: yosheplc@gmail.com",
+      "Per Telefon: +251 97 498 4675",
+      "Per Post: Ecopia PLC, PO Box 1072, Addis Ababa"
+    ]
+  }
+},
+"legal": {
+  "effective_date": "Gültig ab: 12. Mai 2025",
+  "last_updated": "Zuletzt aktualisiert: 12. Mai 2025",
+  "data_controller": "Verantwortlicher:"
+},
+"terms_of_service": {
+  "title": "Nutzungsbedingungen",
+  "introduction": {
+    "title": "Einleitung",
+    "paragraph1": "Willkommen bei EcoCertification. Diese Nutzungsbedingungen regeln Ihre Nutzung unserer Website, Dienstleistungen und Zertifizierungsprogramme.",
+    "paragraph2": "Durch den Zugriff auf unsere Website oder die Nutzung unserer Dienste erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie mit einem Teil der Bedingungen nicht einverstanden sind, dürfen Sie unsere Dienste nicht nutzen."
+  },
+  "about_services": {
+    "title": "Über unsere Dienstleistungen",
+    "paragraph1": "EcoCertification bietet Bio-Zertifizierungsdienste für landwirtschaftliche Erzeuger, Verarbeiter und Händler in Äthiopien, darunter:",
+    "list_items": [
+      "Bio-Zertifizierungsbewertung und -verifizierung",
+      "Compliance-Überwachung und Auditing",
+      "Schulung und Bildung zu Bio-Standards",
+      "Digitales Zertifizierungsmanagement",
+      "Beratung zu nachhaltigen landwirtschaftlichen Praktiken"
+    ],
+    "paragraph2": "Unsere Dienstleistungen sind darauf ausgerichtet, äthiopischen Landwirtschaftsunternehmen zu helfen, internationale Bio-Standards zu erfüllen und gleichzeitig nachhaltige Entwicklung zu unterstützen."
+  },
+  "user_accounts": {
+    "title": "Benutzerkonten",
+    "paragraph1": "Wenn Sie ein Konto bei uns erstellen, müssen Sie genaue, vollständige und aktuelle Informationen angeben. Sie sind für den Schutz des Passworts und für alle Aktivitäten, die unter Ihrem Konto stattfinden, verantwortlich.",
+    "paragraph2": "Sie erklären sich damit einverstanden, uns unverzüglich über jede unbefugte Nutzung Ihres Kontos oder jede andere Sicherheitsverletzung zu informieren. Wir können und werden nicht für Verluste oder Schäden haftbar gemacht werden, die aus Ihrer Nichteinhaltung dieser Bestimmung entstehen."
+  },
+  "application_process": {
+    "title": "Bewerbungsprozess",
+    "paragraph": "Der Zertifizierungsantragsprozess umfasst mehrere Schritte:",
+    "list_items": [
+      "Ersteinreichung des Antrags mit erforderlichen Unterlagen",
+      "Vorläufige Prüfung und Bewertung",
+      "Vor-Ort-Inspektion und Verifizierung",
+      "Compliance-Bewertung und Korrekturmaßnahmen (falls erforderlich)",
+      "Zertifizierungsentscheidung und -ausstellung"
+    ],
+    "paragraph2": "Wir behalten uns das Recht vor, Anträge abzulehnen, die unsere Zulassungskriterien nicht erfüllen oder falsche oder irreführende Informationen enthalten."
+  },
+  "intellectual_property": {
+    "title": "Geistiges Eigentum",
+    "paragraph1": "Der Inhalt unserer Website, einschließlich Text, Grafiken, Logos, Bilder und Software, ist Eigentum von EcoCertification und durch Urheberrechte und andere Gesetze zum Schutz des geistigen Eigentums geschützt.",
+    "paragraph2": "Unsere Zertifizierungszeichen und Logos dürfen nur von zertifizierten Unternehmen gemäß unserer Richtlinie zur Verwendung von Zertifizierungszeichen verwendet werden, die bei Zertifizierungsgenehmigung zur Verfügung gestellt wird."
+  },
+  "user_content": {
+    "title": "Benutzerinhalte",
+    "paragraph1": "Durch die Übermittlung von Informationen, Daten oder Materialien im Rahmen des Zertifizierungsprozesses gewähren Sie uns das Recht, diese Inhalte zum Zweck der Erbringung unserer Dienstleistungen zu verwenden, zu verarbeiten und zu speichern.",
+    "paragraph2": "Sie versichern und garantieren, dass:",
+    "list_items": [
+      "Sie besitzen oder haben die notwendigen Lizenzen, Rechte, Einwilligungen und Genehmigungen, um alle geistigen Eigentumsrechte an und zu allen von Ihnen bereitgestellten Inhalten zu nutzen und uns zu autorisieren, diese zu nutzen",
+      "Der Inhalt ist korrekt und nicht irreführend",
+      "Der Inhalt verletzt keine Rechte Dritter"
+    ],
+    "paragraph3": "Wir übernehmen keine Verantwortung und keine Haftung für Inhalte, die von Ihnen oder Dritten bereitgestellt werden."
+  },
+  "prohibited_uses": {
+    "title": "Verbotene Nutzungen",
+    "paragraph": "Sie erklären sich damit einverstanden, unsere Dienste nicht zu nutzen:",
+    "list_items": [
+      "In einer Weise, die gegen geltende nationale oder internationale Gesetze oder Vorschriften verstößt",
+      "Um sich als EcoCertification, einen Mitarbeiter von EcoCertification oder eine andere Person auszugeben oder dies zu versuchen",
+      "Um ein Verhalten zu zeigen, das die Nutzung oder den Genuss unserer Dienste durch andere einschränkt oder behindert",
+      "Um falsche oder irreführende Informationen in Zertifizierungsanträgen oder während Audits anzugeben",
+      "Um unsere Zertifizierungszeichen oder Logos in unerlaubter Weise zu verwenden"
+    ]
+  },
+  "limitation_of_liability": {
+    "title": "Haftungsbeschränkung",
+    "paragraph": "Im maximal gesetzlich zulässigen Umfang haftet EcoCertification nicht für:",
+    "list_items": [
+      "Indirekte, zufällige, besondere, Folge- oder Strafschäden",
+      "Verlust von Gewinnen, Einnahmen, Daten oder Geschäftsmöglichkeiten",
+      "Schäden, die aus Serviceunterbrechungen oder Betriebsunterbrechungen resultieren",
+      "Schäden, die aus Ihrer Nutzung oder Unfähigkeit zur Nutzung unserer Dienste entstehen"
+    ],
+    "paragraph2": "Unsere Haftung ist auf die von Ihnen für die spezifische Zertifizierungsdienstleistung gezahlten Gebühren beschränkt, die zu der Haftung führt."
+  },
+  "indemnification": {
+    "title": "Entschädigung",
+    "paragraph": "Sie erklären sich damit einverstanden, EcoCertification und seine Mitarbeiter, Auftragnehmer, Vertreter, leitenden Angestellten und Direktoren von und gegen alle Ansprüche, Verbindlichkeiten, Schäden, Urteile, Auszeichnungen, Verluste, Kosten, Ausgaben oder Gebühren (einschließlich angemessener Anwaltsgebühren) zu verteidigen, zu entschädigen und schadlos zu halten, die aus oder im Zusammenhang mit Ihrer Verletzung dieser Bedingungen oder Ihrer Nutzung unserer Dienste entstehen."
+  },
+  "governing_law": {
+    "title": "Geltendes Recht",
+    "paragraph1": "Diese Bedingungen unterliegen den Gesetzen der Demokratischen Bundesrepublik Äthiopien und werden in Übereinstimmung mit diesen ausgelegt, ohne Berücksichtigung von Kollisionsnormen.",
+    "paragraph2": "Unser Versäumnis, ein Recht oder eine Bestimmung dieser Bedingungen durchzusetzen, wird nicht als Verzicht auf diese Rechte angesehen."
+  },
+  "dispute_resolution": {
+    "title": "Streitbeilegung",
+    "paragraph": "Streitigkeiten, die aus diesen Bedingungen oder unseren Dienstleistungen entstehen oder damit zusammenhängen, werden zunächst durch Verhandlungen in gutem Glauben beigelegt. Wenn solche Verhandlungen scheitern, wird der Streit gemäß den Regeln des Äthiopischen Schieds- und Schlichtungszentrums zur Schiedsgerichtsbarkeit in Addis Abeba, Äthiopien, vorgelegt."
+  },
+  "termination": {
+    "title": "Kündigung",
+    "paragraph1": "Wir können Ihr Konto und den Zugang zu unseren Diensten sofort kündigen oder aussetzen, ohne vorherige Ankündigung oder Haftung, aus irgendeinem Grund, einschließlich wenn Sie gegen diese Bedingungen verstoßen.",
+    "paragraph2": "Bei Kündigung erlischt Ihr Recht zur Nutzung unserer Dienste sofort, und Sie müssen die Nutzung unserer Zertifizierungszeichen und Logos einstellen.",
+    "paragraph3": "Alle Bestimmungen der Bedingungen, die ihrer Natur nach die Kündigung überdauern sollten, überdauern die Kündigung, einschließlich, ohne Einschränkung, Eigentumsbestimmungen, Gewährleistungsausschlüsse, Entschädigung und Haftungsbeschränkungen."
+  },
+  "changes_to_terms": {
+    "title": "Änderungen der Bedingungen",
+    "paragraph1": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern oder zu ersetzen. Wenn eine Überarbeitung wesentlich ist, werden wir mindestens 30 Tage vor Inkrafttreten neuer Bedingungen eine Mitteilung machen.",
+    "paragraph2": "Indem Sie nach Inkrafttreten dieser Überarbeitungen weiterhin auf unsere Dienste zugreifen oder diese nutzen, erklären Sie sich mit den überarbeiteten Bedingungen einverstanden."
+  },
+  "contact_us": {
+    "title": "Kontaktieren Sie uns",
+    "paragraph": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter:",
+    "list_items": [
+      "E-Mail: info@ecocertification.com",
+      "Telefon: +251 97 498 4675",
+      "Post: PO Box 1072, Addis Abeba, Äthiopien"
+    ]
+  }
+},
+"cookie_policy": {
+  "title": "Cookie-Richtlinie",
+  "introduction": {
+    "title": "Einleitung",
+    "paragraph": "Diese Cookie-Richtlinie erklärt, wie EcoCertification Cookies und ähnliche Technologien verwendet, um Sie zu erkennen, wenn Sie unsere Website besuchen. Sie erklärt, was diese Technologien sind und warum wir sie verwenden, sowie Ihre Rechte zur Kontrolle unserer Verwendung dieser Technologien."
+  },
+  "what_are_cookies": {
+    "title": "Was sind Cookies",
+    "paragraph": "Cookies sind kleine Datendateien, die auf Ihrem Computer oder mobilen Gerät platziert werden, wenn Sie eine Website besuchen. Cookies werden von Website-Betreibern häufig verwendet, um ihre Websites funktionsfähig zu machen oder effizienter zu arbeiten, sowie um Berichtsinformationen bereitzustellen."
+  },
+  "types_of_cookies": {
+    "title": "Arten von Cookies, die wir verwenden",
+    "essential": {
+      "title": "Essentielle Cookies",
+      "paragraph1": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website notwendig. Sie ermöglichen grundlegende Funktionen wie Seitennavigation und Zugriff auf gesicherte Bereiche der Website. Die Website kann ohne diese Cookies nicht richtig funktionieren.",
+      "paragraph2": "Wir verwenden essentielle Cookies, um Benutzer zu authentifizieren, betrügerische Nutzung von Benutzerkonten zu verhindern und Ihre Präferenzen zu speichern, während Sie durch die Website navigieren."
+    },
+    "analytics": {
+      "title": "Analyse-Cookies",
+      "paragraph1": "Diese Cookies ermöglichen es uns, Besuche und Verkehrsquellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können. Sie helfen uns zu wissen, welche Seiten am beliebtesten und am wenigsten beliebt sind, und zu sehen, wie Besucher sich auf der Website bewegen.",
+      "paragraph2": "Alle Informationen, die diese Cookies sammeln, werden aggregiert und sind daher anonym. Wenn Sie diese Cookies nicht zulassen, wissen wir nicht, wann Sie unsere Website besucht haben."
+    },
+    "functional": {
+      "title": "Funktionale Cookies",
+      "paragraph1": "Diese Cookies ermöglichen es der Website, erweiterte Funktionalität und Personalisierung bereitzustellen. Sie können von uns oder von Drittanbietern gesetzt werden, deren Dienste wir zu unseren Seiten hinzugefügt haben.",
+      "paragraph2": "Wenn Sie diese Cookies nicht zulassen, funktionieren einige oder alle dieser Dienste möglicherweise nicht richtig."
+    }
+  },
+  "third_party_cookies": {
+    "title": "Cookies von Drittanbietern",
+    "paragraph1": "Zusätzlich zu unseren eigenen Cookies können wir auch verschiedene Cookies von Drittanbietern verwenden, um Nutzungsstatistiken des Dienstes zu melden und Werbung auf und durch den Dienst zu liefern.",
+    "paragraph2": "Zum Beispiel verwenden wir Google Analytics, um zu verstehen, wie unsere Kunden die Website nutzen. Sie können mehr darüber lesen, wie Google Ihre persönlichen Informationen <a href='https://www.google.com/intl/de/policies/privacy/'>hier</a> verwendet."
+  },
+  "managing_cookies": {
+    "title": "Verwaltung von Cookies",
+    "paragraph": "Sie können Ihren Browser so einstellen, dass er alle oder einige Browser-Cookies ablehnt oder Sie benachrichtigt, wenn Websites Cookies setzen oder darauf zugreifen. Wenn Sie Cookies deaktivieren oder ablehnen, beachten Sie bitte, dass einige Teile dieser Website möglicherweise nicht zugänglich sind oder nicht richtig funktionieren.",
+    "consent": {
+      "title": "Ihre Einwilligung",
+      "paragraph": "Wenn Sie unsere Website zum ersten Mal besuchen, werden wir Sie um Ihre Einwilligung zur Verwendung von Cookies bitten. Sie können wählen, ob Sie Cookies akzeptieren oder ablehnen möchten. Sobald Sie Ihre Einwilligung gegeben haben, können Sie Ihre Meinung ändern und alle Cookies aus Ihrem Browser löschen."
+    },
+    "browser_settings": {
+      "title": "Browser-Einstellungen",
+      "paragraph1": "Die meisten Webbrowser erlauben eine gewisse Kontrolle der meisten Cookies über die Browser-Einstellungen. Um mehr über Cookies zu erfahren, einschließlich wie man sehen kann, welche Cookies gesetzt wurden, besuchen Sie www.aboutcookies.org oder www.allaboutcookies.org.",
+      "list_items": [
+        "Erfahren Sie, wie Sie Cookies in beliebten Browsern verwalten können:",
+        "Google Chrome",
+        "Microsoft Edge",
+        "Mozilla Firefox",
+        "Microsoft Internet Explorer",
+        "Opera",
+        "Apple Safari"
+      ],
+      "paragraph2": "Um sich von der Verfolgung durch Google Analytics auf allen Websites abzumelden, besuchen Sie:",
+      "browser_links": [
+        "<a href='https://support.google.com/chrome/answer/95647?hl=de'>Google Chrome</a>",
+        "<a href='https://support.microsoft.com/de-de/microsoft-edge/cookies-in-microsoft-edge-löschen-63947406-40ac-c3b8-57b9-2a946a29ae09'>Microsoft Edge</a>",
+        "<a href='https://support.mozilla.org/de/kb/verbesserter-schutz-vor-aktivitatenverfolgung-firefox-desktop'>Mozilla Firefox</a>",
+        "<a href='https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies'>Microsoft Internet Explorer</a>",
+        "<a href='https://help.opera.com/de/latest/web-preferences/#cookies'>Opera</a>",
+        "<a href='https://support.apple.com/de-de/guide/safari/sfri11471/mac'>Apple Safari</a>"
+      ]
+    }
+  },
+  "legal_basis": {
+    "title": "Rechtsgrundlage",
+    "paragraph": "Die Rechtsgrundlage für die Verarbeitung Ihrer personenbezogenen Daten im Zusammenhang mit Cookies ist Ihre Einwilligung, die Sie jederzeit widerrufen können. Wenn Sie jedoch bestimmte Cookies blockieren, können wir nicht garantieren, dass unsere Website ordnungsgemäß funktioniert."
+  },
+  "contact_us": {
+    "title": "Kontaktieren Sie uns",
+    "paragraph": "Wenn Sie Fragen zu unserer Verwendung von Cookies oder anderen Technologien haben, kontaktieren Sie uns bitte unter:",
+    "list_items": [
+      "E-Mail: privacy@ecocertification.com",
+      "Telefon: +251 97 498 4675",
+      "Post: PO Box 1072, Addis Abeba, Äthiopien"
+    ]
+  }
+},
+"sitemap": {
+  "title": "Seitenübersicht",
+  "main_pages": {
+    "title": "Hauptseiten",
+    "home": "Startseite",
+    "about": "Über Uns",
+    "history": "Unsere Geschichte",
+    "our_method": "Unsere Methode",
+    "digital_platform": "Digitale Plattform",
+    "sustainability": "Nachhaltigkeit",
+    "contact": "Kontakt"
+  },
+  "certification": {
+    "title": "Zertifizierung",
+    "organic_certification": "Bio-Zertifizierung",
+    "certification_process": "Zertifizierungsprozess",
+    "independence_integrity": "Unabhängigkeit & Integrität",
+    "international_standards": "Internationale Standards",
+    "application": "Antragsformular"
+  },
+  "services": {
+    "title": "Dienstleistungen",
+    "farmer_training": "Landwirtschaftliche Schulungen"
+  },
+  "partners": {
+    "title": "Partner",
+    "partnerships": "Partnerschaften",
+    "accreditation": "Akkreditierung"
+  },
+  "legal": {
+    "title": "Rechtliches",
+    "privacy_policy": "Datenschutzrichtlinie",
+    "terms_of_service": "Nutzungsbedingungen",
+    "cookie_policy": "Cookie-Richtlinie"
+  }
+},
+  
+  "footer": {
+    "tagline": "Nachhaltigkeit zertifizieren, Wandel fördern",
+    "description": "EcoCertification bietet vertrauenswürdige, transparente und zugängliche Zertifizierungsdienste für eine nachhaltigere Zukunft.",
+    "contact_info": "Kontaktinformationen",
+    "ethiopia": "Äthiopien",
+    "germany": "Deutschland",
+    "copyright": "© {{year}} EcoCertification. Alle Rechte vorbehalten."
+  },
+  "legal-line": {
+    "privacy_policy": "Datenschutzrichtlinie",
+    "terms_of_service": "Nutzungsbedingungen",
+    "cookie_policy": "Cookie-Richtlinie",
+    "sitemap": "Seitenübersicht"
+  }
+
+ 
 }

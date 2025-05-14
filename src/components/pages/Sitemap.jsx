@@ -1,101 +1,104 @@
-import "../LegalPages.css"
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import "../LegalPages.css";
 
 function Sitemap() {
+  const { t } = useTranslation();
+
   return (
     <div className="legal-page-container">
       <div className="legal-page-header">
-        <h1>Sitemap</h1>
+        <h1>{t("sitemap.title")}</h1>
         <div className="legal-divider"></div>
       </div>
 
       <div className="legal-content">
-        <section className="sitemap-section">
-          <h2>Main Pages</h2>
+        <div className="sitemap-section">
+          <h2>{t("sitemap.main_pages.title")}</h2>
           <ul className="sitemap-list">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">{t("sitemap.main_pages.home")}</Link>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link to="/about">{t("sitemap.main_pages.about")}</Link>
             </li>
             <li>
-              <Link to="/history">History and Our Team</Link>
+              <Link to="/history">{t("sitemap.main_pages.history")}</Link>
             </li>
             <li>
-              <Link to="/our-method">Our Method</Link>
+              <Link to="/our-method">{t("sitemap.main_pages.our_method")}</Link>
             </li>
             <li>
-              <Link to="/digital-platform">Eco Certification Digital Platform</Link>
+              <Link to="/digital-platform">{t("sitemap.main_pages.digital_platform")}</Link>
             </li>
             <li>
-              <Link to="/sustainability">Our Commitment</Link>
+              <Link to="/sustainability">{t("sitemap.main_pages.sustainability")}</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">{t("sitemap.main_pages.contact")}</Link>
             </li>
           </ul>
-        </section>
+        </div>
 
-        <section className="sitemap-section">
-          <h2>Certification</h2>
+        <div className="sitemap-section">
+          <h2>{t("sitemap.certification.title")}</h2>
           <ul className="sitemap-list">
             <li>
-              <Link to="/organic-certification">Scope of Certification</Link>
+              <Link to="/organic-certification">{t("sitemap.certification.organic_certification")}</Link>
             </li>
             <li>
-              <Link to="/certification-process">Certification Process</Link>
+              <Link to="/certification-process">{t("sitemap.certification.certification_process")}</Link>
             </li>
             <li>
-              <Link to="/independence-integrity">Independence & Integrity</Link>
+              <Link to="/independence-integrity">{t("sitemap.certification.independence_integrity")}</Link>
             </li>
             <li>
-              <Link to="/international-standards">International Standards</Link>
+              <Link to="/international-standards">{t("sitemap.certification.international_standards")}</Link>
             </li>
             <li>
-              <Link to="/application">Get Certified</Link>
+              <Link to="/application-form">{t("sitemap.certification.application")}</Link>
             </li>
           </ul>
-        </section>
+        </div>
 
-        <section className="sitemap-section">
-          <h2>Services</h2>
+        <div className="sitemap-section">
+          <h2>{t("sitemap.services.title")}</h2>
           <ul className="sitemap-list">
             <li>
-              <Link to="/services/farmer-training">Training Programs</Link>
+              <Link to="/farmer-training">{t("sitemap.services.farmer_training")}</Link>
             </li>
           </ul>
-        </section>
+        </div>
 
-        <section className="sitemap-section">
-          <h2>Partners & Accreditations</h2>
+        <div className="sitemap-section">
+          <h2>{t("sitemap.partners.title")}</h2>
           <ul className="sitemap-list">
             <li>
-              <Link to="/partnerships">Partnerships & Collaborations</Link>
+              <Link to="/partnerships">{t("sitemap.partners.partnerships")}</Link>
             </li>
             <li>
-              <Link to="/accreditation">Accreditation</Link>
+              <Link to="/accreditation">{t("sitemap.partners.accreditation")}</Link>
             </li>
           </ul>
-        </section>
+        </div>
 
-        <section className="sitemap-section">
-          <h2>Legal</h2>
+        <div className="sitemap-section">
+          <h2>{t("sitemap.legal.title")}</h2>
           <ul className="sitemap-list">
             <li>
-              <Link to="/privacy-policy">Privacy Policy</Link>
+              <Link to="/privacy-policy">{t("sitemap.legal.privacy_policy")}</Link>
             </li>
             <li>
-              <Link to="/terms-of-service">Terms of Service</Link>
+              <Link to="/terms-of-service">{t("sitemap.legal.terms_of_service")}</Link>
             </li>
             <li>
-              <Link to="/cookie-policy">Cookie Policy</Link>
+              <Link to="/cookie-policy">{t("sitemap.legal.cookie_policy")}</Link>
             </li>
           </ul>
-        </section>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Sitemap
+export default Sitemap;

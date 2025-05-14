@@ -4,7 +4,6 @@ import { useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
 import "./OrganicCertification.css"
 import ScrollToTop from "../ScrollToTop"
-import Footer from "../Footer"
 
 function OrganicCertification() {
   const { t } = useTranslation()
@@ -295,7 +294,7 @@ function OrganicCertification() {
           </p>
         </div>
       </div>
-      <Footer />
+ 
     </div>
   )
 }

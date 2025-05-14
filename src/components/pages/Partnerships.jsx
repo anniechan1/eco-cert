@@ -1,121 +1,110 @@
-import "./Partnerships.css"
+import { useTranslation } from "react-i18next";
+import "./Partnerships.css";
+import ScrollToTop from "../ScrollToTop";
+
 
 function Partnerships() {
+  const { t } = useTranslation();
+
   return (
-    <div className="page-container">
-      <div className="page-header">
-        <h1>Partnerships & Collaborations</h1>
-        <div className="leaf-divider">
-          <span className="divider-line"></span>
-          <i className="fas fa-leaf"></i>
-          <span className="divider-line"></span>
-        </div>
-      </div>
-
-      <div className="content-text">
-        <p>
-          At EcoCertification, we believe in the power of collaboration. Our partnerships with local and international
-          organizations strengthen our ability to deliver impactful certification services and support sustainable
-          development across Ethiopia.
-        </p>
-      </div>
-
-      <div className="partnerships-showcase">
-        {/* First partnership showcase with large image */}
-        <div className="partnership-showcase-item">
-          <div className="showcase-content">
-            <h3>Local Agricultural Offices & Cooperatives</h3>
-            <p>
-              We work closely with regional agricultural offices and farmer cooperatives to ensure our certification
-              processes are aligned with local needs and realities. These partnerships help us develop certification
-              protocols that are both internationally recognized and locally relevant.
-            </p>
-            <p>
-              Through these collaborations, we've established strong networks across Ethiopia's diverse agricultural
-              regions, enabling us to provide tailored support to farmers and producers.
-            </p>
-          </div>
-          <img src="/images/messe.webp" alt="fair" className="showcase-image" />
-        </div>
-
-        {/* Second partnership showcase with right-aligned image grid - International Organizations */}
-        <div className="partnership-showcase-item">
-          <div className="showcase-content">
-            <h3>International Organizations & Accreditation Bodies</h3>
-            <p>
-              Our collaborations with international certification bodies and sustainability organizations keep us
-              connected to global best practices and emerging standards. These relationships ensure that our
-              certification processes meet the highest international requirements.
-            </p>
-            <p>
-              We maintain active dialogues with key global players in the organic and sustainability sectors to stay at
-              the forefront of certification developments.
-            </p>
-          </div>
-          <div className="showcase-dual-images">
-            <div className="showcase-image-small">
-              <img
-                src="/images/talk1.webp"
-                alt="Research collaboration"
-                className="showcase-image"
-                loading="lazy"
-                style={{ objectPosition: "center" }}
-              />
-            </div>
-            <div className="showcase-image-small">
-              <img
-                src="/images/talk2.webp"
-                alt="Partnership handshake"
-                className="showcase-image"
-                loading="lazy"
-                style={{ objectPosition: "center" }}
-              />
-            </div>
+    <>
+      <ScrollToTop />
+      <div className="page-container">
+        <div className="page-header">
+          <h1>{t("partnerships.title")}</h1>
+          <div className="leaf-divider">
+            <span className="divider-line"></span>
+            <i className="fas fa-leaf"></i>
+            <span className="divider-line"></span>
           </div>
         </div>
 
-        {/* Third partnership with image gallery - Universities & Research */}
-        <div className="partnership-gallery-section">
-          <div className="gallery-header">
-            <div className="gallery-icon">
-              <i className="fas fa-university"></i>
-            </div>
-            <h3>Universities & Research Institutions</h3>
-          </div>
-          <p className="gallery-description">
-            Collaborations with academic and research institutions help us stay at the forefront of sustainable
-            agricultural practices and certification methodologies. These partnerships drive innovation in our
-            approaches and ensure our work is backed by sound science.
-          </p>
+        <div className="content-text">
+          <p>{t("partnerships.intro")}</p>
+        </div>
 
-          <div className="image-gallery">
-            <div className="gallery-main">
-              <img
-                src="/images/lecture.webp"
-                alt="Quality testing"
-                className="gallery-image main-image"
-                loading="lazy"
-              />
+        <div className="partnerships-showcase">
+          {/* First partnership showcase with large image */}
+          <div className="partnership-showcase-item">
+            <div className="showcase-content">
+              <h3>{t("partnerships.local.title")}</h3>
+              <p>{t("partnerships.local.text1")}</p>
+              <p>{t("partnerships.local.text2")}</p>
             </div>
-            <div className="gallery-side">
-              <img
-                src="/images/lab3.webp"
-                alt="Educational lecture"
-                className="gallery-image side-image"
-                loading="lazy"
-              />
-              <img
-                src="/images/lab4.webp"
-                alt="Partnership handshake"
-                className="gallery-image side-image"
-                loading="lazy"
-              />
+            <img src="/images/messe.webp" alt={t("partnerships.images.fair")} className="showcase-image" />
+          </div>
+
+          {/* Second partnership showcase with right-aligned image grid - International Organizations */}
+          <div className="partnership-showcase-item">
+            <div className="showcase-content">
+              <h3>{t("partnerships.international.title")}</h3>
+              <p>{t("partnerships.international.text1")}</p>
+              <p>{t("partnerships.international.text2")}</p>
+            </div>
+            <div className="showcase-dual-images">
+              <div className="showcase-image-small">
+                <img
+                  src="/images/talk1.webp"
+                  alt={t("partnerships.images.research")}
+                  className="showcase-image"
+                  loading="lazy"
+                  style={{ objectPosition: "center" }}
+                />
+              </div>
+              <div className="showcase-image-small">
+                <img
+                  src="/images/talk2.webp"
+                  alt={t("partnerships.images.handshake")}
+                  className="showcase-image"
+                  loading="lazy"
+                  style={{ objectPosition: "center" }}
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Third partnership with image gallery - Universities & Research */}
+          <div className="partnership-gallery-section">
+            <div className="gallery-header">
+              <div className="gallery-icon">
+                <i className="fas fa-university"></i>
+              </div>
+              <h3>{t("partnerships.universities.title")}</h3>
+            </div>
+            <p className="gallery-description">
+              {t("partnerships.universities.description")}
+            </p>
+
+            <div className="image-gallery">
+              <div className="gallery-main">
+                <img
+                  src="/images/lecture.webp"
+                  alt={t("partnerships.images.quality_testing")}
+                  className="gallery-image main-image"
+                  loading="lazy"
+                />
+              </div>
+              <div className="gallery-side">
+                <img
+                  src="/images/lab3.webp"
+                  alt={t("partnerships.images.lecture")}
+                  className="gallery-image side-image"
+                  loading="lazy"
+                />
+                <img
+                  src="/images/lab4.webp"
+                  alt={t("partnerships.images.handshake")}
+                  className="gallery-image side-image"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  )
+  
+    </>
+  );
 }
 
-export default Partnerships
+export default Partnerships;
