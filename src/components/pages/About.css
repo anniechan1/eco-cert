@@ -4,7 +4,7 @@
   padding: 40px 20px 80px;
   font-family: "Lato", sans-serif;
   color: #4a4a4a;
-  background-color: #fcfbf7;     
+  background-color: #fcfbf7;
 }
 
 .page-header {
@@ -38,24 +38,62 @@
   font-size: 18px;
 }
 
+/* Specific styling for the bottom two-column layout with tree and field images */
+.page-container > .two-column-layout:last-child {
+  display: flex;
+  gap: 60px;
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px; /* Increased from 900px to accommodate wider images */
+}
+
+.page-container > .two-column-layout:last-child .column-item {
+  flex: 0 0 auto;
+  width: 384px; /* Increased by 20% from 320px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-container > .two-column-layout:last-child .image-card {
+  width: 100%;
+  height: 320px; /* Maintained the same height */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: auto;
+}
+
+.page-container > .two-column-layout:last-child .small-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Changed from contain to cover to fill the space */
+  border-radius: 16px; /* Match the container's border radius */
+  transition: transform 0.5s ease;
+}
+
 .two-column-layout {
   display: flex;
   gap: 30px;
   margin-bottom: 40px;
-  height: auto; /* Remove fixed height */
+  height: auto;
 }
 
 .column-item {
   flex: 1;
-  min-width: 0; /* Prevents flex items from overflowing */
+  min-width: 0;
 }
 
 .image-card {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  height: auto; /* Changed to auto to maintain proper proportions */
-  aspect-ratio: 4608 / 3456; /* Added to maintain the original image aspect ratio */
+  height: auto;
+  aspect-ratio: 4608 / 3456;
 }
 
 .small-image {
@@ -235,16 +273,41 @@
     grid-column: span 2; /* Make the third image span both columns */
     height: 250px;
   }
+
+  .page-container > .two-column-layout:last-child {
+    gap: 40px;
+  }
+
+  .page-container > .two-column-layout:last-child .column-item {
+    width: 336px; /* Increased by 20% from 280px */
+  }
+
+  .page-container > .two-column-layout:last-child .image-card {
+    height: 280px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .page-container > .two-column-layout:last-child {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .page-container > .two-column-layout:last-child .column-item {
+    width: 312px; /* Increased by 20% from 260px */
+  }
+
+  .page-container > .two-column-layout:last-child .image-card {
+    height: 260px;
+  }
+
   .two-column-layout {
     flex-direction: column;
     gap: 20px;
   }
 
-  .image-card {
-    height: 250px; /* Smaller height on mobile */
+  .column-item {
+    width: 100%;
   }
 
   .content-text {
@@ -262,5 +325,15 @@
   .grid-image-item:nth-child(n) {
     grid-column: span 1;
     height: 250px; /* Consistent height on mobile */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-container > .two-column-layout:last-child .column-item {
+    width: 264px; /* Increased by 20% from 220px */
+  }
+
+  .page-container > .two-column-layout:last-child .image-card {
+    height: 220px;
   }
 }
