@@ -109,8 +109,6 @@
   flex-direction: row-reverse;
 }
 
-
-
 .partnership-showcase-item:first-child .showcase-image {
   width: 50%; /* Or whatever size you prefer */
   height: auto;
@@ -337,26 +335,41 @@
   margin-bottom: 30px;
 }
 
+/* Updated Gallery Section for both big and small screens */
 .image-gallery {
   display: flex;
-  gap: 20px;
-  height: 400px;
+  flex-wrap: nowrap; /* Keep all images in one row on big screens */
+  gap: 15px;
+  justify-content: center;
+  width: 100%;
 }
 
+/* Style the main image container */
 .gallery-main {
-  flex: 2;
+  width: 32%; /* Use percentage width to fit in the row */
+  max-width: 320px;
+  height: 213px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  height: 100%;
 }
 
+/* Style the side images container */
 .gallery-side {
-  flex: 1;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  height: 100%;
+  flex-wrap: nowrap; /* Keep side images in one row on big screens */
+  gap: 15px;
+  width: 66%; /* Use percentage width to fit in the row */
+}
+
+/* Style each side image */
+.side-image {
+  width: 48%; /* Each side image takes about half of the side container */
+  max-width: 320px;
+  height: 213px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .gallery-image {
@@ -366,21 +379,82 @@
   transition: transform 0.5s ease;
 }
 
-.side-image {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  height: calc(50% - 10px);
-}
-
-.main-image,
-.side-image {
-  position: relative;
-}
-
 .main-image:hover .gallery-image,
 .side-image:hover .gallery-image {
   transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1100px) {
+  .gallery-main {
+    height: 187px;
+  }
+
+  .side-image {
+    height: 187px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .gallery-main {
+    height: 160px;
+  }
+
+  .side-image {
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* On smaller screens, allow wrapping */
+  .image-gallery {
+    flex-wrap: wrap;
+  }
+
+  /* On smaller screens, make the main image take full width */
+  .gallery-main {
+    width: 100%;
+    max-width: 400px;
+    height: 267px; /* Maintain aspect ratio */
+  }
+
+  /* Side images container takes full width */
+  .gallery-side {
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px; /* Add space between main image and side images */
+  }
+
+  /* Side images take half width each (minus gap) */
+  .side-image {
+    width: calc(50% - 8px);
+    max-width: 240px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery-main {
+    height: 220px; /* Slightly smaller height */
+  }
+
+  .side-image {
+    height: 140px; /* Slightly smaller height */
+  }
+
+  .image-gallery {
+    gap: 10px; /* Reduce gap on very small screens */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gallery-main {
+    height: 200px; /* Even smaller height */
+  }
+
+  .side-image {
+    height: 120px; /* Even smaller height */
+  }
 }
 
 .partnerships-section {
@@ -484,7 +558,7 @@
 .image-item {
   border-radius: 10px;
   overflow: hidden;
-  height: 180px; /* Smaller image size as requested */
+  height: 220px; /* Increased from 180px to 220px as requested */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
@@ -670,12 +744,35 @@
   height: 320px; /* DSC00596.jpg */
 }
 
+/* Set exact dimensions for lecture.jpg (408x272) */
 .partnership-item:nth-child(4) .partnership-image {
-  height: 280px; /* lecture.jpg */
+  width: 408px; /* Exact width as specified */
+  height: 272px; /* Exact height as specified */
+  flex: none; /* Prevent flex growth */
+  margin: 0 auto; /* Center the image */
 }
 
 .partnership-item:nth-child(5) .partnership-image {
   height: 300px; /* DSC00308.jpg */
+}
+
+/* Set exact same dimensions for lab3 and lab4 images */
+.partnership-image.lab3-image,
+.partnership-image.lab4-image {
+  width: 408px; /* Match lecture image width */
+  height: 272px; /* Match lecture image height */
+  flex: none; /* Prevent flex growth */
+  margin: 0 auto; /* Center the image */
+}
+
+/* Ensure images maintain proper display */
+.partnership-item:nth-child(4) .partnership-img,
+.partnership-image.lab3-image .partnership-img,
+.partnership-image.lab4-image .partnership-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+  object-position: center; /* Center the image */
 }
 
 .partnership-img {
@@ -720,16 +817,37 @@
     width: 100%;
     justify-content: center;
   }
+
+  /* Maintain aspect ratio but scale down slightly */
+  .partnership-item:nth-child(4) .partnership-image,
+  .partnership-image.lab3-image,
+  .partnership-image.lab4-image {
+    width: 367px; /* 90% of original width */
+    height: 245px; /* 90% of original height */
+  }
+
+  /* Further reduce size for smaller screens but keep in a row */
+  .gallery-main {
+    width: 280px; /* Smaller for better fit */
+    height: 187px; /* Maintain aspect ratio */
+  }
+
+  .gallery-side .gallery-image {
+    width: 280px; /* Smaller for better fit */
+    height: 187px; /* Maintain aspect ratio */
+  }
 }
 
 @media screen and (max-width: 900px) {
   .partnership-item,
   .partnership-item.reverse {
     flex-direction: column;
+    align-items: center; /* Center images in column layout */
   }
 
   .partnership-image {
     width: 100%;
+    max-width: 408px; /* Prevent images from getting wider than intended */
   }
 
   .accreditation-content {
@@ -744,6 +862,15 @@
 
   .partnership-item:nth-child(n) .partnership-image {
     height: 250px; /* Consistent height for all images on tablet */
+    max-width: 100%; /* Reset max-width for all images */
+  }
+
+  /* Scale down but maintain aspect ratio for tablet */
+  .partnership-item:nth-child(4) .partnership-image,
+  .partnership-image.lab3-image,
+  .partnership-image.lab4-image {
+    width: 326px; /* 80% of original width */
+    height: 218px; /* 80% of original height */
   }
 
   .partnership-showcase-item,
@@ -757,24 +884,15 @@
     height: 250px;
   }
 
-  .image-gallery {
-    flex-direction: column;
-    height: auto;
-    gap: 15px;
-  }
-
+  /* Further reduce size for tablet but keep in a row */
   .gallery-main {
-    height: 250px;
+    width: 240px; /* Smaller for better fit */
+    height: 160px; /* Maintain aspect ratio */
   }
 
-  .gallery-side {
-    flex-direction: row;
-    height: 150px;
-  }
-
-  .side-image {
-    height: 100%;
-    width: calc(50% - 10px);
+  .gallery-side .gallery-image {
+    width: 240px; /* Smaller for better fit */
+    height: 160px; /* Maintain aspect ratio */
   }
 
   .showcase-dual-images {
@@ -819,11 +937,19 @@
   }
 
   .image-item {
-    height: 150px;
+    height: 180px; /* Adjusted for mobile */
   }
 
   .partnership-item:nth-child(n) .partnership-image {
     height: 220px; /* Smaller height for all images on mobile */
+  }
+
+  /* Scale down but maintain aspect ratio for mobile */
+  .partnership-item:nth-child(4) .partnership-image,
+  .partnership-image.lab3-image,
+  .partnership-image.lab4-image {
+    width: 285px; /* 70% of original width */
+    height: 190px; /* 70% of original height */
   }
 
   .showcase-content {
@@ -857,17 +983,26 @@
     font-size: 15px;
   }
 
-  .gallery-main {
-    height: 200px;
+  /* FIX: Make sure all 3 images are visible in the slide bar */
+  .image-gallery {
+    justify-content: flex-start; /* Start from the left */
+    padding: 0 10px; /* Add padding to the container */
+    width: 100%; /* Ensure full width */
+    margin: 0 -10px; /* Negative margin to offset padding */
+    padding-bottom: 20px; /* More space for scrollbar */
   }
 
-  .gallery-side {
-    height: 120px;
-  }
-
-  .side-image {
-    width: calc(50% - 7.5px);
-    height: 100%;
+  /* Add visual indicator for scrolling */
+  .image-gallery::after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 50px;
+    height: 4px;
+    background-color: rgba(126, 168, 126, 0.3);
+    border-radius: 2px;
+    pointer-events: none;
   }
 
   .partnership-conclusion-banner p {
@@ -882,19 +1017,17 @@
     width: 180px;
     height: 180px;
   }
+
+  /* INCREASED SIZE: Make first showcase image larger on mobile */
+  .partnership-showcase-item:first-child .showcase-image {
+    width: 80%; /* Increased size */
+    max-width: 350px; /* Set a maximum width */
+    height: auto;
+    margin: 0 auto; /* Center the image */
+  }
 }
 
 @media screen and (max-width: 500px) {
-  .gallery-side {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .side-image {
-    width: 100%;
-    height: 150px;
-  }
-
   .showcase-dual-images {
     flex-direction: column;
     align-items: center;
@@ -904,4 +1037,52 @@
     width: 220px;
     height: 220px;
   }
+
+  /* Scale down but maintain aspect ratio for very small screens */
+  .partnership-item:nth-child(4) .partnership-image,
+  .partnership-image.lab3-image,
+  .partnership-image.lab4-image {
+    width: 245px; /* 60% of original width */
+    height: 163px; /* 60% of original height */
+  }
+
+  .gallery-main {
+    height: 220px; /* Slightly smaller height */
+  }
+
+  .side-image {
+    height: 140px; /* Slightly smaller height */
+  }
+
+  .image-gallery {
+    gap: 10px; /* Reduce gap on very small screens */
+  }
+
+  /* FIX: Ensure all 3 images are visible in the slide bar */
+  .image-gallery {
+    gap: 10px; /* Reduce gap between images */
+    padding-left: 5px; /* Less padding on small screens */
+    padding-right: 5px;
+  }
+
+  /* INCREASED SIZE: Make first showcase image larger on very small screens */
+  .partnership-showcase-item:first-child .showcase-image {
+    width: 90%; /* Increased size */
+    max-width: 320px; /* Set a maximum width */
+  }
+}
+
+/* Add scroll indicators for the gallery */
+.image-gallery::-webkit-scrollbar {
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.image-gallery::-webkit-scrollbar-thumb {
+  background-color: rgba(126, 168, 126, 0.5);
+  border-radius: 2px;
+}
+
+.image-gallery::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(126, 168, 126, 0.7);
 }

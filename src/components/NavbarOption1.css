@@ -383,6 +383,29 @@
     height: 80px;
   }
 
+  /* Ensure logo doesn't get cut off */
+  .navbar-container-organic {
+    padding: 0 15px;
+    position: relative;
+  }
+
+  .navbar-logo-organic {
+    margin-left: 0; /* Remove negative margin on mobile */
+    max-width: 60%; /* Limit logo width on mobile */
+    z-index: 2; /* Ensure logo stays above menu */
+  }
+
+  /* Properly position the burger menu */
+  .menu-icon-organic {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    padding: 10px;
+  }
+
   .nav-menu-organic {
     display: flex;
     flex-direction: column;
@@ -396,6 +419,7 @@
     background: linear-gradient(to bottom, #f5f2e9, #e7dfc6);
     padding: 20px 0;
     gap: 0;
+    overflow-y: auto; /* Allow scrolling for tall menus */
   }
 
   .nav-menu-organic.active {
@@ -422,6 +446,7 @@
     display: none;
   }
 
+  /* Allow dropdown text to wrap on mobile */
   .dropdown-menu-organic {
     position: static;
     top: auto;
@@ -430,19 +455,26 @@
     box-shadow: none;
     background-color: transparent;
     padding-left: 20px;
+    width: 100%;
   }
 
+  .dropdown-link-organic {
+    padding: 15px 20px;
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words if needed */
+    line-height: 1.4; /* Improve readability of wrapped text */
+  }
+
+  /* FIX: Properly position the language dropdown */
   .language-dropdown-organic {
     height: 80px; /* Match mobile navbar height */
+    position: static; /* Remove absolute positioning */
+    padding: 0 8px;
   }
 
   .language-menu-organic {
     top: 80px; /* Match mobile navbar height */
     right: 0;
-  }
-
-  .dropdown-link-organic {
-    padding: 15px 40px;
   }
 
   /* Mobile styles for team-founder container */
@@ -455,16 +487,49 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 
-  .menu-icon-organic {
-    display: block;
-  }
-
+  /* FIX: Adjust the nav-icons container */
   .nav-icons-organic {
     gap: 16px;
+    position: absolute;
+    right: 60px; /* Position to the left of burger menu */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    display: flex;
+    align-items: center;
   }
 
+  /* FIX: Adjust search container position */
+  .search-container-organic {
+    position: relative; /* Change from absolute to relative */
+    margin-right: 16px; /* Add margin between search and language */
+  }
+
+  /* MODIFIED: Make contact link match big screen styling */
   .contact-link-organic {
-    display: none;
+    display: block;
+    width: auto;
+    text-align: center;
+    margin: 15px auto;
+    padding: 8px 16px;
+    border-radius: 20px; /* Match big screen rounded style */
+    border: 2px solid #7ea87e;
+    color: #7ea87e;
+    font-size: 1.05rem;
+    max-width: 200px; /* Limit width but keep it centered */
+    transition: all 0.3s ease;
+  }
+
+  .contact-link-organic:hover {
+    color: #7ea87e;
+    border-color: #7ea87e;
+    background-color: rgba(126, 168, 126, 0.1);
+  }
+
+  /* Add a container for the contact link in mobile menu */
+  .mobile-contact-container {
+    padding: 0 20px;
+    margin-top: 10px;
   }
 
   .nav-item-organic::after {
@@ -473,6 +538,24 @@
 
   .logo-img {
     height: 65px;
+    max-width: 100%; /* Ensure logo scales properly */
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+}
+
+/* Adjust for very small screens */
+@media screen and (max-width: 480px) {
+  .navbar-logo-organic {
+    max-width: 50%; /* Further limit logo width on very small screens */
+  }
+
+  /* FIX: Adjust positioning for very small screens */
+  .nav-icons-organic {
+    right: 50px; /* Move closer to burger menu on very small screens */
+  }
+
+  .menu-icon-organic {
+    right: 10px; /* Move burger menu closer to edge on very small screens */
   }
 }
 

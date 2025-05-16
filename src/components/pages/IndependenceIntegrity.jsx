@@ -45,20 +45,6 @@ function IndependenceIntegrity() {
           </div>
         </div>
 
-        <div className="governance-section">
-          <div className="governance-header">
-            <i className="fas fa-landmark governance-icon"></i>
-            <h2>{t("independence_integrity.governance.title")}</h2>
-          </div>
-
-          <div className="governance-content full-width">
-            <div className="governance-text">
-              {t("independence_integrity.governance.text", { returnObjects: true }).map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   )

@@ -52,7 +52,7 @@ const { t } = useTranslation();
   {t('track_intro_part1')}
   <a
     href="http://www.eljojofe.org/index.php?p=1&lang=EN#home-section"
-    target="_blank"
+    target="_blank" 
     rel="noopener noreferrer"
     className="emphasis-link"
   >
@@ -62,12 +62,12 @@ const { t } = useTranslation();
 </p>
               <ul className="eco-list">
                 <li>
-  {t('track_list_item1_part1')}
+
   <span className="emphasis">{t('track_list_item1_emphasis')}</span>
   {t('track_list_item1_part2')}
 </li>
 <li>
-  {t('track_list_item2_part1')}
+  
   <span className="emphasis">{t('track_list_item2_emphasis')}</span>
   {t('track_list_item2_part2')}
 </li>

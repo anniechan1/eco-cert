@@ -236,10 +236,11 @@ function Contact() {
               display: flex;
               align-items: flex-start;
               margin-bottom: 1rem;
+              gap: 0.1rem; /* Further reduced from 0.3rem */
             }
 
             .contact-item i {
-              margin-right: 0.75rem;
+              margin-right: 0.1rem; /* Reduced from 0.3rem */
               color: #4caf50;
               font-size: 1.2rem;
               margin-top: 0.2rem;

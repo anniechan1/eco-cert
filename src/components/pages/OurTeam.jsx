@@ -1,5 +1,6 @@
 import "./OurTeam.css"
 import { useTranslation } from "react-i18next"
+import { Link } from "react-router-dom";
 
 function OurTeam() {
   const { t } = useTranslation()
@@ -11,6 +12,7 @@ function OurTeam() {
       title: t("team_founder"),
       description: t("team_founder_desc"),
       image: "/images/MKM.png",
+      path: "/founder"
     },
     {
       id: 2,
@@ -18,6 +20,7 @@ function OurTeam() {
       title: t("team_auditor"),
       description: t("team_auditor_desc"),
       image: "/images/auditor.png",
+      
     },
     {
       id: 3,
@@ -25,6 +28,7 @@ function OurTeam() {
       title: t("team_coo"),
       description: t("team_coo_desc"),
       image: "/images/yonas.png",
+    
     },
     {
       id: 4,
@@ -32,6 +36,7 @@ function OurTeam() {
       title: t("team_inspector"),
       description: t("team_inspector_desc"),
       image: "/images/tek.png",
+     
     },
   ]
 
@@ -45,14 +50,20 @@ function OurTeam() {
 
       <div className="team-members">
         {teamMembers.map((member) => (
-          <div key={member.id} className="team-member">
-            <div className="member-image-container">
-              <img src={member.image || "/placeholder.svg"} alt={member.name} className="member-image" />
+          <Link 
+            to={member.path} 
+            key={member.id} 
+            className="team-member-link"
+          >
+            <div className="team-member">
+              <div className="member-image-container">
+                <img src={member.image || "/placeholder.svg"} alt={member.name} className="member-image" />
+              </div>
+              <h2 className="member-name">{member.name}</h2>
+              <h3 className="member-title">{member.title}</h3>
+              <p className="member-description">{member.description}</p>
             </div>
-            <h2 className="member-name">{member.name}</h2>
-            <h3 className="member-title">{member.title}</h3>
-            <p className="member-description">{member.description}</p>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

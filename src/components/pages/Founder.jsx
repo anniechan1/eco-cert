@@ -21,6 +21,8 @@ function Founder() {
             </div>
             <div className="founder-sidebar-content">
               <div className="founder-roles">
+
+                <p>{t("founder.role_teach")}</p>
                 <p>
                   {t("founder.role_ceo")}{" "}
                   <a
@@ -51,8 +53,7 @@ function Founder() {
           <div className="founder-content">
             <section className="founder-section">
               <p>
-                {t("founder.intro_paragraph1_part1")} <strong>{t("founder.intro_paragraph1_strong1")}</strong>
-                {t("founder.intro_paragraph1_part2")}
+                {t("founder.intro_paragraph1_part1")} 
               </p>
               <p>
                 {t("founder.intro_paragraph2_part1")}{" "}
@@ -83,8 +84,7 @@ function Founder() {
                 {t("founder.intro_paragraph3_part4")}
               </p>
               <p>
-                {t("founder.intro_paragraph4_part1")} <strong>{t("founder.intro_paragraph4_strong1")}</strong>
-                {t("founder.intro_paragraph4_part2")} <strong>{t("founder.intro_paragraph4_strong2")}</strong>
+                {t("founder.intro_paragraph4_part1")} <strong>{t("founder.intro_paragraph4_strong2")}</strong>
                 {t("founder.intro_paragraph4_part3")}
               </p>
               <p>
@@ -97,19 +97,14 @@ function Founder() {
                 {t("founder.intro_paragraph6_part2")}
               </p>
               <p>
-                {t("founder.intro_paragraph7_part1")} <strong>{t("founder.intro_paragraph7_strong1")}</strong>
-                {t("founder.intro_paragraph7_part2")}
+                {t("founder.intro_paragraph7_part1")} 
               </p>
             </section>
 
             <section className="founder-section">
               <h2>{t("founder.professional_profile_title")}</h2>
               <p>
-                {t("founder.professional_profile_paragraph_part1")}{" "}
-                <strong>{t("founder.professional_profile_paragraph_strong1")}</strong>
-                {t("founder.professional_profile_paragraph_part2")}{" "}
-                <strong>{t("founder.professional_profile_paragraph_strong2")}</strong>
-                {t("founder.professional_profile_paragraph_part3")}
+                {t("founder.professional_profile_paragraph_part1")}
               </p>
             </section>
 
@@ -315,9 +310,7 @@ function Founder() {
                     <strong>{t("founder.advisor_governments_item2_strong")}</strong>.
                   </li>
                   <li>
-                    {t("founder.advisor_governments_item3_part1")}{" "}
-                    <strong>{t("founder.advisor_governments_item3_strong")}</strong>
-                    {t("founder.advisor_governments_item3_part2")}
+                    {t("founder.advisor_governments_item3_part1")}
                   </li>
                 </ul>
               </div>
@@ -409,8 +402,7 @@ function Founder() {
               <ul>
                 <li>
                   {t("founder.recent_initiatives_item1_part1")}{" "}
-                  <strong>{t("founder.recent_initiatives_item1_strong")}</strong>
-                  {t("founder.recent_initiatives_item1_part2")}
+          
                 </li>
                 <li>
                   {t("founder.recent_initiatives_item2_part1")}{" "}
@@ -422,17 +414,15 @@ function Founder() {
                   >
                     Seratera.com
                   </a>{" "}
-                  {t("founder.recent_initiatives_item2_part2")}
+                  
                 </li>
                 <li>
                   {t("founder.recent_initiatives_item3_part1")}{" "}
-                  <strong>{t("founder.recent_initiatives_item3_strong")}</strong>
-                  {t("founder.recent_initiatives_item3_part2")}
+                  
                 </li>
                 <li>
                   {t("founder.recent_initiatives_item4_part1")}{" "}
-                  <strong>{t("founder.recent_initiatives_item4_strong")}</strong>
-                  {t("founder.recent_initiatives_item4_part2")}
+           
                 </li>
               </ul>
             </section>
@@ -461,10 +451,12 @@ function Founder() {
                   <strong>{t("founder.publication5_title")}</strong>
                   {t("founder.publication5_text")}
                 </li>
+                
               </ul>
             </section>
 
-            <section className="founder-section">
+
+   <section className="founder-section">
               <h2>{t("founder.presentations_title")}</h2>
               <ul>
                 <li>

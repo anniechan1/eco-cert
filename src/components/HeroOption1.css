@@ -181,7 +181,49 @@
   display: flex;
   gap: 1rem;
   margin-top: 1.5rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* Ensure buttons stay on the same row */
+}
+
+/* Button styles - Further reduced size on big screens */
+.btn-primary-organic,
+.btn-secondary-organic {
+  padding: 10px 20px; /* Further reduced from 12px 24px */
+  font-size: 0.9rem; /* Further reduced from 0.95rem */
+  border-radius: 25px; /* Slightly smaller radius */
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap; /* Prevent text wrapping */
+  min-width: 110px; /* Reduced from 120px */
+}
+
+.btn-primary-organic {
+  background-color: #7ea87e;
+  color: white;
+  border: 2px solid #7ea87e;
+  box-shadow: 0 4px 12px rgba(126, 168, 126, 0.3);
+}
+
+.btn-primary-organic:hover {
+  background-color: #5f8c5f;
+  border-color: #5f8c5f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(126, 168, 126, 0.4);
+}
+
+.btn-secondary-organic {
+  background-color: transparent;
+  color: #7ea87e;
+  border: 2px solid #7ea87e;
+}
+
+.btn-secondary-organic:hover {
+  background-color: rgba(126, 168, 126, 0.1);
+  transform: translateY(-2px);
 }
 
 .hero-visual {
@@ -295,6 +337,16 @@
 
   .image-frame {
     transform: perspective(1000px) rotateY(0deg);
+    width: 400px; /* Set specific width for tablet */
+    max-width: 90%; /* Ensure it doesn't overflow */
+    margin: 0 auto; /* Center the image */
+  }
+
+  .hero-visual {
+    min-width: auto; /* Remove min-width constraint */
+    width: 100%; /* Full width container */
+    display: flex;
+    justify-content: center; /* Center the image frame */
   }
 }
 
@@ -328,5 +380,63 @@
   .shape-2,
   .shape-3 {
     opacity: 0.07;
+  }
+
+  /* Make buttons smaller on small screens */
+  .btn-primary-organic,
+  .btn-secondary-organic {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    min-width: 100px;
+  }
+
+  /* Ensure buttons stay on the same row */
+  .hero-cta {
+    gap: 0.5rem; /* Reduce gap between buttons */
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Reduce hero image size while maintaining proportions */
+  .image-frame {
+    width: 320px; /* Reduced width for mobile */
+    max-width: 85%; /* Slightly narrower than tablet */
+  }
+
+  /* Adjust accent element size */
+  .image-accent {
+    width: 80px;
+    height: 80px;
+    top: -15px;
+    right: -15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Even smaller buttons on very small screens */
+  .btn-primary-organic,
+  .btn-secondary-organic {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    min-width: 80px;
+  }
+
+  .hero-cta {
+    gap: 0.4rem; /* Further reduce gap */
+  }
+
+  /* Further reduce hero image size for very small screens */
+  .image-frame {
+    width: 260px; /* Further reduced width */
+    max-width: 85%;
+  }
+
+  /* Further reduce accent element size */
+  .image-accent {
+    width: 60px;
+    height: 60px;
+    top: -10px;
+    right: -10px;
   }
 }

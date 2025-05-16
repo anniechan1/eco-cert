@@ -166,7 +166,7 @@ function OrganicCertification() {
 
           <div className="highlight-box">
             <h3>{t("organic_certification.beekeeping.impact.title")}</h3>
-            <p>{t("organic_certification.beekeeping.impact.intro")}</p>
+
             <ul>
               <li>{t("organic_certification.beekeeping.impact.markets")}</li>
               <li>{t("organic_certification.beekeeping.impact.biodiversity")}</li>
@@ -289,7 +289,7 @@ function OrganicCertification() {
             <li>{t("organic_certification.wild_harvest.scope.forest")}</li>
           </ul>
           <p>
-            <strong>{t("organic_certification.wild_harvest.impact_title")}</strong>{" "}
+  
             {t("organic_certification.wild_harvest.impact_desc")}
           </p>
         </div>

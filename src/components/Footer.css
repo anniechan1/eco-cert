@@ -98,11 +98,16 @@
   margin-top: 3px;
   width: 16px;
   text-align: center;
+  flex-shrink: 0; /* Prevent icon from shrinking */
 }
 
 .contact-info li span {
   font-size: 0.95rem;
   line-height: 1.5;
+  /* Add word-wrap for all screens to prevent text overflow */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 /* Bottom section with legal links and copyright */
@@ -178,14 +183,42 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
+  /* Stack the contact columns vertically on small screens */
   .footer-contact-columns {
     flex-direction: column;
     gap: 30px;
+    width: 100%;
   }
 
   .footer-contact-column {
+    width: 100%;
     min-width: 100%;
+    text-align: center;
+  }
+
+  /* Ensure contact info stays within screen boundaries */
+  .contact-info {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Fix for icon and text alignment on small screens */
+  .contact-info li {
+    align-items: flex-start; /* Align items to the top */
+    text-align: left; /* Left align the text */
+    justify-content: flex-start; /* Start from the left */
+    padding-left: 20%; /* Add padding to center the content */
+    padding-right: 20%; /* Add padding to center the content */
+  }
+
+  .contact-info li i {
+    margin-top: 3px; /* Align icon with the first line of text */
+  }
+
+  .contact-info li span {
+    display: inline-block; /* Ensure proper text wrapping */
+    text-align: left; /* Left align the text */
   }
 }
 

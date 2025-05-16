@@ -45,12 +45,12 @@
   "track_intro_part1": "Durch unsere enge Zusammenarbeit mit ",
   "track_link_text": "Eljojofe e.V.",
   "track_intro_part2": " haben wir:",
-  "track_list_item1_part1": "Über ",
-  "track_list_item1_emphasis": "3.000 Biobäuer*innen",
+ 
+  "track_list_item1_emphasis": "Über 3.000 Biobäuer*innen",
   "track_list_item1_part2": " in ganz Äthiopien geschult und sie bei der Einhaltung internationaler Standards unterstützt.",
-  "track_list_item2_part1": "Aktiv zur ",
-  "track_list_item2_emphasis": "Entwicklung aller Biosphärenreservate Äthiopiens",
-  "track_list_item2_part2": " beigetragen und damit Naturschutz und nachhaltige Lebensgrundlagen unterstützt.",
+  
+  "track_list_item2_emphasis": "Aktiv zur Entwicklung aller Biosphärenreservate Äthiopiens beigetragen ",
+  "track_list_item2_part2": "und damit Naturschutz und nachhaltige Lebensgrundlagen unterstützt.",
 
   "market_title": "Marktentwicklung",
   "market_intro": "Wir sind stolz darauf:",
@@ -81,8 +81,7 @@
   "history_content": "Gegründet mit der Vision, eine Zertifizierungsstelle zu schaffen, die sowohl glaubwürdig als auch kooperativ ist, entstand EcoCertification aus einem Netzwerk von Nachhaltigkeitsexperten, landwirtschaftlichen Genossenschaften und Technologiepartnern. Seit unseren Anfängen haben wir unsere Reichweite auf mehrere Regionen ausgedehnt und bieten maßgeschneiderte Zertifizierungsdienste für Produzenten aller Größenordnungen an.",
 
   "team_title": "Unser Team",
-  "team_intro": "Lernen Sie die Experten hinter EcoCertification kennen. Unser Team vereint jahrzehntelange Erfahrung in Bio-Zertifizierung, nachhaltiger Landwirtschaft und Qualitätssicherung, um Ihnen höchstes Serviceniveau und Fachkompetenz zu bieten.",
-  "team_founder": "Gründerin",
+  "team_intro": "Unser internationales Team vereint jahrelange Expertise in den Bereichen ökologische Landwirtschaft, Forst- und Imkersysteme, digitale Prüfwerkzeuge und internationale Zertifizierungssysteme. Wir glauben an Zusammenarbeit, kontinuierliches Lernen und daran, den Bedürfnissen der Menschen zuzuhören, die hinter jedem zertifizierten Produkt stehen.",
   "team_founder_desc": "Unsere Gründerin ist eine Pionierin im Bereich Bio-Zertifizierung und nachhaltige Agrar-Technologie, die Äthiopiens erstes Bio-Zertifizierungsrahmenwerk vorangetrieben und digitale ICS-Lösungen für über 11.000 Kleinbauern implementiert hat. Mit einem Doktortitel in internationalen Verifizierungsregimen und einem Hintergrund in Abrüstung und strategischer Führung bringt sie eine seltene Kombination aus technischer Expertise und visionärer Politikgestaltung mit, um die landwirtschaftliche Landschaft Ostafrikas zu transformieren.",
   "team_auditor": "Chefauditorin",
   "team_auditor_desc": "Mit einem Doktortitel in Biochemie und mehr als 6 Jahren Erfahrung als forensische Auditorin gewährleistet sie die Einhaltung der EU-Standards.",
@@ -106,8 +105,7 @@
   "platform_subtitle": "Eine innovative digitale Lösung für die Einhaltung ökologischer Landwirtschaftsstandards",
   "platform_badge": "Erste in Afrika",
   "platform_intro_title": "Einführung",
-  "platform_intro_1": "Die Eco Certification ICS-Plattform ist das",
-  "platform_intro_emphasis_1": "erste in Afrika",
+  "platform_intro_1": "Die Eco Certification ICS-Plattform ist das erste in Afrika",
   "platform_intro_emphasis_2": "heimatbasierte Bio-Zertifizierungssystem, vollständig unterstützt durch digitale Technologie",
   "platform_intro_2": "Sie wurde entwickelt, um Verbände, Genossenschaften und Produzentengruppen bei der effizienten Verwaltung ihres",
   "platform_intro_emphasis_3": "internen Kontrollsystems (ICS)",
@@ -241,8 +239,8 @@
         "desc": "Vollständige Aufzeichnung von Bienenstockbewirtschaftung, Futtergebieten und Honigchargen."
       },
       "impact": {
-        "title": "Unsere Wirkung",
-        "intro": "Dieser Dienst unterstützt äthiopische Imker, um:",
+        "title": "Dieser Dienst unterstützt äthiopische Imker, um:",
+ 
         "markets": "Zugang zu Premium-Bio-Honigmärkten zu erhalten.",
         "biodiversity": "Biodiversität und Bestäubungsgesundheit zu erhalten.",
         "reputation": "Äthiopiens Ruf als führender Honigproduzent in Afrika zu wahren."
@@ -344,7 +342,7 @@
         "gums": "Natürliche Gummis und Harze (z.B. Myrrhe, Weihrauch).",
         "forest": "Nicht-Holz-Forstprodukte."
       },
-      "impact_title": "Wirkung:",
+    
       "impact_desc": "Diese Zertifizierung verbessert den Zugang zu Premium-Märkten und schützt gleichzeitig Äthiopiens reiche Biodiversität und unterstützt nachhaltige Lebensgrundlagen für ländliche und waldabhängige Gemeinschaften."
     }
   },
@@ -394,7 +392,7 @@
     "title": "Unabhängigkeit & Integrität",
     "commitment": {
       "title": "Unser Engagement für Unparteilichkeit",
-      "intro": "Wir wahren strenge Unparteilichkeit durch:",
+      "intro": "Unsere Governance-Struktur umfasst einen Aufsichtsausschuss, der Objektivität und kontinuierliche Compliance sicherstellt. Wir wahren strenge Unparteilichkeit durch:",
       "principles": [
         {
           "icon": "handshake",
@@ -417,16 +415,10 @@
         "src": "/images/cal.webp",
         "alt": "Handschlag als Symbol für Integrität und Partnerschaft"
       }
-    },
-    "governance": {
-      "title": "Governance-Struktur",
-      "text": [
-        "Unsere Governance-Struktur umfasst einen Aufsichtsausschuss, der Objektivität und kontinuierliche Compliance sicherstellt. Dieser Ausschuss besteht aus unabhängigen Experten, die unsere Zertifizierungsprozesse überprüfen, unsere Abläufe auditieren und Orientierung zur Aufrechterhaltung höchster Standards für Integrität und Unparteilichkeit bieten.",
-        "Der Ausschuss trifft sich vierteljährlich, um unsere Tätigkeiten zu überprüfen und sicherzustellen, dass alle Zertifizierungsentscheidungen mit vollständiger Unabhängigkeit und unter Einhaltung internationaler Standards getroffen werden."
-      ]
     }
+  
+  
   },
-
   "international_standards": {
     "title": "Einhaltung internationaler Standards",
     "intro": "Wir halten uns strikt an:",
@@ -456,8 +448,8 @@
     ],
     "traceability": {
       "title": "Rückverfolgbarkeit & Transparenz",
-      "paragraph1": "Wir gewährleisten vollständige Rückverfolgbarkeit und Transparenz in der gesamten Lieferkette, unterstützt durch robuste Dokumentation und Prüfpfade. Unsere Systeme ermöglichen die Überprüfung in jedem Schritt des Prozesses, vom Bauernhof bis zum Endprodukt, und sichern so die Integrität der zertifizierten Produkte.",
-      "paragraph2": "Unsere digitale Plattform verbessert diese Rückverfolgbarkeit, indem sie Echtzeitzugriff auf Zertifizierungsdaten bietet und es den Beteiligten ermöglicht, den Compliance-Status zu überprüfen und Produktwege mit Vertrauen zu verfolgen."
+      "paragraph1": "Wir gewährleisten vollständige Rückverfolgbarkeit und Transparenz in der gesamten Lieferkette, unterstützt durch robuste Dokumentation und Prüfpfade,und sichern so die Integrität der zertifizierten Produkte."
+  
     }
   },
 
@@ -653,7 +645,7 @@
     "contact_details": {
       "yonas": "Yonas Alemu",
       "yonas_email": "yosheplc@gmail.com",
-      "yonas_phone": "+251 97 498 4675",
+      "yonas_phone": "+251 99 351 4543",
       "ecopia_address": "Ecopia PLC",
       "po_box": "PO Box 1072",
       "addis_ababa": "Addis Ababa",
@@ -748,7 +740,9 @@
       "current_cert_placeholder": "z.B. Rainforest Alliance, UTZ",
       "additional_info": "Zusätzliche Informationen",
       "additional_placeholder": "Bitte geben Sie alle zusätzlichen Details an, die für Ihren Zertifizierungsantrag relevant sein könnten",
-      "terms": "Ich stimme den Geschäftsbedingungen zu*",
+     "terms_start": "Ich stimme den ",
+  "terms_link": "Allgemeinen Geschäftsbedingungen",
+  "terms_end": " zu*",
       "submit": "Antrag einreichen",
       "submitting": "Wird eingereicht..."
     }
@@ -889,7 +883,7 @@
     "paragraph": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte:",
     "list_items": [
       "Per E-Mail: yosheplc@gmail.com",
-      "Per Telefon: +251 97 498 4675",
+      "Per Telefon: +251 99 351 4543",
       "Per Post: Ecopia PLC, PO Box 1072, Addis Ababa"
     ]
   }
@@ -1002,7 +996,7 @@
     "paragraph": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter:",
     "list_items": [
       "E-Mail: yosheplc@gmail.com",
-      "Telefon: +251 97 498 4675",
+      "Telefon: +251 99 351 4543",
       "Post: PO Box 1072, Addis Abeba, Äthiopien"
     ]
   }
@@ -1080,7 +1074,7 @@
     "paragraph": "Wenn Sie Fragen zu unserer Verwendung von Cookies oder anderen Technologien haben, kontaktieren Sie uns bitte unter:",
     "list_items": [
       "E-Mail: yosheplc@gmail.com",
-      "Telefon: +251 97 498 4675",
+      "Telefon: +251 99 351 4543",
       "Post: PO Box 1072, Addis Abeba, Äthiopien"
     ]
   }
@@ -1141,13 +1135,12 @@
   "founder": {
     "name": "Dr. Mitslal Kifleyesus-Matschie",
     "title": "Pionierin und Vorkämpferin für ökologische Landwirtschaft in Äthiopien",
+    "role_teach":"Assistenzprofessorin, Universität Jimma",
     "role_ceo": "CEO,",
     "role_founder": "Gründerin,",
-    "role_expert": "Expertin für Abrüstung und Rüstungskontrolle",
+    "role_expert": "Expertin für Abrüstung und\u00A0Rüstungskontrolle",
 
-    "intro_paragraph1_part1": "Dr. Mitslal Kifleyesus-Matschie hat außerordentliche Beiträge zur Förderung der ökologischen Landwirtschaft in Äthiopien geleistet. Mit einem",
-    "intro_paragraph1_strong1": "Doktortitel in internationalen Organisations-Verifikations- und Inspektionsregimen",
-    "intro_paragraph1_part2": "—einer Disziplin, die sich auf Compliance und Aufsicht in stark regulierten Umgebungen konzentriert—hat Dr. Mitslal ihre Expertise erfolgreich in den Aufbau des ersten ökologischen Verarbeitungsunternehmens Äthiopiens überführt und damit einen nationalen Präzedenzfall geschaffen.",
+    "intro_paragraph1_part1": "Dr. Mitslal Kifleyesus-Matschie hat außerordentliche Beiträge zur Förderung der ökologischen Landwirtschaft in Äthiopien geleistet. Mit eine Doktortitel in internationalen Organisations-Verifikations- und Inspektionsregimen— einer Disziplin, die sich auf Compliance und Aufsicht in stark regulierten Umgebungen konzentriert—hat Dr. Mitslal ihre Expertise erfolgreich in den Aufbau des ersten ökologischen Verarbeitungsunternehmens Äthiopiens überführt und damit einen nationalen Präzedenzfall geschaffen.",
 
     "intro_paragraph2_part1": "Als Gründerin von",
     "intro_paragraph2_part2": "—Ecological Products of Ethiopia—war Dr. Mitslal maßgeblich an der Schaffung der Grundlagen für Äthiopiens ökologische Lebensmittel- und Kosmetiksektoren beteiligt. Das 2006 gegründete Unternehmen Ecopia verarbeitet und vermarktet ausschließlich ökologische Lebensmittel, pflanzliche Medizin und Kosmetikprodukte aus Äthiopiens Biosphärenreservaten. Unter ihrer Führung integrierte Ecopia über",
@@ -1179,16 +1172,10 @@
     "intro_paragraph6_strong1": "Konferenz der Afrikanischen Union zur ökologischen Landwirtschaft (2008)",
     "intro_paragraph6_part2": ", wo sie mit Interessenvertretern zusammenarbeitete, um ökologische Landwirtschaft als Eckpfeiler der afrikanischen Strategie für Ernährungssicherheit und Klimawandelbekämpfung zu positionieren.",
 
-    "intro_paragraph7_part1": "Dr. Mitslals Arbeit zeichnet sich durch ihr Engagement für",
-    "intro_paragraph7_strong1": "ökologische Nachhaltigkeit, Stärkung der Gemeinschaft und institutionelle Integrität",
-    "intro_paragraph7_part2": "aus. Durch ihre visionäre Führung hat sie Brücken zwischen lokalen äthiopischen Landwirten und internationalen Bio-Märkten gebaut und ein Modell für sozial verantwortliches Unternehmertum und regulatorische Exzellenz geschaffen.",
+    "intro_paragraph7_part1": "Dr. Mitslals Arbeit zeichnet sich durch ihr Engagement für ökologische Nachhaltigkeit, Stärkung der Gemeinschaft und institutionelle Integrität aus. Durch ihre visionäre Führung hat sie Brücken zwischen lokalen äthiopischen Landwirten und internationalen Bio-Märkten gebaut und ein Modell für sozial verantwortliches Unternehmertum und regulatorische Exzellenz geschaffen.",
 
     "professional_profile_title": "Berufliches Profil",
-    "professional_profile_paragraph_part1": "Dynamische und erfolgreiche Führungspersönlichkeit mit über zwei Jahrzehnten Erfahrung in strategischen Beratungsfunktionen, Abrüstung und ökologischer Landwirtschaft.",
-    "professional_profile_paragraph_strong1": "Pionierarbeit bei Äthiopiens erstem ökologischen Verarbeitungsunternehmen",
-    "professional_profile_paragraph_part2": ", Integration von über 11.000 Landwirten in die ökologische Wertschöpfungskette. Spezialisiert auf Zertifizierung, Verifikationsregime und nachhaltige Entwicklung, verbinde ich globale Sicherheitsinitiativen mit ökologischer Landwirtschaft und stärke Gemeinschaften durch ethische und regulatorische Exzellenz. Meine Expertise umfasst die Leitung der Entwicklung von Unternehmen, die",
-    "professional_profile_paragraph_strong2": "Friedensförderung, Abrüstung und nachhaltige Entwicklung",
-    "professional_profile_paragraph_part3": "integrieren, mit besonderem Fokus auf Afrika. Ich widme mich der Förderung von Sicherheit, Stabilität und wirtschaftlicher Stärkung durch innovative, gemeinschaftsorientierte Ansätze.",
+    "professional_profile_paragraph_part1": "Dynamische und erfolgreiche Führungspersönlichkeit mit über zwei Jahrzehnten Erfahrung in strategischen Beratungsfunktionen, Abrüstung und ökologischer Landwirtschaft. Pionierarbeit bei Äthiopiens erstem ökologischen Verarbeitungsunternehmen, Integration von über 11.000 Landwirten in die ökologische Wertschöpfungskette. Spezialisiert auf Zertifizierung, Verifikationsregime und nachhaltige Entwicklung, verbinde ich globale Sicherheitsinitiativen mit ökologischer Landwirtschaft und stärke Gemeinschaften durch ethische und regulatorische Exzellenz. Meine Expertise umfasst die Leitung der Entwicklung von Unternehmen, die Friedensförderung, Abrüstung und nachhaltige Entwicklung integrieren, mit besonderem Fokus auf Afrika. Ich widme mich der Förderung von Sicherheit, Stabilität und wirtschaftlicher Stärkung durch innovative, gemeinschaftsorientierte Ansätze.",
 
     "key_qualifications_title": "Schlüsselqualifikationen",
 
@@ -1259,6 +1246,7 @@
     "tgm_group_item2_part2": " Initiativen zur Verbesserung der Handelssicherheit und Resilienz in ganz Afrika.",
     "tgm_group_item3": "Zusammenarbeit mit internationalen Organisationen und afrikanischen Institutionen zur Stärkung von Sicherheitsrahmen und Förderung regionaler Stabilität.",
 
+ 
     "ecopia_seratera_title_part1": "CEO,",
     "ecopia_seratera_title_part2": "| Gründerin,",
     "ecopia_seratera_date": "(2006–Heute)",
@@ -1276,9 +1264,7 @@
     "advisor_governments_item1_text": " für Sicherheits- und Verteidigungslösungen, mit Fokus auf die Integration fortschrittlicher Technologien und innovativer Strategien zur Bewältigung zeitgenössischer Sicherheitsherausforderungen.",
     "advisor_governments_item2_part1": "Strategische Beratung zur Entwicklung von",
     "advisor_governments_item2_strong": "Vorschriften für pflanzliche Arzneimittel",
-    "advisor_governments_item3_part1": "Zusammenarbeit mit ",
-    "advisor_governments_item3_strong": "sechs Ministerien",
-    "advisor_governments_item3_part2": " zur Stärkung der Gemeinschaftsbeteiligung an der Entwicklung von Naturprodukten und deren Auswirkungen auf Friedensförderung und Sicherheit.",
+    "advisor_governments_item3_part1": "Zusammenarbeit mit sechs Ministerien zur Stärkung der Gemeinschaftsbeteiligung an der Entwicklung von Naturprodukten und deren Auswirkungen auf Friedensförderung und Sicherheit.",
 
     "lecturer_public_speaker_title": "Dozentin und öffentliche Rednerin",
     "lecturer_public_speaker_date": "(1996–Heute)",
@@ -1328,17 +1314,12 @@
     "harvard_sussex_item2_part2": " zur Rüstungskontrolle und Rüstungsbegrenzung, Bereitstellung von politischen Empfehlungen auf Basis von Forschungsergebnissen.",
 
     "recent_initiatives_title": "Aktuelle Initiativen",
-    "recent_initiatives_item1_part1": "Vorsitzende, ",
-    "recent_initiatives_item1_strong": "Lenkungsausschuss für die Vereinigung äthiopischer Diaspora-Frauen",
-    "recent_initiatives_item1_part2": " (2024)",
-    "recent_initiatives_item2_part1": "Gründerin,",
-    "recent_initiatives_item2_part2": " Konsortium (2021-Heute)",
-    "recent_initiatives_item3_part1": "Mitglied, Vorstand der ",
-    "recent_initiatives_item3_strong": "Nord-Süd-Brücken-Stiftung",
-    "recent_initiatives_item3_part2": " (2012-2019)",
-    "recent_initiatives_item4_part1": "Dozentin für ",
-    "recent_initiatives_item4_strong": "Unternehmertum und Geschäftsentwicklung in Afrika",
-    "recent_initiatives_item4_part2": " (2022-Heute)",
+    "recent_initiatives_item1_part1": "Vorsitzende, Lenkungsausschuss für die Vereinigung äthiopischer Diaspora-Frauen(2024)",
+    "recent_initiatives_item2_part1": "Gründerin, Konsortium (2021-Heute)",
+    "recent_initiatives_item3_part1": "Mitglied, Vorstand der Nord-Süd-Brücken-Stiftung (2012-2019)",
+    "recent_initiatives_item4_part1": "Dozentin für Unternehmertum und Geschäftsentwicklung in Afrika (2022-Heute)",
+
+
 
     "publications_title": "Publikationen, Forschung und Analyse",
     "disarmament_publications_title": "Abrüstung, Rüstungskontrolle und Sicherheit",
@@ -1360,6 +1341,8 @@
     "presentation2_text": " Präsentation von Forschungsergebnissen über die Auswirkungen von Dual-Use-Technologie auf die Rüstungskontrolle in Entwicklungsländern.",
     "presentation3_title": "Deutsche Fernsehsender (DWL und MDR):",
     "presentation3_text": " Mitwirkung an Diskussionen über Abrüstung und nachhaltige Entwicklung."
+  
+
   },
    "key_certification": {
     "title": "Wichtige Zertifizierungen & Dienstleistungen",

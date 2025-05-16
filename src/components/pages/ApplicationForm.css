@@ -341,4 +341,16 @@
     width: 100%;
     align-self: center;
   }
+
+
+  .terms-link {
+  color: #7ea87e;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.terms-link:hover {
+  color: #5f8c5f;
+}
 }

@@ -50,7 +50,7 @@ function InternationalStandards() {
               </div>
               <div className="traceability-text">
                 <p>{t("international_standards.traceability.paragraph1")}</p>
-                <p>{t("international_standards.traceability.paragraph2")}</p>
+               
               </div>
             </div>
           </div>

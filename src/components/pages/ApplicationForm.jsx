@@ -522,7 +522,7 @@ function ApplicationForm() {
                   id="message"
                   name="message"
                   rows="5"
-                  placeholder={t("application_form.form.additional_info_placeholder")}
+                  placeholder={t("application_form.form.additional_placeholder")}
                   value={formData.message}
                   onChange={handleChange}
                   disabled={isSubmitting}
@@ -541,7 +541,12 @@ function ApplicationForm() {
                   className={errors.terms && showValidation ? "input-error" : ""}
                   disabled={isSubmitting}
                 />
-                <label htmlFor="terms">{t("application_form.form.terms")}</label>
+                <label htmlFor="terms">{t("application_form.form.terms_start")}<a href="/terms-of-service" target="_blank" rel="noopener noreferrer" className="terms-link">
+        {t("application_form.form.terms_link")}
+      </a>{t("application_form.form.terms_end")}
+
+
+                </label>
               </div>
               {errors.terms && showValidation && <div className="error-message">{errors.terms}</div>}
             </div>

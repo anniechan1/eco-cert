@@ -38,42 +38,46 @@
   font-size: 18px;
 }
 
-/* Specific styling for the bottom two-column layout with tree and field images */
+/* Updated styling for the bottom two-column layout with tree and field images 
+   to exactly match the beans.webp styling */
 .page-container > .two-column-layout:last-child {
   display: flex;
-  gap: 60px;
+  gap: 20px; /* Match the gap from image-grid-three */
   margin: 40px auto;
   justify-content: center;
   align-items: center;
-  max-width: 1000px; /* Increased from 900px to accommodate wider images */
+  max-width: 1000px;
 }
 
+/* Make the column items match the grid-image-item styling */
 .page-container > .two-column-layout:last-child .column-item {
   flex: 0 0 auto;
-  width: 384px; /* Increased by 20% from 320px */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* No explicit width to match the grid layout behavior */
+  border-radius: 12px; /* Match the border-radius from grid-image-item */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Match the shadow from grid-image-item */
+  height: 250px; /* Match the height of grid-image-item for beans.webp */
 }
 
+/* Remove the image-card container since beans.webp doesn't use it */
 .page-container > .two-column-layout:last-child .image-card {
   width: 100%;
-  height: 320px; /* Maintained the same height */
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  aspect-ratio: auto;
+  height: 100%;
+  display: block; /* Match the display from grid-image */
 }
 
+/* Apply the exact same styling as the grid-image class */
 .page-container > .two-column-layout:last-child .small-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Changed from contain to cover to fill the space */
-  border-radius: 16px; /* Match the container's border radius */
-  transition: transform 0.5s ease;
+  object-fit: cover; /* Match object-fit from grid-image */
+  display: block; /* Match display from grid-image */
+  transition: transform 0.5s ease; /* Match transition from grid-image */
+}
+
+/* Apply the exact same hover effect */
+.page-container > .two-column-layout:last-child .column-item:hover .small-image {
+  transform: scale(1.05); /* Match the hover effect from grid-image-item:hover .grid-image */
 }
 
 .two-column-layout {
@@ -271,47 +275,63 @@
 
   .grid-image-item:nth-child(3) {
     grid-column: span 2; /* Make the third image span both columns */
-    height: 250px;
+    height: 220px; /* Slightly reduced height */
   }
 
   .page-container > .two-column-layout:last-child {
-    gap: 40px;
+    gap: 20px;
   }
 
+  /* Match the responsive behavior of beans.webp */
   .page-container > .two-column-layout:last-child .column-item {
-    width: 336px; /* Increased by 20% from 280px */
+    height: 220px; /* Slightly reduced height on tablet */
   }
 
-  .page-container > .two-column-layout:last-child .image-card {
-    height: 280px;
+  /* Reduce heights for all grid images on tablet */
+  .grid-image-item:nth-child(1),
+  .grid-image-item:nth-child(2) {
+    height: 220px;
   }
 }
 
+/* Update the mobile media query to make images proportionally smaller */
 @media screen and (max-width: 768px) {
+  .page-header h1 {
+    font-size: 30px;
+  }
+
   .page-container > .two-column-layout:last-child {
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
   }
 
+  /* Make images proportionally smaller while maintaining aspect ratio */
   .page-container > .two-column-layout:last-child .column-item {
-    width: 312px; /* Increased by 20% from 260px */
-  }
-
-  .page-container > .two-column-layout:last-child .image-card {
-    height: 260px;
+    height: 180px; /* Reduced height */
+    width: 270px; /* Proportional width (maintain aspect ratio) */
+    margin: 0 auto; /* Center the images */
   }
 
   .two-column-layout {
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
   }
 
   .column-item {
     width: 100%;
+    margin: 0 auto;
+  }
+
+  .image-card {
+    height: 180px; /* Reduced height */
+    width: 270px; /* Proportional width */
+    margin: 0 auto; /* Center the image */
+    aspect-ratio: auto;
   }
 
   .content-text {
-    padding: 25px;
+    padding: 20px;
+    width: 100%; /* Keep text content full width */
   }
 
   .content-text p {
@@ -319,21 +339,70 @@
   }
 
   .image-grid-three {
-    grid-template-columns: 1fr; /* One column on mobile */
+    grid-template-columns: 1fr;
+    gap: 15px;
+    justify-items: center; /* Center grid items */
   }
 
   .grid-image-item:nth-child(n) {
     grid-column: span 1;
-    height: 250px; /* Consistent height on mobile */
+    height: 180px; /* Reduced height */
+    width: 270px; /* Proportional width */
+    justify-self: center; /* Center in grid */
+  }
+
+  /* Special handling for portrait image */
+  .grid-image-item:nth-child(2) {
+    height: 220px; /* Slightly taller for portrait image */
+    width: 165px; /* Narrower to maintain portrait aspect ratio */
+  }
+
+  .photo-placeholder {
+    height: 180px;
+    width: 270px;
+    margin: 0 auto;
   }
 }
 
+/* Make images even smaller on very small screens but maintain proportions */
 @media screen and (max-width: 480px) {
-  .page-container > .two-column-layout:last-child .column-item {
-    width: 264px; /* Increased by 20% from 220px */
+  .page-header h1 {
+    font-size: 26px;
   }
 
-  .page-container > .two-column-layout:last-child .image-card {
-    height: 220px;
+  /* Even smaller images on very small screens */
+  .page-container > .two-column-layout:last-child .column-item {
+    height: 150px; /* Further reduced height */
+    width: 225px; /* Proportional width */
+  }
+
+  .grid-image-item:nth-child(1),
+  .grid-image-item:nth-child(3) {
+    height: 150px; /* Further reduced height */
+    width: 225px; /* Proportional width */
+  }
+
+  /* Special handling for portrait image */
+  .grid-image-item:nth-child(2) {
+    height: 180px; /* Reduced but still taller */
+    width: 135px; /* Proportional width for portrait */
+  }
+
+  .image-card {
+    height: 150px; /* Further reduced height */
+    width: 225px; /* Proportional width */
+  }
+
+  .photo-placeholder {
+    height: 150px;
+    width: 225px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .content-text {
+    padding: 15px;
   }
 }

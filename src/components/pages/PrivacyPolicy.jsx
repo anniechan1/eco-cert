@@ -25,7 +25,7 @@ function PrivacyPolicy() {
             <br />
             Email: yosheplc@gmail.com
             <br />
-            Phone: +251 97 498 4675
+            Phone: +251 99 351 4543
           </p>
         </div>
 

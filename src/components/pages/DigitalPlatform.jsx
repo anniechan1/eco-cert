@@ -78,7 +78,7 @@ function DigitalPlatform() {
       <div className="platform-intro">
         <h3>{t("platform_intro_title")}</h3>
         <p>
-          {t("platform_intro_1")} <span className="text-emphasis">{t("platform_intro_emphasis_1")}</span>{" "}
+          {t("platform_intro_1")} 
           <span className="text-emphasis">{t("platform_intro_emphasis_2")}</span>. {t("platform_intro_2")}{" "}
           <span className="text-emphasis">{t("platform_intro_emphasis_3")}</span>
           {t("platform_intro_3")}

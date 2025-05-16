@@ -57,13 +57,14 @@
 .contact-item {
   display: flex;
   align-items: flex-start;
-  gap: 15px;
+  gap: 2px; /* Further reduced from 5px */
 }
 
 .contact-item i {
   font-size: 20px;
   color: #7ea87e;
   margin-top: 5px;
+  margin-right: 2px; /* Reduced from 5px */
 }
 
 .contact-item h3 {
